@@ -7,6 +7,7 @@ export default defineConfig({
 	outDir: "../dist",
 	title: "Juice Server Docs",
 	description: "Juice Server ドキュメント",
+	head: [["link", { rel: "icon", type: "image/png", href: "/juice-icon.png" }]],
 	lang: "ja",
 	cleanUrls: true,
 	lastUpdated: true,
@@ -21,6 +22,7 @@ export default defineConfig({
 		},
 	},
 	themeConfig: {
+		logo: "/juice-icon.png",
 		search: {
 			provider: "local",
 			options: {
