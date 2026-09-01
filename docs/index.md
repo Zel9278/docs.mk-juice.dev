@@ -1,18 +1,36 @@
 ---
-outline: false
+layout: home
+
+hero:
+  name: "Juice Server"
+  text: "Docs"
+  tagline: misskey-juiceの公式サーバー「Juice Server」のドキュメントサイトです。
+  image:
+    src: /juice-icon.png
+    alt: Juice Server
+  actions:
+    - theme: brand
+      text: このサーバーについて
+      link: /about-juice-server
+    - theme: alt
+      text: misskey-juiceをGitHubで見る
+      link: https://github.com/Zel9278/misskey-juice
+
+features:
+  - icon: 🍊
+    title: このサーバーの運用方針について
+    details: Juice Serverの位置づけ、テスト目的と汎用サーバーとしての運用方針
+    link: /about-juice-server
+  - icon: 📜
+    title: サービス
+    details: ルール・カスタム絵文字ガイドライン・利用規約・プライバシーポリシー
+    link: /service/rules
+  - icon: 🧃
+    title: JUICE独自機能
+    details: 承認式新規登録・AI生成物フラグ・リレータイムラインなど、独自機能の紹介
+    link: /juice/
+  - icon: 🛠️
+    title: セルフホスト
+    details: misskey-juiceを0から構築する方法、本家Misskey/他フォークからの移行方法
+    link: /self-hosting/install
 ---
-
-# Juice Server Docs
-
-**[Juice Server](https://mk-juice.dev)** のドキュメントサイトです。
-
-## ページ一覧
-
-- [このサーバーの運用方針について](./about-juice-server.md)
-- [ルール](./service/rules.md)
-- [カスタム絵文字・アバターデコレーションのガイドライン](./service/emoji-avatar-decoration-guidelines.md)
-- [利用規約](./service/tos.md)
-- [プライバシーポリシー](./service/privacy_policy.md)
-- [JUICE独自機能](./juice/index.md)
-- [0から構築する](./self-hosting/install.md)
-- [本家Misskey/他フォークからの移行](./self-hosting/migration-from-misskey.md)
