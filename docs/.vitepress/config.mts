@@ -4,8 +4,8 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	cacheDir: "../.cache",
 	outDir: "../dist",
-	title: "misskey-juice Docs",
-	description: "misskey-juice ドキュメント",
+	title: "Juice Server Docs",
+	description: "Juice Server ドキュメント",
 	lang: "ja",
 	cleanUrls: true,
 	lastUpdated: true,

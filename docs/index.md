@@ -2,9 +2,9 @@
 outline: false
 ---
 
-# misskey-juice Docs
+# Juice Server Docs
 
-**[misskey-juice](https://mk-juice.dev)** のドキュメントサイトです。
+**[Juice Server](https://mk-juice.dev)** のドキュメントサイトです。
 
 ## ページ一覧
 
