@@ -60,6 +60,10 @@ export default defineConfig({
 				text: "サービス",
 				items: [
 					{ text: "ルール", link: "/service/rules" },
+					{
+						text: "カスタム絵文字・アバターデコレーションのガイドライン",
+						link: "/service/emoji-avatar-decoration-guidelines",
+					},
 					{ text: "利用規約", link: "/service/tos" },
 					{ text: "プライバシーポリシー", link: "/service/privacy_policy" },
 				],

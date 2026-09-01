@@ -10,6 +10,7 @@ outline: false
 
 - [このサーバーの運用方針について](./about-juice-server.md)
 - [ルール](./service/rules.md)
+- [カスタム絵文字・アバターデコレーションのガイドライン](./service/emoji-avatar-decoration-guidelines.md)
 - [利用規約](./service/tos.md)
 - [プライバシーポリシー](./service/privacy_policy.md)
 - [JUICE独自機能](./juice/index.md)
