@@ -69,6 +69,16 @@ export default defineConfig({
 				],
 			},
 			{
+				text: "セルフホスト",
+				items: [
+					{ text: "0から構築する", link: "/self-hosting/install" },
+					{
+						text: "本家Misskey/他フォークからの移行",
+						link: "/self-hosting/migration-from-misskey",
+					},
+				],
+			},
+			{
 				text: "JUICE独自機能",
 				items: [
 					{ text: "機能一覧", link: "/juice/" },
@@ -83,24 +93,9 @@ export default defineConfig({
 					{ text: "お知らせの投票機能", link: "/juice/announcement-poll" },
 					{ text: "お知らせのリアクション機能", link: "/juice/announcement-reaction" },
 					{ text: "LaTeX(数式)表示", link: "/juice/latex" },
-				],
-			},
-			{
-				text: "その他の変更",
-				items: [
 					{
 						text: "センシティブ画像の表示に関する修正",
 						link: "/juice/cw-image-blur-fix",
-					},
-				],
-			},
-			{
-				text: "セルフホスト",
-				items: [
-					{ text: "0から構築する", link: "/self-hosting/install" },
-					{
-						text: "本家Misskey/他フォークからの移行",
-						link: "/self-hosting/migration-from-misskey",
 					},
 				],
 			},
