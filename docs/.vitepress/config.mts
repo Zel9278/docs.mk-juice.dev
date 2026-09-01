@@ -75,7 +75,17 @@ export default defineConfig({
 					{ text: "About JUICEページ", link: "/juice/about-page" },
 					{ text: "ウィジェット表示位置設定", link: "/juice/widget-position" },
 					{ text: "お知らせの投票機能", link: "/juice/announcement-poll" },
+					{ text: "お知らせのリアクション機能", link: "/juice/announcement-reaction" },
 					{ text: "LaTeX(数式)表示", link: "/juice/latex" },
+				],
+			},
+			{
+				text: "その他の変更",
+				items: [
+					{
+						text: "センシティブ画像の表示に関する修正",
+						link: "/juice/cw-image-blur-fix",
+					},
 				],
 			},
 		],

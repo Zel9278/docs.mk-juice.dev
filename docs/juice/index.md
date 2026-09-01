@@ -17,6 +17,11 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 - [アプリ内の「About JUICE」ページ](./about-page.md)
 - [ウィジェット表示位置設定](./widget-position.md)
 - [お知らせの投票機能](./announcement-poll.md)
+- [お知らせのリアクション機能](./announcement-reaction.md)
 - [LaTeX(数式)表示](./latex.md)
+
+## その他の変更
+
+- [センシティブ画像の表示に関する修正](./cw-image-blur-fix.md)
 
 アプリ内の`/about-juice`ページでも、同様の機能一覧を確認できます。
