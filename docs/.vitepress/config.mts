@@ -44,6 +44,7 @@ const jaSidebar = [
 				text: "センシティブ画像の表示に関する修正",
 				link: "/juice/cw-image-blur-fix",
 			},
+			{ text: "更新履歴", link: "/juice/changelog" },
 		],
 	},
 ];
@@ -103,6 +104,7 @@ const enSidebar = [
 				text: "Sensitive image display fix",
 				link: "/en/juice/cw-image-blur-fix",
 			},
+			{ text: "Changelog", link: "/en/juice/changelog" },
 		],
 	},
 ];

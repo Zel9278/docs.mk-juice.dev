@@ -24,4 +24,8 @@ outline: false
 
 - [Sensitive image display fix](./cw-image-blur-fix.md)
 
+## Other
+
+- [Changelog](./changelog.md)
+
 You can also check the same feature list on the in-app `/about-juice` page.

@@ -24,4 +24,8 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 
 - [センシティブ画像の表示に関する修正](./cw-image-blur-fix.md)
 
+## その他
+
+- [更新履歴](./changelog.md)
+
 アプリ内の`/about-juice`ページでも、同様の機能一覧を確認できます。
