@@ -6,4 +6,7 @@ outline: false
 
 **[misskey-juice](https://mk-juice.dev)** のドキュメントサイトです。
 
-準備中です。
+## ページ一覧
+
+- [利用規約](./tos.md)
+- [プライバシーポリシー](./privacy_policy.md)

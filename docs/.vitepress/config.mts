@@ -41,7 +41,10 @@ export default defineConfig({
 			label: "目次",
 		},
 		nav: [{ text: "ホーム", link: "/" }],
-		sidebar: [],
+		sidebar: [
+			{ text: "利用規約", link: "/tos" },
+			{ text: "プライバシーポリシー", link: "/privacy_policy" },
+		],
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },
 		],
