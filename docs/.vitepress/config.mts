@@ -90,6 +90,15 @@ export default defineConfig({
 					},
 				],
 			},
+			{
+				text: "セルフホスト",
+				items: [
+					{
+						text: "本家Misskey/他フォークからの移行",
+						link: "/self-hosting/migration-from-misskey",
+					},
+				],
+			},
 		],
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },

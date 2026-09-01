@@ -13,3 +13,4 @@ outline: false
 - [利用規約](./service/tos.md)
 - [プライバシーポリシー](./service/privacy_policy.md)
 - [JUICE独自機能](./juice/index.md)
+- [本家Misskey/他フォークからの移行](./self-hosting/migration-from-misskey.md)
