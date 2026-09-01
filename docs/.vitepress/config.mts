@@ -54,9 +54,9 @@ export default defineConfig({
 		nav: [{ text: "ホーム", link: "/" }],
 		sidebar: [
 			{ text: "このサーバーの運用方針について", link: "/about-juice-server" },
-			{ text: "ルール", link: "/rules" },
-			{ text: "利用規約", link: "/tos" },
-			{ text: "プライバシーポリシー", link: "/privacy_policy" },
+			{ text: "ルール", link: "/service/rules" },
+			{ text: "利用規約", link: "/service/tos" },
+			{ text: "プライバシーポリシー", link: "/service/privacy_policy" },
 		],
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },

@@ -18,8 +18,8 @@ Juice Serverは、misskey-juiceで開発した新機能や修正を実際の運�
 
 ご利用の際は、必ず以下をお読みください。
 
-- [ルール](./rules.md)
-- [利用規約](./tos.md)
+- [ルール](./service/rules.md)
+- [利用規約](./service/tos.md)
 
 ## データの取り扱いについて
 
