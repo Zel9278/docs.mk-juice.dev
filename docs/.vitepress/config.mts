@@ -61,6 +61,11 @@ export default defineConfig({
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },
 		],
+		editLink: {
+			pattern:
+				"https://github.com/Zel9278/docs.mk-juice.dev/edit/main/docs/:path",
+			text: "GitHubでこのページを編集する提案をする",
+		},
 		lastUpdated: {
 			text: "最終更新",
 		},
