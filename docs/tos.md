@@ -6,7 +6,7 @@ c30（ced）が運営する分散型マイクロブログSNS Misskeyの非公式
 
 ## このサーバーについて
 
-[Misskey.io](https://misskey.io)をはじめとした、分散型マイクロブログSNSの一部です。
+[Mastodon](https://joinmastodon.org/)、[Misskey](https://misskey-hub.net/)、[Pleroma](https://pleroma.social/)というソフトウェアをはじめとした、分散型マイクロブログSNSの一部です。
 
 このサーバーに使用しているものは[Misskey](https://misskey-hub.net/)のフォークである[misskey-juice](https://github.com/Zel9278/misskey-juice)です。
 
