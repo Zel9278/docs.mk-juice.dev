@@ -8,5 +8,6 @@ outline: false
 
 ## ページ一覧
 
+- [ルール](./rules.md)
 - [利用規約](./tos.md)
 - [プライバシーポリシー](./privacy_policy.md)

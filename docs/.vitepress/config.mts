@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import markdownItFootnote from "markdown-it-footnote";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,6 +10,16 @@ export default defineConfig({
 	lang: "ja",
 	cleanUrls: true,
 	lastUpdated: true,
+	markdown: {
+		config: (md) => {
+			md.use(markdownItFootnote);
+		},
+		container: {
+			tipLabel: "備考",
+			warningLabel: "注意",
+			dangerLabel: "警告",
+		},
+	},
 	themeConfig: {
 		search: {
 			provider: "local",
@@ -42,6 +53,7 @@ export default defineConfig({
 		},
 		nav: [{ text: "ホーム", link: "/" }],
 		sidebar: [
+			{ text: "ルール", link: "/rules" },
 			{ text: "利用規約", link: "/tos" },
 			{ text: "プライバシーポリシー", link: "/privacy_policy" },
 		],
