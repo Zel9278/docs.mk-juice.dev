@@ -2,7 +2,7 @@
 
 ## Juice Serverとは
 
-Juice Serverは、[misskey-juice](https://github.com/Zel9278/misskey-juice)の[`juice/main`ブランチ](https://github.com/Zel9278/misskey-juice/tree/juice/main)を追従している非公式Misskeyサーバーです。
+Juice Serverは、Misskeyの非公式フォークである[misskey-juice](https://github.com/Zel9278/misskey-juice)の[`juice/main`ブランチ](https://github.com/Zel9278/misskey-juice/tree/juice/main)を追従している公式サーバーです。
 
 ## テストサーバーとしての位置づけ
 
