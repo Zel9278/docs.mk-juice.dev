@@ -62,6 +62,22 @@ export default defineConfig({
 					{ text: "プライバシーポリシー", link: "/service/privacy_policy" },
 				],
 			},
+			{
+				text: "JUICE独自機能",
+				items: [
+					{ text: "機能一覧", link: "/juice/" },
+					{ text: "JUICE独自機能の設定", link: "/juice/settings" },
+					{ text: "承認式新規登録", link: "/juice/approval-signup" },
+					{ text: "AI生成物フラグ", link: "/juice/ai-generated-flag" },
+					{ text: "絵文字申請", link: "/juice/emoji-request" },
+					{ text: "ユーザーランキング", link: "/juice/user-ranking" },
+					{ text: "リレータイムライン", link: "/juice/relay-timeline" },
+					{ text: "About JUICEページ", link: "/juice/about-page" },
+					{ text: "ウィジェット表示位置設定", link: "/juice/widget-position" },
+					{ text: "お知らせの投票機能", link: "/juice/announcement-poll" },
+					{ text: "LaTeX(数式)表示", link: "/juice/latex" },
+				],
+			},
 		],
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },
