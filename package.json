@@ -1,0 +1,15 @@
+{
+	"name": "misskey-juice-docs",
+	"private": true,
+	"type": "module",
+	"packageManager": "pnpm@11.11.0",
+	"scripts": {
+		"dev": "vitepress dev docs",
+		"build": "vitepress build docs",
+		"preview": "vitepress preview docs"
+	},
+	"dependencies": {
+		"vitepress": "1.6.4",
+		"vue": "3.5.41"
+	}
+}
