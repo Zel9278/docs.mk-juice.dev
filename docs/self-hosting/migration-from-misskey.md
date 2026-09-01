@@ -15,31 +15,39 @@ misskey-juiceは、本家Misskeyの[`Release: 2026.7.0`](https://github.com/miss
 
 ## 移行手順
 
+基本的な流れは、[本家Misskeyのアップデート手順](https://misskey-hub.net/ja/docs/for-admin/install/guides/manual/)とほぼ同じです。コマンドはすべて**リポジトリのルートディレクトリ**で実行します(`packages/backend`などのサブディレクトリへ手動で移動する必要はありません)。
+
 1. **データベースのバックアップを取る**(`pg_dump`など)。これが最も重要な手順です。
 2. misskey-juiceのソースを取得します。
 
    ```bash
-   git clone https://github.com/Zel9278/misskey-juice.git
+   git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   cd misskey-juice
    ```
 
-   最新の[リリースタグ](https://github.com/Zel9278/misskey-juice/releases)をcheckoutしてください。
+   最新の[リリースタグ](https://github.com/Zel9278/misskey-juice/releases)をcheckoutし、サブモジュールを初期化します。
+
+   ```bash
+   git checkout <タグ名>
+   git submodule update --init
+   ```
 3. 依存関係をインストールします。
 
    ```bash
-   pnpm i --frozen-lockfile
+   NODE_ENV=production pnpm install --frozen-lockfile
    ```
 4. ビルドします。
 
    ```bash
-   pnpm build
+   NODE_ENV=production pnpm run build
    ```
-5. 既存の`.config/default.yml`をそのまま引き継ぎます(db/redisの接続情報などは変更不要です)。JUICE独自機能の設定項目については、[JUICE独自機能の設定](../juice/settings.md)を参照してください。
-6. マイグレーションを実行します。
+5. 既存の`.config/default.yml`をそのままこのリポジトリの`.config/default.yml`としてコピーします(db/redisの接続情報などは変更不要です)。JUICE独自機能の設定項目については、[JUICE独自機能の設定](../juice/settings.md)を参照してください。
+6. マイグレーションを実行します(ルートディレクトリでそのまま実行できます)。
 
    ```bash
-   cd packages/backend && pnpm migrate
+   pnpm run migrate
    ```
-7. サーバーを起動し、正常に動作するか確認します。
+7. サーバーを起動し、正常に動作するか確認します。systemdなどでサービス化している場合は、`WorkingDirectory`を新しいディレクトリに向けてから再起動してください。
 
 ## 移行後の注意
 
