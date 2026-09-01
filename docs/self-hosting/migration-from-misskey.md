@@ -2,7 +2,7 @@
 
 自分でMisskeyサーバーを運営している方が、ソフトウェアをmisskey-juiceに乗り換える場合のガイドです。
 
-> [!warning]
+> [!warning] 注意
 > ここでの手順は一般的な考え方の案内であり、すべての環境・すべてのバージョン・すべてのフォークでの動作を保証するものではありません。**必ず事前にデータベースのバックアップを取り、可能であればステージング環境で一度リハーサルしてから本番に適用してください。**
 >
 > また、公開サーバーとして運営を続ける場合は、[chan-maiさんによるMisskeyサーバー運用ガイド](https://mq1.dev/entry/krpvl5itbr9h#h0cb67a7186)や[公式のインストールガイド](https://misskey-hub.net/ja/docs/for-admin/install/guides/)にも目を通しておくことをおすすめします。この注意はmisskey-juiceに限らず、Misskeyフォーク・Misskey自体全般に当てはまります。

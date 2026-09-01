@@ -31,7 +31,7 @@ If we find posts or other content that violate the rules or Terms of Service bel
   - Renoting NSFW-related content without "Content Warning (CW)" set.
   - [Encouraging or assisting prohibited acts.](./rules.md#prohibited-acts)
 
-::: warning
+::: warning Warning
 This summary only covers part of these Rules, and other rules not listed here also apply.\
 **Please make sure to read the entire document.**
 :::
@@ -119,7 +119,7 @@ These rules apply equally to content sent via "Messages".
 - Content drawn with sexual intent
 - Content containing gore[^3]
 
-::: warning
+::: warning Warning
 For everyone's mutual protection, please always set **"sensitive" and "content warning"** when posting such content.\
 Also, **please describe the summary of the file marked "sensitive" and the attributes it contains (e.g. NSFW, R-18) in the "caption" field.**
 
@@ -140,7 +140,7 @@ Bots with the following features must not be operated on this service:
 
 #### Regarding self-governing behavior
 
-::: warning
+::: warning Warning
 **Please refrain from this under any circumstances.**\
 If you encounter someone causing trouble, do not respond directly — instead, contact the admin ([@c30](https://mk-juice.dev/@c30)) via a Misskey message, following the process above.
 :::

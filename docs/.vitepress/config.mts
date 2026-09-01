@@ -120,11 +120,6 @@ export default defineConfig({
 		config: (md) => {
 			md.use(markdownItFootnote);
 		},
-		container: {
-			tipLabel: "備考",
-			warningLabel: "注意",
-			dangerLabel: "警告",
-		},
 	},
 	themeConfig: {
 		logo: "/juice-icon.png",
@@ -141,6 +136,13 @@ export default defineConfig({
 			lang: "ja",
 			title: "Juice Server Docs",
 			description: "Juice Server ドキュメント",
+			markdown: {
+				container: {
+					tipLabel: "備考",
+					warningLabel: "注意",
+					dangerLabel: "警告",
+				},
+			},
 			themeConfig: {
 				nav: [{ text: "ホーム", link: "/" }],
 				sidebar: jaSidebar,
