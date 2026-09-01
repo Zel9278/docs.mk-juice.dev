@@ -93,6 +93,7 @@ export default defineConfig({
 			{
 				text: "セルフホスト",
 				items: [
+					{ text: "0から構築する", link: "/self-hosting/install" },
 					{
 						text: "本家Misskey/他フォークからの移行",
 						link: "/self-hosting/migration-from-misskey",
