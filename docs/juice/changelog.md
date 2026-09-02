@@ -2,13 +2,6 @@
 
 misskey-juiceのJUICE独自機能に関する主な変更履歴です。本家Misskey由来の変更は含みません。全履歴は[GitHubのリリースページ](https://github.com/Zel9278/misskey-juice/releases)をご覧ください。
 
-## test-dispatch-verify
-
-### Server
-- Feat: dispatch動作確認用のダミーエントリ
-
-**Full Changelog**: https://example.com
-
 ## v2026.7.0-juice+2.5
 
 - [絵文字申請](./emoji-request.md)・アバターデコレーション申請・[承認式新規登録](./approval-signup.md)の承認/却下を、モデレーター権限を持たないユーザーにもロール単位で個別に許可できるように
