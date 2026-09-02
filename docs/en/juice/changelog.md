@@ -2,6 +2,9 @@
 
 Major changes to misskey-juice's JUICE-specific features. This does not include changes inherited from upstream Misskey. For the full history, see the [GitHub releases page](https://github.com/Zel9278/misskey-juice/releases).
 
+> [!note]
+> New releases are added to the [Japanese changelog](../../juice/changelog.md) automatically, but this English page is only updated manually and may lag behind. If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
+
 ## v2026.7.0-juice+2.5
 
 - Approval/rejection of [emoji requests](./emoji-request.md), avatar decoration requests, and [approval-based signup](./approval-signup.md) can now be delegated per-role to users without moderator permissions

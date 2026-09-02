@@ -1,0 +1,66 @@
+name: Update Changelog
+
+on:
+  repository_dispatch:
+    types: [misskey-juice-release]
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Insert new release into changelog
+        env:
+          TAG_NAME: ${{ github.event.client_payload.tag_name }}
+          BODY: ${{ github.event.client_payload.body }}
+        run: |
+          python3 - <<'PYEOF'
+          import os
+          import re
+
+          tag = os.environ["TAG_NAME"]
+          body = os.environ["BODY"]
+
+          path = "docs/juice/changelog.md"
+          with open(path, encoding="utf-8") as f:
+              content = f.read()
+
+          heading = f"## {tag}"
+          if heading in content:
+              print("already present, skipping")
+              raise SystemExit(0)
+
+          # release note先頭が見出し行(## misskey-juice x.y.z 等)なら除去
+          lines = body.strip("\n").split("\n")
+          if lines and lines[0].startswith("## "):
+              lines = lines[1:]
+              while lines and lines[0].strip() == "":
+                  lines = lines[1:]
+          body_clean = "\n".join(lines).strip("\n")
+
+          section = f"{heading}\n\n{body_clean}\n\n"
+
+          m = re.search(r"^## ", content, re.MULTILINE)
+          if m:
+              idx = m.start()
+              new_content = content[:idx] + section + content[idx:]
+          else:
+              new_content = content.rstrip("\n") + "\n\n" + section
+
+          with open(path, "w", encoding="utf-8") as f:
+              f.write(new_content)
+          print("inserted", tag)
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "git_notify-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/juice/changelog.md
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "docs: ${{ github.event.client_payload.tag_name }}の更新履歴を自動追加"
+          git push
