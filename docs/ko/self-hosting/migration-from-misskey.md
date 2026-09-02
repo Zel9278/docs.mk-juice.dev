@@ -55,3 +55,13 @@ misskey-juice는 본가 Misskey의 [`Release: 2026.7.0`](https://github.com/miss
 
 - [JUICE 고유 기능](../juice/index.md) 중에는 기본적으로 비활성화되어 있는 것도 있습니다. 필요에 따라 컨트롤 패널의 "JUICE" 항목에서 활성화해 주세요.
 - 문제가 발생한 경우, 1단계에서 만든 백업으로 롤백해 주세요.
+
+## PostgreSQL 버전에 대해서
+
+Juice Server에서는 성능과 안정성 측면에서 **PostgreSQL 18 이상**으로의 업데이트를 권장합니다. 이번 마이그레이션과 함께 PostgreSQL 자체도 업그레이드하는 경우, `pg_upgrade`나 `pg_dumpall`/`pg_restore`를 사용한 PostgreSQL 쪽의 마이그레이션을 먼저 마친 후 위의 1~7단계를 진행해 주세요(PostgreSQL 자체의 버전 업그레이드와 misskey-juice의 마이그레이션은 별개의 작업입니다).
+
+## pgroonga로 마이그레이션하기 (권장)
+
+기본 전문 검색(`sqlLike`)에서 pgroonga로 전환하면 검색 속도와 정확도(특히 일본어 등 CJK 언어)가 크게 향상됩니다. 도입 방법・활성화 절차는 [처음부터 구축하기 가이드의 pgroonga 섹션](./install.md#pgroonga-설정하기-권장)을 참고해 주세요.
+
+이미 게시물 수가 많은 서버를 마이그레이션하는 경우, `note` 테이블에 인덱스를 생성하는 작업(`CREATE INDEX ... USING pgroonga`)에 상당한 시간이 걸릴 수 있습니다. 가능하다면 이용자가 적은 시간대에 진행해 주세요.

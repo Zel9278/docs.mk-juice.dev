@@ -55,3 +55,13 @@ misskey-juice 是從官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/
 
 - 部分 [JUICE 獨有功能](../juice/index.md) 預設處於停用狀態。請視需要在控制面板的「JUICE」項目中啟用。
 - 如遇到任何問題,請使用步驟 1 中建立的備份進行回復。
+
+## 關於 PostgreSQL 版本
+
+出於效能與穩定性考量,Juice Server 建議升級到**PostgreSQL 18 以上版本**。如果您打算在此次遷移中同時升級 PostgreSQL 本身,請先使用 `pg_upgrade` 或 `pg_dumpall`/`pg_restore` 完成 PostgreSQL 端的遷移,再執行上述步驟 1~7(PostgreSQL 本身的版本升級與 misskey-juice 的資料庫遷移是兩項獨立的工作)。
+
+## 遷移至 pgroonga(建議)
+
+將全文檢索從預設的 `sqlLike` 切換為 pgroonga,可以大幅提升檢索速度與準確度(尤其是日語等 CJK 語言)。安裝與啟用方法請參閱[《從零開始建置》指南中的 pgroonga 部分](./install.md#設定-pgroonga-建議)。
+
+如果遷移的伺服器已經累積了大量貼文,為 `note` 表建立索引(`CREATE INDEX ... USING pgroonga`)可能需要較長時間。如果條件允許,請在使用人數較少的時段進行此操作。

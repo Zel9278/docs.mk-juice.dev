@@ -55,3 +55,13 @@ The overall flow is nearly the same as [upstream Misskey's update procedure](htt
 
 - Some [JUICE features](../juice/index.md) are disabled by default. Enable them as needed from the "JUICE" item in the control panel.
 - If something goes wrong, roll back using the backup you took in step 1.
+
+## About the PostgreSQL version
+
+For performance and stability reasons, Juice Server recommends updating to **PostgreSQL 18 or later**. If you're also upgrading PostgreSQL itself as part of this migration, take care of the PostgreSQL-side migration first (using `pg_upgrade`, or `pg_dumpall`/`pg_restore`), then follow steps 1-7 above (upgrading PostgreSQL itself and running misskey-juice's migrations are separate tasks).
+
+## Migrating to pgroonga (recommended)
+
+Switching from the default full-text search (`sqlLike`) to pgroonga gives a big improvement in both search speed and accuracy, especially for CJK languages such as Japanese. See the [pgroonga section of the "Building from scratch" guide](./install.md#setting-up-pgroonga-recommended) for how to install and enable it.
+
+If you're migrating a server that already has a large number of notes, building the index on the `note` table (`CREATE INDEX ... USING pgroonga`) can take a noticeable amount of time. If possible, do this during a period of low usage.
