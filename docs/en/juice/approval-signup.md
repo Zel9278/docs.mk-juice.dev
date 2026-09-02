@@ -4,6 +4,15 @@ Juice Server uses "approval-based signup", which requires a reason for registrat
 
 ## From signup to being able to log in
 
+```mermaid
+flowchart TD
+    A["Fill out the signup form<br/>(including a reason)"] --> B[Submit]
+    B --> C["Account is pending approval<br/>A confirmation code is shown"]
+    C --> D{An admin reviews it}
+    D -->|Approved| E["You can log in<br/>(approval notification email)"]
+    D -->|Rejected| F["Rejection notice<br/>You'll need to sign up again"]
+```
+
 ### 1. Fill out the signup form
 
 In addition to the usual fields (username, password, email address, etc.), there is a **"reason for registration"** field. Briefly describe what you'd like to use the account for (up to 4096 characters). This reason is not shown to other regular users or applicants — **only admins** can view it.

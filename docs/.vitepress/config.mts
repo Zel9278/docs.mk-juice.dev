@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 import markdownItFootnote from "markdown-it-footnote";
 
 const jaSidebar = [
@@ -110,7 +111,7 @@ const enSidebar = [
 ];
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(defineConfig({
 	cacheDir: "../.cache",
 	outDir: "../dist",
 	head: [
@@ -216,4 +217,4 @@ export default defineConfig({
 			},
 		},
 	},
-});
+}));
