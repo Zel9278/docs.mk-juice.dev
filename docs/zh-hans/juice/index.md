@@ -12,6 +12,7 @@ outline: false
 - [审核制注册](./approval-signup.md)
 - [AI 生成内容标记](./ai-generated-flag.md)
 - [表情符号申请](./emoji-request.md)
+- [头像装饰申请](./avatar-decoration-request.md)
 - [用户排行榜](./user-ranking.md)
 - [中继时间线](./relay-timeline.md)
 - [应用内 "About JUICE" 页面](./about-page.md)

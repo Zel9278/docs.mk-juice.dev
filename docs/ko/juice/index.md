@@ -12,6 +12,7 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 - [승인제 신규 가입](./approval-signup.md)
 - [AI 생성 콘텐츠 플래그](./ai-generated-flag.md)
 - [이모지 신청](./emoji-request.md)
+- [아바타 데코레이션 신청](./avatar-decoration-request.md)
 - [사용자 랭킹](./user-ranking.md)
 - [릴레이 타임라인](./relay-timeline.md)
 - [앱 내 "About JUICE" 페이지](./about-page.md)
