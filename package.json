@@ -19,6 +19,7 @@
 		"cytoscape": "^3.34.0",
 		"cytoscape-cose-bilkent": "^4.1.0",
 		"dayjs": "^1.11.21",
+		"fastdom": "1.0.12",
 		"mermaid": "^11.17.2",
 		"vitepress-plugin-mermaid": "^2.0.17",
 		"wrangler": "^4.127.1"

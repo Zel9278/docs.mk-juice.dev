@@ -292,6 +292,13 @@ export default withMermaid(defineConfig({
 	],
 	cleanUrls: true,
 	lastUpdated: true,
+	vite: {
+		// vitepress-plugin-mermaidが事前バンドル対象に含めていないmermaidの
+		// 内部依存(CJS製で、pre-bundleされないとブラウザでのESM importに失敗する)
+		optimizeDeps: {
+			include: ["fastdom", "fastdom/extensions/fastdom-promised.js"],
+		},
+	},
 	markdown: {
 		config: (md) => {
 			md.use(markdownItFootnote);
