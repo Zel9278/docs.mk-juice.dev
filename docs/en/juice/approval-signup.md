@@ -6,11 +6,11 @@ Juice Server uses "approval-based signup", which requires a reason for registrat
 
 ```mermaid
 flowchart TD
-    A["Fill out the signup form<br/>(including a reason)"] --> B[Submit]
-    B --> C["Account is pending approval<br/>A confirmation code is shown"]
+    A["`Fill out the signup form<br/>**(including a reason)**`"] --> B[Submit]
+    B --> C["`Account is pending approval<br/>A **confirmation code** is shown`"]
     C --> D{An admin reviews it}
-    D -->|Approved| E["You can log in<br/>(approval notification email)"]
-    D -->|Rejected| F["Rejection notice<br/>You'll need to sign up again"]
+    D -->|Approved| E["`You can log in<br/>**(approval notification email)**`"]
+    D -->|Rejected| F["`Rejection notice<br/>**You'll need to sign up again**`"]
 ```
 
 ### 1. Fill out the signup form
