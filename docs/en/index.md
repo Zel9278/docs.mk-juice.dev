@@ -4,13 +4,13 @@ layout: home
 hero:
   name: "Juice Server"
   text: "Docs"
-  tagline: Documentation site for Juice Server, the official server of misskey-juice.
+  tagline: Documentation site for Juice Server, the official instance of misskey-juice.
   image:
     src: /juice-icon.png
     alt: Juice Server
   actions:
     - theme: brand
-      text: About this server
+      text: About this instance
       link: /en/about-juice-server
     - theme: alt
       text: View misskey-juice on GitHub
@@ -18,8 +18,8 @@ hero:
 
 features:
   - icon: 🍊
-    title: About this server's operating policy
-    details: What Juice Server is for, its testing purpose, and its plans as a general-purpose server
+    title: About this instance's operating policy
+    details: What Juice Server is for, its testing purpose, and its plans as a general-purpose instance
     link: /en/about-juice-server
   - icon: 📜
     title: Service

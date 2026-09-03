@@ -3,7 +3,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 import markdownItFootnote from "markdown-it-footnote";
 
 const jaSidebar = [
-	{ text: "このサーバーの運用方針について", link: "/about-juice-server" },
+	{ text: "このインスタンスの運用方針について", link: "/about-juice-server" },
 	{
 		text: "サービス",
 		items: [
@@ -56,7 +56,7 @@ const jaSidebar = [
 
 const enSidebar = [
 	{
-		text: "About this server's operating policy",
+		text: "About this instance's operating policy",
 		link: "/en/about-juice-server",
 	},
 	{
@@ -119,7 +119,7 @@ const enSidebar = [
 ];
 
 const koSidebar = [
-	{ text: "이 서버의 운영 방침에 대해서", link: "/ko/about-juice-server" },
+	{ text: "이 인스턴스의 운영 방침에 대해서", link: "/ko/about-juice-server" },
 	{
 		text: "서비스",
 		items: [
@@ -174,7 +174,7 @@ const koSidebar = [
 ];
 
 const zhHansSidebar = [
-	{ text: "关于本服务器的运营方针", link: "/zh-hans/about-juice-server" },
+	{ text: "关于本实例的运营方针", link: "/zh-hans/about-juice-server" },
 	{
 		text: "服务",
 		items: [
@@ -229,7 +229,7 @@ const zhHansSidebar = [
 ];
 
 const zhHantSidebar = [
-	{ text: "關於本伺服器的營運方針", link: "/zh-hant/about-juice-server" },
+	{ text: "關於本實例的營運方針", link: "/zh-hant/about-juice-server" },
 	{
 		text: "服務",
 		items: [

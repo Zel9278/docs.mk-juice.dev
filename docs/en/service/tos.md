@@ -1,21 +1,21 @@
 # Terms of Service
 
-When using "Juice Server" (hereafter "this service"), the official server of "misskey-juice", an unofficial Misskey fork operated by c30 (ced), for the distributed microblogging SNS Misskey, please follow the rules below and use it with good manners.
+When using "Juice Server" (hereafter "this service"), the official instance of "misskey-juice", an unofficial Misskey fork operated by c30 (ced), for the distributed microblogging SNS Misskey, please follow the rules below and use it with good manners.
 If a violation is confirmed, we may restrict the use of the service or the account.
 The content of these Terms may be changed without notice to users.
 
-## About this server
+## About this instance
 
 This is part of a distributed microblogging SNS ecosystem that includes software such as [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/), and [Pleroma](https://pleroma.social/).
 
-This server runs [misskey-juice](https://github.com/Zel9278/misskey-juice), a fork of [Misskey](https://misskey-hub.net/).
+This instance runs [misskey-juice](https://github.com/Zel9278/misskey-juice), a fork of [Misskey](https://misskey-hub.net/).
 
 ## Disclaimer
 
-- This service is a distributed SNS that uses a mechanism called "ActivityPub", which sends and copies content to servers around the world the moment it is posted. This means that it may be difficult to completely delete information once it has been posted.
+- This service is a distributed SNS that uses a mechanism called "ActivityPub", which sends and copies content to instances around the world the moment it is posted. This means that it may be difficult to completely delete information once it has been posted.
 - This service is provided for users in Japan, and the Terms of Service and other agreements are governed by Japanese law.
 - Our privacy policy is based on the Act on the Protection of Personal Information of Japan.
-- For the safety and privacy protection of children, use of this service by anyone under 13 years old, and sending information that could identify a minor (such as a real name or photo of their face) to the server, are both prohibited.
+- For the safety and privacy protection of children, use of this service by anyone under 13 years old, and sending information that could identify a minor (such as a real name or photo of their face) to the instance, are both prohibited.
 - Due to the nature of this service, we ask that people under 16 years old refrain from registering.
 - We are not responsible in any way for troubles or disadvantages that arise between users of this service.
 
@@ -24,7 +24,7 @@ This server runs [misskey-juice](https://github.com/Zel9278/misskey-juice), a fo
 The following acts will result in account suspension and removal:
 
 - Deliberately placing a load on the server
-- Sending content that violates the law to the server
+- Sending content that violates the law to the instance
 - Acquiring an account for the purpose of trading, or trading accounts
 - Creating an account with a disposable email address
 - Advertising for fraudulent websites, adult sites, etc.
@@ -32,7 +32,7 @@ The following acts will result in account suspension and removal:
 - Writing company information in a profile immediately after account creation
 - Posting explicit sexual media without the NSFW warning flag
 - Use of this service by anyone under 13 years old
-- Sending information that could identify a minor (such as a real name or photo of their face) to the server
+- Sending information that could identify a minor (such as a real name or photo of their face) to the instance
 - Posting about topics related to drugs regulated in Japan
 
 And any other act we deem inappropriate.
@@ -78,6 +78,6 @@ We also will not entrust the handling of this information to outside parties.
 
 ## About account closure and data deletion
 
-This service is a distributed SNS that uses a mechanism called ActivityPub, and information such as posts and profiles is automatically sent and copied to federated servers. For this reason, even if you delete an account or post on this service, that deletion is not always reflected on other federated instances immediately, and copied data may remain on servers with different deletion policies, or on servers that have already ceased operation.
+This service is a distributed SNS that uses a mechanism called ActivityPub, and information such as posts and profiles is automatically sent and copied to federated instances. For this reason, even if you delete an account or post on this service, that deletion is not always reflected on other federated instances immediately, and copied data may remain on instances with different deletion policies, or on instances that have already ceased operation.
 
 You can close your account (withdraw) or delete individual posts/files yourself through the features of this service. However, due to the nature described above, we cannot guarantee the deletion of, and are not responsible in any way for, data remaining on external instances that we do not control or manage.

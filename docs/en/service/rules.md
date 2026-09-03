@@ -38,7 +38,7 @@ This summary only covers part of these Rules, and other rules not listed here al
 
 ### Notes
 
-**This server generally recommends that "if you dislike something, avoid it yourself".**\
+**This instance generally recommends that "if you dislike something, avoid it yourself".**\
 For this reason, **["telling others what to do"](./rules.md#regarding-self-governing-behavior) is prohibited.** For example, this includes statements such as "I really dislike this topic, so please don't talk about it on the timeline."
 
 #### Recommendations

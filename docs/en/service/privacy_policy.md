@@ -1,6 +1,6 @@
 # Privacy Policy
 
-## About privacy on this server
+## About privacy on this instance
 
 c30 (ced) (hereafter "we"), who operates and manages the distributed microblogging SNS service "Juice Server" (hereafter "this service"), sets forth this Privacy Policy (hereafter "this Policy") regarding the handling of privacy information on this service, as follows.
 

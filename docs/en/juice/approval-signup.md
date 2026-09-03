@@ -42,6 +42,6 @@ Since you cannot log in while pending approval, you can instead use the confirma
 The confirmation code is only shown once, at the time you complete signup. **Be sure to copy and keep it somewhere safe right away.**
 :::
 
-## Why this server uses approval-based signup
+## Why this instance uses approval-based signup
 
-See [About this server's operating policy](../about-juice-server.md).
+See [About this instance's operating policy](../about-juice-server.md).

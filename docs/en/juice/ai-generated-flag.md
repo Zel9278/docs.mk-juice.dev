@@ -12,9 +12,9 @@ On the note composer, you can set an "AI-generated" flag when attaching AI-gener
 
 **When posting AI-generated content, please always set this flag.** See the [Rules](../service/rules.md) for details.
 
-## Federation with other servers
+## Federation with other instances
 
-This flag information is sent to federated servers as a Juice Server-specific ActivityPub property. Servers that don't support it will simply ignore it.
+This flag information is sent to federated instances as a Juice Server-specific ActivityPub property. Instances that don't support it will simply ignore it.
 
 ## Mute settings
 

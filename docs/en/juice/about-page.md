@@ -8,6 +8,6 @@ It covers:
 - Source code and license (AGPL-3.0-only)
 - A list of JUICE original features
 
-You can access it from the main menu or from the "About this server" page.
+You can access it from the main menu or from the "About this instance" page.
 
 This is provided as an introduction page you can check while staying inside the app, separate from this documentation site (docs.mk-juice.dev).

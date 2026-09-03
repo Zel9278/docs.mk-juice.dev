@@ -4,13 +4,13 @@ layout: home
 hero:
   name: "Juice Server"
   text: "Docs"
-  tagline: misskey-juice 官方伺服器「Juice Server」的文件站點。
+  tagline: misskey-juice 官方實例「Juice Server」的文件站點。
   image:
     src: /juice-icon.png
     alt: Juice Server
   actions:
     - theme: brand
-      text: 關於本伺服器
+      text: 關於本實例
       link: /zh-hant/about-juice-server
     - theme: alt
       text: 在 GitHub 上查看 misskey-juice
@@ -18,8 +18,8 @@ hero:
 
 features:
   - icon: 🍊
-    title: 關於本伺服器的營運方針
-    details: Juice Server 的定位、測試目的以及作為通用伺服器的營運方針
+    title: 關於本實例的營運方針
+    details: Juice Server 的定位、測試目的以及作為通用實例的營運方針
     link: /zh-hant/about-juice-server
   - icon: 📜
     title: 服務

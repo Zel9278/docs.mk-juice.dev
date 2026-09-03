@@ -4,13 +4,13 @@ layout: home
 hero:
   name: "Juice Server"
   text: "Docs"
-  tagline: misskey-juiceの公式サーバー「Juice Server」のドキュメントサイトです。
+  tagline: misskey-juiceの公式インスタンス「Juice Server」のドキュメントサイトです。
   image:
     src: /juice-icon.png
     alt: Juice Server
   actions:
     - theme: brand
-      text: このサーバーについて
+      text: このインスタンスについて
       link: /about-juice-server
     - theme: alt
       text: misskey-juiceをGitHubで見る
@@ -18,8 +18,8 @@ hero:
 
 features:
   - icon: 🍊
-    title: このサーバーの運用方針について
-    details: Juice Serverの位置づけ、テスト目的と汎用サーバーとしての運用方針
+    title: このインスタンスの運用方針について
+    details: Juice Serverの位置づけ、テスト目的と汎用インスタンスとしての運用方針
     link: /about-juice-server
   - icon: 📜
     title: サービス
