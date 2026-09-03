@@ -312,6 +312,12 @@ export default withMermaid(defineConfig({
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },
 		],
+		// VitePressのlocalSearchPluginはlocales内ではなくルートのthemeConfig.searchしか
+		// 見ないため、ここで指定しないと検索インデックスが生成されない(空になる)。
+		// 各ロケール別のsearch.options.translationsは各locales.*.themeConfigで上書きされる。
+		search: {
+			provider: "local",
+		},
 	},
 	locales: {
 		root: {
