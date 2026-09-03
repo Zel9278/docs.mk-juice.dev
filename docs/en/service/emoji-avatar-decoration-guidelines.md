@@ -4,11 +4,11 @@ When requesting custom emoji or avatar decorations, please follow the guidelines
 
 ## General notes
 
-- Images you request must be **something you hold the copyright to yourself**, or **freely usable material with a clearly stated license**. You cannot submit a request using others' illustrations, characters, etc. without permission.
-- In the "License" field, please accurately state the source, author name, and type of license (e.g. CC0, the name of a free material site's terms of use). Requests with insufficient or inaccurate information may be rejected.
+- If you use material that requires attribution (e.g. free material that requires crediting the source under its terms), please accurately state the source, author name, and type of license in the "License" field. If it's your own work, or material that doesn't require attribution, you don't need to force something into that field.
 - Requests that use the logo or trademark of a real company or organization without permission will be rejected.
 - Images containing NSFW, violent, or discriminatory content cannot be requested. This follows the same standard as the [Rules](./rules.md).
 - Requests for uses outside the intended purpose, such as recreating expressions that violate public order and morals, will also be rejected.
+- If we're unsure about something, we may reach out individually during review. Don't overthink it — feel free to submit a request.
 
 ## Custom emoji
 
