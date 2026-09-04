@@ -17,6 +17,23 @@ flowchart TD
 
 In addition to the usual fields (username, password, email address, etc.), there is a **"reason for registration"** field. Briefly describe what you'd like to use the account for (up to 4096 characters). This reason is not shown to other regular users or applicants — **only admins** can view it.
 
+#### A template for your reason for registration
+
+If you're not sure what to write, feel free to use a template like the one below. You don't need to fill in every line, and it doesn't have to sound formal.
+
+```
+Purpose:
+(e.g. posting my own creations, chatting with friends, following news, etc.)
+
+What you plan to post:
+(e.g. illustrations, everyday posts, talking about games, etc.)
+
+Accounts on other SNS/instances (optional):
+(if you have one, an X (Twitter) handle or another instance account helps with review)
+```
+
+A single sentence, like "I want to post my illustrations," is also perfectly fine.
+
 ### 2. After submitting, your account is "pending approval"
 
 Once you submit the form, the account itself is created, but **you cannot log in until it is approved.** At this point, a **confirmation code** for checking your application status is shown on screen. **Make sure to copy it right away** (see "Checking your status later" below).
