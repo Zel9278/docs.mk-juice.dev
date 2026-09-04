@@ -5,6 +5,16 @@ import markdownItFootnote from "markdown-it-footnote";
 const jaSidebar = [
 	{ text: "このインスタンスの運用方針について", link: "/about-juice-server" },
 	{
+		text: "Misskey Juiceからのお知らせ",
+		items: [
+			{ text: "お知らせ一覧", link: "/news/" },
+			{
+				text: "ZenSky Project及び『Misskey.Tokyo』様への見解表明",
+				link: "/news/2026-09-04-zensky-statement",
+			},
+		],
+	},
+	{
 		text: "サービス",
 		items: [
 			{ text: "ルール", link: "/service/rules" },
@@ -58,6 +68,16 @@ const enSidebar = [
 	{
 		text: "About this instance's operating policy",
 		link: "/en/about-juice-server",
+	},
+	{
+		text: "Announcements from Misskey Juice",
+		items: [
+			{ text: "All announcements", link: "/en/news/" },
+			{
+				text: "A Statement to ZenSky Project and \"Misskey.Tokyo\"",
+				link: "/en/news/2026-09-04-zensky-statement",
+			},
+		],
 	},
 	{
 		text: "Service",
@@ -121,6 +141,16 @@ const enSidebar = [
 const koSidebar = [
 	{ text: "이 인스턴스의 운영 방침에 대해서", link: "/ko/about-juice-server" },
 	{
+		text: "Misskey Juice 공지사항",
+		items: [
+			{ text: "공지사항 목록", link: "/ko/news/" },
+			{
+				text: "ZenSky Project 및 『Misskey.Tokyo』 측에 대한 견해 표명",
+				link: "/ko/news/2026-09-04-zensky-statement",
+			},
+		],
+	},
+	{
 		text: "서비스",
 		items: [
 			{ text: "규칙", link: "/ko/service/rules" },
@@ -176,6 +206,16 @@ const koSidebar = [
 const zhHansSidebar = [
 	{ text: "关于本实例的运营方针", link: "/zh-hans/about-juice-server" },
 	{
+		text: "Misskey Juice 公告",
+		items: [
+			{ text: "公告列表", link: "/zh-hans/news/" },
+			{
+				text: "致 ZenSky Project 及『Misskey.Tokyo』的意见声明",
+				link: "/zh-hans/news/2026-09-04-zensky-statement",
+			},
+		],
+	},
+	{
 		text: "服务",
 		items: [
 			{ text: "规则", link: "/zh-hans/service/rules" },
@@ -230,6 +270,16 @@ const zhHansSidebar = [
 
 const zhHantSidebar = [
 	{ text: "關於本實例的營運方針", link: "/zh-hant/about-juice-server" },
+	{
+		text: "Misskey Juice 公告",
+		items: [
+			{ text: "公告列表", link: "/zh-hant/news/" },
+			{
+				text: "致 ZenSky Project 及『Misskey.Tokyo』的意見聲明",
+				link: "/zh-hant/news/2026-09-04-zensky-statement",
+			},
+		],
+	},
 	{
 		text: "服務",
 		items: [
