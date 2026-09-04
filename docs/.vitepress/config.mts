@@ -2,6 +2,58 @@ import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import markdownItFootnote from "markdown-it-footnote";
 
+// MiniSearch(local search)は既定では英語向けの空白区切りトークナイザーを使うため、
+// 日本語・中国語・韓国語のように単語間にスペースがない文章だと、文単位でしか
+// マッチせず検索精度が大きく落ちる。CJK文字はここでバイグラム(2文字ずつの重複
+// スライス)に分割し、それ以外(英数字など)は通常通り空白等で区切ることで、
+// 部分一致での検索がしっかり効くようにする。
+// 注意: このtokenize関数はVitePressによって文字列化され、クライアント側で
+// (元のモジュールスコープと切り離された状態で)再評価される。そのため、
+// 外側のconst等を参照せず、関数の中だけで完結させる必要がある。
+function tokenizeForSearch(text: string): string[] {
+	const cjkRange =
+		/[　-〿぀-ヿ㐀-䶿一-鿿豈-﫿ｦ-ﾟ가-힣]/;
+	const tokens: string[] = [];
+	let latinBuf = "";
+	let cjkBuf = "";
+
+	const flushLatin = () => {
+		if (latinBuf) {
+			tokens.push(
+				...latinBuf
+					.toLowerCase()
+					.split(/[\s　!-/:-@[-`{-~。、,.!?「」『』()【】〈〉《》・:;"'…]+/)
+					.filter(Boolean),
+			);
+			latinBuf = "";
+		}
+	};
+	const flushCjk = () => {
+		if (cjkBuf.length === 1) {
+			tokens.push(cjkBuf);
+		} else if (cjkBuf.length > 1) {
+			for (let i = 0; i < cjkBuf.length - 1; i++) {
+				tokens.push(cjkBuf.slice(i, i + 2));
+			}
+		}
+		cjkBuf = "";
+	};
+
+	for (const ch of text) {
+		if (cjkRange.test(ch)) {
+			flushLatin();
+			cjkBuf += ch;
+		} else {
+			flushCjk();
+			latinBuf += ch;
+		}
+	}
+	flushLatin();
+	flushCjk();
+
+	return tokens;
+}
+
 const jaSidebar = [
 	{ text: "このインスタンスの運用方針について", link: "/about-juice-server" },
 	{
@@ -379,9 +431,23 @@ export default withMermaid(defineConfig({
 		],
 		// VitePressのlocalSearchPluginはlocales内ではなくルートのthemeConfig.searchしか
 		// 見ないため、ここで指定しないと検索インデックスが生成されない(空になる)。
+		// miniSearchのトークナイズ・検索オプションも同様にルート側でのみ有効なため、
+		// ここでCJK向けのバイグラムトークナイザーとfuzzy/prefix検索を設定する。
 		// 各ロケール別のsearch.options.translationsは各locales.*.themeConfigで上書きされる。
 		search: {
 			provider: "local",
+			options: {
+				miniSearch: {
+					options: {
+						tokenize: tokenizeForSearch,
+					},
+					searchOptions: {
+						fuzzy: 0.2,
+						prefix: true,
+						boost: { title: 4, titles: 2, text: 1 },
+					},
+				},
+			},
 		},
 	},
 	locales: {
@@ -412,6 +478,16 @@ export default withMermaid(defineConfig({
 				search: {
 					provider: "local",
 					options: {
+						miniSearch: {
+							options: {
+								tokenize: tokenizeForSearch,
+							},
+							searchOptions: {
+								fuzzy: 0.2,
+								prefix: true,
+								boost: { title: 4, titles: 2, text: 1 },
+							},
+						},
 						translations: {
 							button: {
 								buttonText: "検索",
@@ -471,6 +547,18 @@ export default withMermaid(defineConfig({
 				},
 				search: {
 					provider: "local",
+					options: {
+						miniSearch: {
+							options: {
+								tokenize: tokenizeForSearch,
+							},
+							searchOptions: {
+								fuzzy: 0.2,
+								prefix: true,
+								boost: { title: 4, titles: 2, text: 1 },
+							},
+						},
+					},
 				},
 				editLink: {
 					pattern:
@@ -500,6 +588,16 @@ export default withMermaid(defineConfig({
 				search: {
 					provider: "local",
 					options: {
+						miniSearch: {
+							options: {
+								tokenize: tokenizeForSearch,
+							},
+							searchOptions: {
+								fuzzy: 0.2,
+								prefix: true,
+								boost: { title: 4, titles: 2, text: 1 },
+							},
+						},
 						translations: {
 							button: {
 								buttonText: "검색",
@@ -563,6 +661,16 @@ export default withMermaid(defineConfig({
 				search: {
 					provider: "local",
 					options: {
+						miniSearch: {
+							options: {
+								tokenize: tokenizeForSearch,
+							},
+							searchOptions: {
+								fuzzy: 0.2,
+								prefix: true,
+								boost: { title: 4, titles: 2, text: 1 },
+							},
+						},
 						translations: {
 							button: {
 								buttonText: "搜索",
@@ -626,6 +734,16 @@ export default withMermaid(defineConfig({
 				search: {
 					provider: "local",
 					options: {
+						miniSearch: {
+							options: {
+								tokenize: tokenizeForSearch,
+							},
+							searchOptions: {
+								fuzzy: 0.2,
+								prefix: true,
+								boost: { title: 4, titles: 2, text: 1 },
+							},
+						},
 						translations: {
 							button: {
 								buttonText: "搜尋",
