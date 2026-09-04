@@ -30,3 +30,7 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 - [변경 이력](./changelog.md)
 
 앱 내 `/about-juice` 페이지에서도 동일한 기능 목록을 확인할 수 있습니다.
+
+## 버그 신고에 대해서
+
+misskey-juice(JUICE) 자체의 버그・결함을 발견하신 경우, [support@mk-juice.dev](mailto:support@mk-juice.dev) 또는 [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues)로 신고해 주시면 큰 도움이 됩니다.

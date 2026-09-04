@@ -30,3 +30,7 @@ outline: false
 - [更新日志](./changelog.md)
 
 您也可以在应用内的 `/about-juice` 页面查看相同的功能列表。
+
+## 关于问题反馈
+
+如果您发现 misskey-juice(JUICE)本身存在缺陷或错误,欢迎反馈至 [support@mk-juice.dev](mailto:support@mk-juice.dev),或提交至 [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues),将对我们非常有帮助。
