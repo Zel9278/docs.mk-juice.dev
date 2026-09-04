@@ -33,4 +33,4 @@ You can also check the same feature list on the in-app `/about-juice` page.
 
 ## Reporting issues
 
-If you find a bug or issue in misskey-juice (JUICE) itself, it would help us if you could report it to [support@mk-juice.dev](mailto:support@mk-juice.dev) or via [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues).
+If you find a bug or issue in misskey-juice (JUICE) itself, it would help us if you could report it via a Misskey message to [@support@mk-juice.dev](https://mk-juice.dev/@support), or via [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues).
