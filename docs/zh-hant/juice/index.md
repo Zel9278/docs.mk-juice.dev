@@ -33,4 +33,4 @@ outline: false
 
 ## 關於問題回報
 
-如果您發現 misskey-juice(JUICE)本身存在缺陷或錯誤,歡迎透過 Misskey 私訊回報至 [@support@mk-juice.dev](https://mk-juice.dev/@support),或提交至 [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues),將對我們非常有幫助。
+如果您發現 misskey-juice(JUICE)本身存在缺陷或錯誤,歡迎透過帶提及的私訊回報至 [@support@mk-juice.dev](https://mk-juice.dev/@support),或提交至 [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues),將對我們非常有幫助。

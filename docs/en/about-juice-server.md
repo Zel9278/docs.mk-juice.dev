@@ -10,7 +10,7 @@ Juice Server is built and operated to verify new features and fixes developed in
 
 - **Approval-based signup is currently enabled for this testing purpose.** This is not an instance anyone can join freely; registration applications are reviewed and approved.
 - Features from misskey-juice that are still under verification may be enabled ahead of time, and unexpected issues may occur.
-- If you find a bug, please let the admin ([@c30](https://mk-juice.dev/@c30)) know via a Misskey message — it would be a great help.
+- If you find a bug, please let the admin know via a Misskey DM mentioning [@c30](https://mk-juice.dev/@c30) — it would be a great help.
 
 ## As a general-purpose instance
 
@@ -28,4 +28,4 @@ Before using the service, please make sure to read the following:
 
 ## Contact
 
-For questions, requests, or bug reports, please contact the admin ([@c30](https://mk-juice.dev/@c30)) via a Misskey message.
+For questions, requests, or bug reports, please contact the admin via a Misskey DM mentioning [@c30](https://mk-juice.dev/@c30).

@@ -33,4 +33,4 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 
 ## 不具合の報告について
 
-misskey-juice(JUICE)自体の不具合・バグを見つけた場合は、Misskeyのメッセージで[@support@mk-juice.dev](https://mk-juice.dev/@support)、または[GitHubのIssues](https://github.com/Zel9278/misskey-juice/issues)へご報告いただけると助かります。
+misskey-juice(JUICE)自体の不具合・バグを見つけた場合は、メンション付きDMで[@support@mk-juice.dev](https://mk-juice.dev/@support)、または[GitHubのIssues](https://github.com/Zel9278/misskey-juice/issues)へご報告いただけると助かります。
