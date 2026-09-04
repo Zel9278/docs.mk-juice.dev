@@ -2,7 +2,7 @@
 
 2026년 9월 4일
 
-저는 『[Misskey Juice(JUICE)](https://github.com/Zel9278/misskey-juice)』를 개발하고 있는 **ced([@c30](https://mk-juice.dev/@c30))**라고 합니다.
+저는 『[Misskey Juice(JUICE)](https://github.com/Zel9278/misskey-juice)』를 개발하고 있는 **ced**([@c30](https://mk-juice.dev/@c30))라고 합니다.
 
 이번에 ZenSky Project 측이 제공 및 운영하고 있는 『Misskey.Tokyo』 인스턴스에 관한 「[Misskey.Tokyo와 Misskey-juice의 분쟁에 관한 저희 단체의 입장과 성명](https://s-zensky.com/press-1.html)」의 발표에 따라, 제 나름대로 몇 가지 항목으로 나누어 **개인적 견해**를 정리하였기에 아래와 같이 명시합니다.
 
@@ -35,9 +35,9 @@
 
 ## 3. 『Juice Server』를 중심으로, 앞으로 『Misskey Juice(JUICE)』를 이용하고자 하는 사용자 여러분께
 
-현재 『Misskey Juice(JUICE)』는 개발 단계에 있으며, 제 자신이 구현하고자 하는 기능의 선행 테스트나 결함·버그 수정, 디버깅을 목적으로 하는 **제가 직접 운영하고 있는 인스턴스 『Juice Server』**를 **공식 인스턴스**로 운영하고 있습니다.
+현재 『Misskey Juice(JUICE)』는 개발 단계에 있으며, 제 자신이 구현하고자 하는 기능의 선행 테스트나 결함·버그 수정, 디버깅을 목적으로 하는 **제가 직접 운영하고 있는 인스턴스**『Juice Server』를 **공식 인스턴스**로 운영하고 있습니다.
 
-당 인스턴스의 운영 방침으로서, 제 자신도 예상하지 못한 결함·버그나 검증 중인 기능을 먼저 활성화하고 있으며, 검증 목적의 성격이 강합니다. 따라서 향후 업데이트를 통해 다양한 기능을 추가·수정한 후, **안정된 버전**의 **『Misskey Juice(JUICE)』**를 사용자 여러분께 제공해 드리겠습니다.
+당 인스턴스의 운영 방침으로서, 제 자신도 예상하지 못한 결함·버그나 검증 중인 기능을 먼저 활성화하고 있으며, 검증 목적의 성격이 강합니다. 따라서 향후 업데이트를 통해 다양한 기능을 추가·수정한 후, **안정된 버전**의 『**Misskey Juice(JUICE)**』를 사용자 여러분께 제공해 드리겠습니다.
 
 자세한 내용은 [이 인스턴스의 운영 방침에 대해서](../about-juice-server.md)를 확인해 주세요.
 
