@@ -9,8 +9,12 @@ flowchart TD
     A["`Fill out the signup form<br/>**(including a reason)**`"] --> B[Submit]
     B --> C["`Account is pending approval<br/>A **confirmation code** is shown`"]
     C --> D{An admin reviews it}
-    D -->|Approved| E["`You can log in<br/>**(approval notification email)**`"]
-    D -->|Rejected| F["`Rejection notice<br/>**You'll need to sign up again**`"]
+    D -->|Approved| E{Email registered<br/>and verified?}
+    E -->|Yes| E1["`You can log in<br/>**an approval email arrives**`"]
+    E -->|No| E2["`You can log in<br/>**check via the confirmation code**`"]
+    D -->|Rejected| F{Email registered<br/>and verified?}
+    F -->|Yes| F1["`A rejection email arrives<br/>**you'll need to sign up again**`"]
+    F -->|No| F2["`Check via the confirmation code<br/>**you'll need to sign up again**`"]
 ```
 
 ### 1. Fill out the signup form
@@ -44,8 +48,8 @@ An admin (a user with moderator or admin permissions) reviews your reason for re
 
 ### 4. You receive the result
 
-- **If approved**: you can log in. If you registered and verified an email address, you'll also receive an approval notification email.
-- **If rejected**: you'll be notified. If you'd like to try again, please sign up as a new account (a rejected application cannot be resumed).
+- **If approved**: you can log in. If you registered and verified an email address, you'll also receive an approval notification email; if not, it won't be sent, so check your approval status using the confirmation code on the `/signup-check` page.
+- **If rejected**: if you registered and verified an email address, you'll receive a rejection notification email. If not, you can likewise check that you were rejected — and the reason — via the confirmation code on the `/signup-check` page. If you'd like to try again, please sign up as a new account (a rejected application cannot be resumed).
 
 ## Checking your status later
 
