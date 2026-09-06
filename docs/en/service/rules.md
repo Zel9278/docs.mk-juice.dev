@@ -95,12 +95,18 @@ The following files may not be posted:
 
 - Sexual real-life photos
 - Violent real-life photos
+- Content that sexually depicts children (whether real-life photos or 2D, e.g. illustrations — either is prohibited)
 - Files containing [NSFW elements](./rules.md#regarding-nsfw-not-safe-for-work) **without "sensitive" and "content warning" set**
 - Files that harm others (e.g. malware)
 - Others' work reproduced without permission (e.g. unauthorized reposting)\
   Only the copyright holder has the right to reproduce/copy a work (Copyright Act, Article 21)
   - **Quotation done in accordance with certain rules, such as making the source clear, is fine ([Copyright Act, Article 32, Paragraph 1](https://laws.e-gov.go.jp/law/345AC0000000048#Mp-Ch_2-Se_3-Ss_5-At_32), including linking to the source, etc.)**
 - Any other file the admin deems inappropriate
+
+::: info Note
+- Wholesome content with no sexual intent, such as photos of cosplayers or felt crafts, is not covered by the above.
+- 2D sexual creative works that don't involve children are fine as long as you set "content warning" and "sensitive".
+:::
 
 ::: warning Notice
 **Real-life sexual or violent images involving children under 18 will result in immediate removal of the note and account suspension upon confirmation. We will also report to the relevant authorities and providers as necessary.**
