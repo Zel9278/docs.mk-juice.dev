@@ -95,7 +95,7 @@ The following files may not be posted:
 
 - Sexual real-life photos
 - Violent real-life photos
-- Content that sexually depicts children (whether real-life photos or 2D, e.g. illustrations — either is prohibited)
+- Content that sexually depicts children (whether real-life photos or 2D, e.g. illustrations — either is prohibited)[^4]
 - Files containing [NSFW elements](./rules.md#regarding-nsfw-not-safe-for-work) **without "sensitive" and "content warning" set**
 - Files that harm others (e.g. malware)
 - Others' work reproduced without permission (e.g. unauthorized reposting)\
@@ -163,3 +163,5 @@ Please contact the admin ([@c30](https://mk-juice.dev/@c30)) via a Misskey messa
 [^2]: Sweat that appears sexual in context is judged as NSFW.
 
 [^3]: Refers to violent (grotesque) depictions such as bleeding, dismemberment, insects, etc.
+
+[^4]: Under Japanese law, 2D depictions (illustrations, etc.) fall outside the Act on Regulation and Punishment of Child Prostitution and Child Pornography, but in other countries such as the United States, even 2D depictions can be regulated by law. With those jurisdictions in mind as well, this service prohibits such content regardless of whether it is real-life or 2D.
