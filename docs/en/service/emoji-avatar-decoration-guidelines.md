@@ -5,7 +5,7 @@ When requesting custom emoji or avatar decorations, please follow the guidelines
 ## General notes
 
 - If you use material that requires attribution (e.g. free material that requires crediting the source under its terms), please accurately state the source, author name, and type of license in the "License" field. If it's your own work, or material that doesn't require attribution, you don't need to force something into that field.
-- Requests that use the logo or trademark of a real company or organization without permission will be rejected.
+- Requests that use the logo or trademark of a real company or organization without permission will be rejected. However, if the logo image has a license that explicitly permits its use (e.g. official material distributed by the company), it's fine to submit it — just note the company's official URL and the image's license in the "License" field.
 - Images containing NSFW, violent, or discriminatory content cannot be requested. This follows the same standard as the [Rules](./rules.md).
 - Requests for uses outside the intended purpose, such as recreating expressions that violate public order and morals, will also be rejected.
 - If we're unsure about something, we may reach out individually during review. Don't overthink it — feel free to submit a request.
