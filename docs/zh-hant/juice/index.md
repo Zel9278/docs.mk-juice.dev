@@ -20,6 +20,10 @@ outline: false
 - [公告投票功能](./announcement-poll.md)
 - [公告表情回應功能](./announcement-reaction.md)
 - [LaTeX(數學公式)顯示](./latex.md)
+- [表情回應功能增強](./reaction-enhancements.md)
+- [貼文語言](./post-language.md)
+- [貼文搜尋增強](./note-search-enhancements.md)
+- [聯絡表單](./contact-form.md)
 
 ## 其他變更
 

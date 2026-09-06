@@ -5,6 +5,19 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > New releases are added to the [Japanese changelog](../../juice/changelog.md) automatically, but this English page is only updated manually and may lag behind. If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.0
+
+A major release aligned with tracking upstream Misskey 2026.9.0. Main additions:
+
+- [Reaction enhancements](./reaction-enhancements.md) (piggybacking on reactions, resolving remote custom emoji reactions, a reaction search tab, and more)
+- [Post language](./post-language.md)
+- [Note search enhancements](./note-search-enhancements.md)
+- [Contact form](./contact-form.md)
+- Added batch requests, replacement requests, and edit-on-approval to emoji and avatar decoration requests
+- Expanded moderation/admin notifications (new emoji requests, contact form submissions, etc. now show in real time in the control panel)
+- Localized system emails
+- Various security enhancements (broader captcha coverage, notifying users of failed logins, exclusive locking during review, etc.)
+
 ## v2026.7.0-juice+2.5
 
 - Approval/rejection of [emoji requests](./emoji-request.md), avatar decoration requests, and [approval-based signup](./approval-signup.md) can now be delegated per-role to users without moderator permissions

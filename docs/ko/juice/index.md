@@ -20,6 +20,10 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 - [공지사항 투표 기능](./announcement-poll.md)
 - [공지사항 리액션 기능](./announcement-reaction.md)
 - [LaTeX(수식) 표시](./latex.md)
+- [리액션 기능 확장](./reaction-enhancements.md)
+- [게시물 언어](./post-language.md)
+- [노트 검색 강화](./note-search-enhancements.md)
+- [문의 양식](./contact-form.md)
 
 ## 기타 변경 사항
 

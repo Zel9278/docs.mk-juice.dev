@@ -98,6 +98,16 @@ const jaSidebar = [
 			{ text: "お知らせのリアクション機能", link: "/juice/announcement-reaction" },
 			{ text: "LaTeX(数式)表示", link: "/juice/latex" },
 			{
+				text: "リアクション機能の拡張",
+				link: "/juice/reaction-enhancements",
+			},
+			{ text: "投稿言語", link: "/juice/post-language" },
+			{
+				text: "ノート検索の強化",
+				link: "/juice/note-search-enhancements",
+			},
+			{ text: "お問い合わせフォーム", link: "/juice/contact-form" },
+			{
 				text: "センシティブ画像の表示に関する修正",
 				link: "/juice/cw-image-blur-fix",
 			},
@@ -174,6 +184,16 @@ const enSidebar = [
 				link: "/en/juice/announcement-reaction",
 			},
 			{ text: "LaTeX (math) rendering", link: "/en/juice/latex" },
+				{
+					text: "Reaction enhancements",
+					link: "/en/juice/reaction-enhancements",
+				},
+				{ text: "Post language", link: "/en/juice/post-language" },
+				{
+					text: "Note search enhancements",
+					link: "/en/juice/note-search-enhancements",
+				},
+				{ text: "Contact form", link: "/en/juice/contact-form" },
 			{
 				text: "Sensitive image display fix",
 				link: "/en/juice/cw-image-blur-fix",
@@ -242,6 +262,16 @@ const koSidebar = [
 				link: "/ko/juice/announcement-reaction",
 			},
 			{ text: "LaTeX(수식) 표시", link: "/ko/juice/latex" },
+				{
+					text: "리액션 기능 확장",
+					link: "/ko/juice/reaction-enhancements",
+				},
+				{ text: "게시물 언어", link: "/ko/juice/post-language" },
+				{
+					text: "노트 검색 강화",
+					link: "/ko/juice/note-search-enhancements",
+				},
+				{ text: "문의 양식", link: "/ko/juice/contact-form" },
 			{
 				text: "민감한 이미지 표시 관련 수정",
 				link: "/ko/juice/cw-image-blur-fix",
@@ -310,6 +340,16 @@ const zhHansSidebar = [
 				link: "/zh-hans/juice/announcement-reaction",
 			},
 			{ text: "LaTeX(数学公式)显示", link: "/zh-hans/juice/latex" },
+				{
+					text: "表情回应功能增强",
+					link: "/zh-hans/juice/reaction-enhancements",
+				},
+				{ text: "帖子语言", link: "/zh-hans/juice/post-language" },
+				{
+					text: "帖子搜索增强",
+					link: "/zh-hans/juice/note-search-enhancements",
+				},
+				{ text: "联系表单", link: "/zh-hans/juice/contact-form" },
 			{
 				text: "敏感图片显示相关修复",
 				link: "/zh-hans/juice/cw-image-blur-fix",
@@ -378,6 +418,16 @@ const zhHantSidebar = [
 				link: "/zh-hant/juice/announcement-reaction",
 			},
 			{ text: "LaTeX(數學公式)顯示", link: "/zh-hant/juice/latex" },
+				{
+					text: "表情回應功能增強",
+					link: "/zh-hant/juice/reaction-enhancements",
+				},
+				{ text: "貼文語言", link: "/zh-hant/juice/post-language" },
+				{
+					text: "貼文搜尋增強",
+					link: "/zh-hant/juice/note-search-enhancements",
+				},
+				{ text: "聯絡表單", link: "/zh-hant/juice/contact-form" },
 			{
 				text: "敏感圖片顯示相關修復",
 				link: "/zh-hant/juice/cw-image-blur-fix",

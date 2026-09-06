@@ -20,6 +20,10 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 - [お知らせの投票機能](./announcement-poll.md)
 - [お知らせのリアクション機能](./announcement-reaction.md)
 - [LaTeX(数式)表示](./latex.md)
+- [リアクション機能の拡張](./reaction-enhancements.md)
+- [投稿言語](./post-language.md)
+- [ノート検索の強化](./note-search-enhancements.md)
+- [お問い合わせフォーム](./contact-form.md)
 
 ## その他の変更
 

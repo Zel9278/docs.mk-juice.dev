@@ -20,6 +20,10 @@ outline: false
 - [Announcement polls](./announcement-poll.md)
 - [Announcement reactions](./announcement-reaction.md)
 - [LaTeX (math) rendering](./latex.md)
+- [Reaction enhancements](./reaction-enhancements.md)
+- [Post language](./post-language.md)
+- [Note search enhancements](./note-search-enhancements.md)
+- [Contact form](./contact-form.md)
 
 ## Other changes
 
