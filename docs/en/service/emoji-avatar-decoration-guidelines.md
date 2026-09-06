@@ -16,6 +16,14 @@ When requesting custom emoji or avatar decorations, please follow the guidelines
 - A request is kept pending until it is approved or rejected. If rejected, you will be notified of the reason. If you want to request again, please submit it as a new request.
 - For details on how to submit a request, see [Emoji requests](../juice/emoji-request.md).
 
+### Bringing in emoji from another instance
+
+Misskey has a culture of downloading custom emoji used on other instances and importing them into your own. You're welcome to request the same here if you'd like to use an emoji from another instance as-is.
+
+- If the source specifies a license, please state it in the "License" field accordingly.
+- If the source doesn't have any license information either, it's enough to just write the name of the instance you got it from in the "License" field. Not knowing the exact license is not a reason to give up on requesting it.
+- However, please don't request emoji whose original author has explicitly said not to reuse/redistribute them, or ones that clearly cause problems, such as the logo or trademark of a real company.
+
 ## Avatar decorations
 
 - Uses the same request mechanism as custom emoji — you submit an image, name, category, and license.
