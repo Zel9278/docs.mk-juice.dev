@@ -24,6 +24,14 @@ Misskey has a culture of downloading custom emoji used on other instances and im
 - If the source doesn't have any license information either, it's enough to just write the name of the instance you got it from in the "License" field. Not knowing the exact license is not a reason to give up on requesting it.
 - However, please don't request emoji whose original author has explicitly said not to reuse/redistribute them, or ones that clearly cause problems, such as the logo or trademark of a real company.
 
+### Text emoji and fonts
+
+If your emoji includes text, please pay attention to the license of the font you used. What matters isn't whether it's free or paid — it's **whether the font's license permits commercial use**. Many free fonts restrict commercial use, modification, or redistribution, and conversely, whether a paid font permits commercial use varies by product.
+
+- Please confirm for yourself that the license allows this use before requesting it.
+- In case there's any doubt, or the reviewer needs to check, it helps to note the font name, where you obtained it, and a link to its license in the "License" field.
+- If you hand-drew the text or used a vector tool instead of a font, mentioning that also makes review smoother.
+
 ## Avatar decorations
 
 - Uses the same request mechanism as custom emoji — you submit an image, name, category, and license.
