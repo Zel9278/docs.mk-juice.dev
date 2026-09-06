@@ -21,7 +21,7 @@ misskey-juiceを新規にインストールする場合の手順です。基本�
 - FFmpeg
 
 > [!note] 全文検索エンジンについて
-> 標準のMisskeyは全文検索に`sqlLike`(PostgreSQLの`LIKE`検索)を使いますが、投稿数が増えると検索が遅くなりがちです。Juice Serverでは、より高速で日本語などのCJK言語の検索精度も高い[pgroonga](https://pgroonga.github.io/)の利用を推奨しています。導入手順は[下記](#pgroongaのセットアップ-推奨)を参照してください。
+> 標準のMisskeyは全文検索に`sqlLike`(PostgreSQLの`LIKE`検索)を使いますが、投稿数が増えると検索が遅くなりがちです。Juice Serverでは、より高速で日本語などのCJK言語の検索精度も高い[pgroonga](https://pgroonga.github.io/)の利用を推奨しています。導入手順は[下記](#pgroongaのセットアップ-推奨)を参照してください。
 
 ## 手順
 
@@ -64,7 +64,7 @@ misskey-juiceを新規にインストールする場合の手順です。基本�
    NODE_ENV=production pnpm run start
    ```
 
-   本番運用では[systemdなどでサービス化すること](#systemdでサービス化する-推奨)を推奨します。
+   本番運用では[systemdなどでサービス化すること](#systemdでサービス化する-推奨)を推奨します。
 
 ## pgroongaのセットアップ(推奨)
 

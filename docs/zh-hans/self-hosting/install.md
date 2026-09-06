@@ -21,7 +21,7 @@
 - FFmpeg
 
 > [!note] 关于全文搜索引擎
-> 标准 Misskey 的全文搜索默认使用 `sqlLike`(PostgreSQL 的 `LIKE` 搜索),但随着帖子数量增加,搜索速度往往会变慢。Juice Server 推荐使用 [pgroonga](https://pgroonga.github.io/),它速度更快,且对日语等 CJK 语言的搜索准确度也更高。安装步骤请参阅[下文](#设置-pgroonga推荐)。
+> 标准 Misskey 的全文搜索默认使用 `sqlLike`(PostgreSQL 的 `LIKE` 搜索),但随着帖子数量增加,搜索速度往往会变慢。Juice Server 推荐使用 [pgroonga](https://pgroonga.github.io/),它速度更快,且对日语等 CJK 语言的搜索准确度也更高。安装步骤请参阅[下文](#设置-pgroonga-推荐)。
 
 ## 步骤
 
@@ -64,7 +64,7 @@
    NODE_ENV=production pnpm run start
    ```
 
-   在生产环境中,建议[使用 systemd 等工具将其配置为服务](#使用-systemd-配置为服务推荐)。
+   在生产环境中,建议[使用 systemd 等工具将其配置为服务](#使用-systemd-配置为服务-推荐)。
 
 ## 设置 pgroonga(推荐)
 

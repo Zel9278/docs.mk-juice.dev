@@ -21,7 +21,7 @@ misskey-juice를 새로 설치하는 경우의 절차입니다. 기본적인 흐
 - FFmpeg
 
 > [!note] 전문 검색 엔진에 대해서
-> 표준 Misskey는 전문 검색에 `sqlLike`(PostgreSQL의 `LIKE` 검색)를 사용하지만, 게시물 수가 늘어나면 검색이 느려지기 쉽습니다. Juice Server에서는 더 빠르고 일본어 등 CJK 언어의 검색 정확도도 높은 [pgroonga](https://pgroonga.github.io/) 사용을 권장합니다. 도입 절차는 [아래](#pgroonga-설정하기-권장)를 참고해 주세요.
+> 표준 Misskey는 전문 검색에 `sqlLike`(PostgreSQL의 `LIKE` 검색)를 사용하지만, 게시물 수가 늘어나면 검색이 느려지기 쉽습니다. Juice Server에서는 더 빠르고 일본어 등 CJK 언어의 검색 정확도도 높은 [pgroonga](https://pgroonga.github.io/) 사용을 권장합니다. 도입 절차는 [아래](#pgroonga-설정하기-권장)를 참고해 주세요.
 
 ## 절차
 
@@ -64,7 +64,7 @@ misskey-juice를 새로 설치하는 경우의 절차입니다. 기본적인 흐
    NODE_ENV=production pnpm run start
    ```
 
-   실제 운영 환경에서는 [systemd 등으로 서비스화하는 것](#systemd로-서비스화하기-권장)을 권장합니다.
+   실제 운영 환경에서는 [systemd 등으로 서비스화하는 것](#systemd로-서비스화하기-권장)을 권장합니다.
 
 ## pgroonga 설정하기 (권장)
 
@@ -175,7 +175,7 @@ WantedBy=multi-user.target
 - `ExecStart`: pnpm 실행 파일의 경로는 환경에 따라 다릅니다. `which pnpm` 등으로 확인해 주세요. 마이그레이션은 이 유닛에 포함되어 있지 않으므로, 버전 업그레이드 시에는 시작(재시작) 전에 수동으로 `pnpm migrate`를 실행해 주세요.
 - `PNPM_HOME`/`PATH`: systemd는 로그인 셸의 `.bashrc` 등을 경유하지 않으므로, `pnpm` 명령어 자체를 찾을 수 있도록 PATH를 명시적으로 지정해야 합니다.
 - `NODE_OPTIONS=--max-old-space-size`: Node.js의 힙 크기 상한입니다. 서버의 RAM에 맞게 조정해 주세요.
-- `LD_PRELOAD`/`MALLOC_CONF`: [jemalloc](https://jemalloc.net/)을 사용한 메모리 할당자 교체입니다. 표준 할당자(glibc malloc)는 장시간 운영 시 메모리 단편화로 인해 RSS가 점점 증가할 수 있는데, jemalloc으로 전환하면 개선을 기대할 수 있습니다. `dirty_decay_ms`/`muzzy_decay_ms`를 짧게 설정하면 미사용 메모리 페이지를 더 빨리 OS로 반환합니다. 설치 방법은 [아래](#jemalloc-설치하기)를 참고해 주세요.
+- `LD_PRELOAD`/`MALLOC_CONF`: [jemalloc](https://jemalloc.net/)을 사용한 메모리 할당자 교체입니다. 표준 할당자(glibc malloc)는 장시간 운영 시 메모리 단편화로 인해 RSS가 점점 증가할 수 있는데, jemalloc으로 전환하면 개선을 기대할 수 있습니다. `dirty_decay_ms`/`muzzy_decay_ms`를 짧게 설정하면 미사용 메모리 페이지를 더 빨리 OS로 반환합니다. 설치 방법은 [아래](#jemalloc-설치하기)를 참고해 주세요.
 - `MemoryHigh`/`MemoryMax`/`MemorySwapMax`: systemd에 의한 메모리 사용량 안전장치입니다. `MemoryHigh`를 초과하면 메모리 할당이 점점 제한되고, `MemoryMax`를 초과하면 OOM killer에 의해 강제 종료됩니다. 서버 전체 RAM 용량에 맞게 조정해 주세요.
 - 주석 처리된 `Environment="MK_ONLY_SERVER=1"`은 현재로서는 사용되지 않는 예약용 줄입니다. 보통은 주석으로 남겨두어도 문제없습니다.
 

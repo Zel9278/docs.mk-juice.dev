@@ -62,6 +62,6 @@ Juice Server에서는 성능과 안정성 측면에서 **PostgreSQL 18 이상**�
 
 ## pgroonga로 마이그레이션하기 (권장)
 
-기본 전문 검색(`sqlLike`)에서 pgroonga로 전환하면 검색 속도와 정확도(특히 일본어 등 CJK 언어)가 크게 향상됩니다. 도입 방법・활성화 절차는 [처음부터 구축하기 가이드의 pgroonga 섹션](./install.md#pgroonga-설정하기-권장)을 참고해 주세요.
+기본 전문 검색(`sqlLike`)에서 pgroonga로 전환하면 검색 속도와 정확도(특히 일본어 등 CJK 언어)가 크게 향상됩니다. 도입 방법・활성화 절차는 [처음부터 구축하기 가이드의 pgroonga 섹션](./install.md#pgroonga-설정하기-권장)을 참고해 주세요.
 
 이미 게시물 수가 많은 서버를 마이그레이션하는 경우, `note` 테이블에 인덱스를 생성하는 작업(`CREATE INDEX ... USING pgroonga`)에 상당한 시간이 걸릴 수 있습니다. 가능하다면 이용자가 적은 시간대에 진행해 주세요.
