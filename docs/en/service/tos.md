@@ -31,6 +31,7 @@ The following acts will result in account suspension and removal:
 - Directing users to unusual e-commerce sites immediately after account creation
 - Writing company information in a profile immediately after account creation
 - Posting explicit sexual media without the NSFW warning flag
+- Posting content that sexually depicts children (whether real-life photos or 2D, e.g. illustrations — either is prohibited)
 - Use of this service by anyone under 13 years old
 - Sending information that could identify a minor (such as a real name or photo of their face) to the instance
 - Posting about topics related to drugs regulated in Japan
