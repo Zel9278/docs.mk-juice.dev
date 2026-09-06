@@ -46,6 +46,9 @@ For this reason, **["telling others what to do"](./rules.md#regarding-self-gover
 - Setting CW on notes that include the following:
   - Political or religious topics, or notes that contain words related to them.
     - **If discussed as "part of a creative work", CW is not required — but you must clearly state that it is a "creative work".**
+  - Topics related to mental health (your own mental/emotional struggles, etc.).
+    - **This is fine to post as long as you set "Hide content" (CW) and set the visibility to "Home" or narrower.** (If the visibility is "Public", it is not allowed even with CW set.)
+    - Statements that incite or solicit others to suicide or self-harm fall under [Prohibited acts](./rules.md#prohibited-acts) regardless of CW or visibility.
 
 - Setting up self-defense measures
   - We recommend setting up self-defense measures in advance, such as [muting words/hashtags you dislike](https://misskey-hub.net/en/docs/for-users/features/word-mute/) or [muting/blocking users](https://misskey-hub.net/en/docs/for-users/features/mute-and-block/).
