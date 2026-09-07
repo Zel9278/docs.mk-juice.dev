@@ -8,6 +8,12 @@ Clicking a reaction another user already added to a note lets you add the same r
 
 Piggybacking on a reaction made with a remote instance's custom emoji can mean using that instance's emoji image without the copyright holder's permission, so this is opt-in from the JUICE feature settings in the control panel (disabled by default).
 
+::: warning Note
+Piggybacking on a reaction using a remote instance's emoji may mean using that emoji image without the copyright holder's permission. The judgment call on licensing is at each user's own risk.
+
+Juice Server currently has this feature enabled for the purpose of testing how it works.
+:::
+
 ## Resolving remote custom emoji reactions
 
 When a reaction string (`:name@host:`) specifies a custom emoji on a remote host, reactions from local users only are resolved by looking for the emoji in this order: the specified host → local → the note author's host.
