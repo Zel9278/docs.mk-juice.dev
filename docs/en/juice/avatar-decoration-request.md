@@ -23,7 +23,7 @@ Description:
 Category:
 ```
 
-- We recommend an image resolution of around 256-512px on each side.
+- We recommend an image resolution of up to 512px on each side.
 
 ## Request limit
 

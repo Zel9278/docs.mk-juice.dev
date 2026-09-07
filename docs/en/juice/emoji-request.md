@@ -27,7 +27,7 @@ Local-only?:
 ```
 
 - The emoji name may only contain lowercase letters, numbers, and `_` (e.g. `party_blob`). A candidate name is filled in automatically from the file name once you select an image.
-- We recommend an image resolution of around 128-512px on each side.
+- We recommend an image resolution of up to 512px on each side.
 - For the license, write your own Misskey ID (e.g. `@c30`) if you made it yourself, or the source and license name (e.g. CC BY-SA 4.0) if you used existing material. See the [guidelines](../service/emoji-avatar-decoration-guidelines.md#bringing-in-emoji-from-another-instance) for how to fill this in when bringing in an emoji from another instance.
 
 ## Request limit
