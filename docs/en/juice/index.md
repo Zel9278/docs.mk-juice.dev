@@ -25,10 +25,6 @@ outline: false
 - [Note search enhancements](./note-search-enhancements.md)
 - [Contact form](./contact-form.md)
 
-## Other changes
-
-- [Sensitive image display fix](./cw-image-blur-fix.md)
-
 ## Other
 
 - [Changelog](./changelog.md)

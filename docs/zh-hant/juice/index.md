@@ -25,10 +25,6 @@ outline: false
 - [貼文搜尋增強](./note-search-enhancements.md)
 - [聯絡表單](./contact-form.md)
 
-## 其他變更
-
-- [敏感圖片顯示相關修復](./cw-image-blur-fix.md)
-
 ## 其他
 
 - [更新日誌](./changelog.md)

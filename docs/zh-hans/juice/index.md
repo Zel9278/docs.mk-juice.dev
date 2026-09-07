@@ -25,10 +25,6 @@ outline: false
 - [帖子搜索增强](./note-search-enhancements.md)
 - [联系表单](./contact-form.md)
 
-## 其他变更
-
-- [敏感图片显示相关修复](./cw-image-blur-fix.md)
-
 ## 其他
 
 - [更新日志](./changelog.md)

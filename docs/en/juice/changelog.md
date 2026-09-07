@@ -61,6 +61,6 @@ A major release that added a bundle of JUICE-specific features at once. Main add
 
 The first release, based on Misskey 2026.7.0. Ported from misskey-art:
 
-- [Sensitive image display fix](./cw-image-blur-fix.md)
+- Sensitive image display fix (fixed upstream in Misskey 2026.9.0, so this is no longer a JUICE-specific feature)
 - [Announcement reactions](./announcement-reaction.md)
 - A guard against accidental deletion of the development database

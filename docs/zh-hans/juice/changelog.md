@@ -61,6 +61,6 @@
 
 以 Misskey 2026.7.0 为基础的首个版本。从 misskey-art 移植了以下内容:
 
-- [敏感图片显示相关修复](./cw-image-blur-fix.md)
+- 敏感图片显示相关修复(已在官方 Misskey 2026.9.0 中修复,现已不再是 JUICE 独有功能)
 - [公告表情回应功能](./announcement-reaction.md)
 - 开发用数据库误删除防护措施

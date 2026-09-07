@@ -61,6 +61,6 @@ JUICE 고유 기능을 대거 추가한 대규모 릴리스입니다. 주요 추
 
 Misskey 2026.7.0을 기반으로 한 첫 릴리스. misskey-art에서 아래 내용을 포팅:
 
-- [민감한 이미지 표시 관련 수정](./cw-image-blur-fix.md)
+- 민감한 이미지 표시 관련 수정(본가 Misskey 2026.9.0에서 수정되어, 현재는 JUICE 고유 기능이 아닙니다)
 - [공지사항 리액션 기능](./announcement-reaction.md)
 - 개발용 DB 오삭제 방지 가드

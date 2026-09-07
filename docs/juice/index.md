@@ -25,10 +25,6 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 - [ノート検索の強化](./note-search-enhancements.md)
 - [お問い合わせフォーム](./contact-form.md)
 
-## その他の変更
-
-- [センシティブ画像の表示に関する修正](./cw-image-blur-fix.md)
-
 ## その他
 
 - [更新履歴](./changelog.md)

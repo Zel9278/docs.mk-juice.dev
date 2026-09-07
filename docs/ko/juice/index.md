@@ -25,10 +25,6 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 - [노트 검색 강화](./note-search-enhancements.md)
 - [문의 양식](./contact-form.md)
 
-## 기타 변경 사항
-
-- [민감한 이미지 표시 관련 수정](./cw-image-blur-fix.md)
-
 ## 기타
 
 - [변경 이력](./changelog.md)

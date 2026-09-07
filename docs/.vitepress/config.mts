@@ -107,10 +107,6 @@ const jaSidebar = [
 				link: "/juice/note-search-enhancements",
 			},
 			{ text: "お問い合わせフォーム", link: "/juice/contact-form" },
-			{
-				text: "センシティブ画像の表示に関する修正",
-				link: "/juice/cw-image-blur-fix",
-			},
 			{ text: "更新履歴", link: "/juice/changelog" },
 		],
 	},
@@ -194,11 +190,7 @@ const enSidebar = [
 					link: "/en/juice/note-search-enhancements",
 				},
 				{ text: "Contact form", link: "/en/juice/contact-form" },
-			{
-				text: "Sensitive image display fix",
-				link: "/en/juice/cw-image-blur-fix",
-			},
-			{ text: "Changelog", link: "/en/juice/changelog" },
+				{ text: "Changelog", link: "/en/juice/changelog" },
 		],
 	},
 ];
@@ -272,11 +264,7 @@ const koSidebar = [
 					link: "/ko/juice/note-search-enhancements",
 				},
 				{ text: "문의 양식", link: "/ko/juice/contact-form" },
-			{
-				text: "민감한 이미지 표시 관련 수정",
-				link: "/ko/juice/cw-image-blur-fix",
-			},
-			{ text: "변경 이력", link: "/ko/juice/changelog" },
+				{ text: "변경 이력", link: "/ko/juice/changelog" },
 		],
 	},
 ];
@@ -350,11 +338,7 @@ const zhHansSidebar = [
 					link: "/zh-hans/juice/note-search-enhancements",
 				},
 				{ text: "联系表单", link: "/zh-hans/juice/contact-form" },
-			{
-				text: "敏感图片显示相关修复",
-				link: "/zh-hans/juice/cw-image-blur-fix",
-			},
-			{ text: "更新日志", link: "/zh-hans/juice/changelog" },
+				{ text: "更新日志", link: "/zh-hans/juice/changelog" },
 		],
 	},
 ];
@@ -428,11 +412,7 @@ const zhHantSidebar = [
 					link: "/zh-hant/juice/note-search-enhancements",
 				},
 				{ text: "聯絡表單", link: "/zh-hant/juice/contact-form" },
-			{
-				text: "敏感圖片顯示相關修復",
-				link: "/zh-hant/juice/cw-image-blur-fix",
-			},
-			{ text: "更新日誌", link: "/zh-hant/juice/changelog" },
+				{ text: "更新日誌", link: "/zh-hant/juice/changelog" },
 		],
 	},
 ];
