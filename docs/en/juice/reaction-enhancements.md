@@ -20,9 +20,9 @@ When a reaction string (`:name@host:`) specifies a custom emoji on a remote host
 
 For reactions received from remote servers, only the reacting user's own host is used, as before, to prevent impersonation. If you disable this feature in the JUICE settings, the previous behavior (only the reacting user's own host, i.e. local) applies as well.
 
-## Reaction emoji info
+## Emoji info menu
 
-The "Info" menu that lets you check a reaction's emoji information (license, etc.) now works for reactions using a remote instance's custom emoji, not just local ones.
+The "Info" menu you get by clicking an emoji (showing details like its license and the host it's served from) now works for a remote instance's custom emoji, not just local ones. This applies not only to reactions, but also to emoji embedded in a note body, CW, or profile.
 
 ## Reaction search
 

@@ -3,7 +3,15 @@
 Major changes to misskey-juice's JUICE-specific features. This does not include changes inherited from upstream Misskey. For the full history, see the [GitHub releases page](https://github.com/Zel9278/misskey-juice/releases).
 
 > [!note]
-> New releases are added to the [Japanese changelog](../../juice/changelog.md) automatically, but this English page is only updated manually and may lag behind. If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
+> This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
+
+## v2026.9.0-juice+3.1
+
+- The [emoji info menu](./reaction-enhancements.md#emoji-info-menu) now also works for emoji embedded in a note body, CW, or profile, not just reactions
+- The maximum number of reaction types on an [announcement reaction](./announcement-reaction.md) is now configurable via role policy (20 by default)
+- Added a copyright note about using remote emoji via reaction piggybacking to the admin panel and the in-app [About JUICE page](./about-page.md) as well
+- Fixed display and real-time update issues with the Favorites deck column
+- Split the job queue widget's notification sound setting into a separate on/off toggle and sound choice
 
 ## v2026.9.0-juice+3.0
 
