@@ -14,9 +14,13 @@ A major release aligned with tracking upstream Misskey 2026.9.0. Main additions:
 - [Note search enhancements](./note-search-enhancements.md)
 - [Contact form](./contact-form.md)
 - Added batch requests, replacement requests, and edit-on-approval to emoji and avatar decoration requests
+- The number of users shown in [user ranking](./user-ranking.md) is now configurable from the JUICE settings (default 3)
 - Expanded moderation/admin notifications (new emoji requests, contact form submissions, etc. now show in real time in the control panel)
 - Localized system emails
 - Various security enhancements (broader captcha coverage, notifying users of failed logins, exclusive locking during review, etc.)
+- Added a "Favorites" column to the Deck UI
+- Added a boot log display and a customizable splash text setting to the loading screen
+- The job queue widget's notification sound can now be changed to a sound of your choice
 
 ## v2026.7.0-juice+2.5
 
