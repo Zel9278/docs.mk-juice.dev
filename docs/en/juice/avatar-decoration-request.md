@@ -23,6 +23,8 @@ Description:
 Category:
 ```
 
+- We recommend an image resolution of around 256-512px on each side.
+
 ## Request limit
 
 There is a limit on the number of requests (pending review) you can have out at the same time (default 3). There is also a rate limit to prevent continuous requests.
