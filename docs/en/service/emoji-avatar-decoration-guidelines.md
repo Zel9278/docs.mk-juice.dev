@@ -13,6 +13,7 @@ When requesting custom emoji or avatar decorations, please follow the guidelines
 ## Custom emoji
 
 - Please make the name and category clear and easy to distinguish from other emoji.
+- We recommend an image resolution of up to 512px on each side.
 - A request is kept pending until it is approved or rejected. If rejected, you will be notified of the reason. If you want to request again, please submit it as a new request.
 - For details on how to submit a request, see [Emoji requests](../juice/emoji-request.md).
 
@@ -36,6 +37,7 @@ If your emoji includes text, please pay attention to the license of the font you
 
 - Uses the same request mechanism as custom emoji — you submit an image, name, category, and license.
 - Since this is displayed layered on top of a profile icon, please design it with a transparent background so it can be layered onto an icon.
+- We recommend an image resolution of up to 512px on each side.
 
 ## About approval
 
