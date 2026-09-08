@@ -28,4 +28,4 @@ Before using the service, please make sure to read the following:
 
 ## Contact
 
-For questions, requests, or bug reports, please contact the admin via a Misskey DM mentioning [@c30](https://mk-juice.dev/@c30).
+For questions, requests, or bug reports, feel free to reach the admin either via a Misskey DM mentioning [@c30](https://mk-juice.dev/@c30) or with a public mention post.
