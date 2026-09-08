@@ -10,4 +10,4 @@
 
 - [c30 - FanBox](https://c30.fanbox.cc/)
 
-您的支持将用于服务器运营费用及 misskey-juice 的开发。
+您的支持将用于服务器运营费用、misskey-juice 的开发,以及管理员本人的生活费。

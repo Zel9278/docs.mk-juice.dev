@@ -10,4 +10,4 @@ Juice Serverのサーバー運用や、misskey-juiceの開発を支援してい�
 
 - [c30 - FanBox](https://c30.fanbox.cc/)
 
-支援いただいた分は、サーバーの運用費やmisskey-juiceの開発に充てさせていただきます。
+支援いただいた分は、サーバーの運用費やmisskey-juiceの開発、それから管理者の生活費にも充てさせていただきます。

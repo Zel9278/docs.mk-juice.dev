@@ -10,4 +10,4 @@ No pressure at all — but if you'd like to cheer us on, the FanBox link below w
 
 - [c30 - FanBox](https://c30.fanbox.cc/)
 
-Any support received goes toward server operating costs and misskey-juice development.
+Any support received goes toward server operating costs, misskey-juice development, and the admin's own living expenses.

@@ -10,4 +10,4 @@ Juice Server의 서버 운영이나 misskey-juice의 개발을 후원해 주실 
 
 - [c30 - FanBox](https://c30.fanbox.cc/)
 
-후원해 주신 금액은 서버 운영비와 misskey-juice 개발에 사용됩니다.
+후원해 주신 금액은 서버 운영비와 misskey-juice 개발, 그리고 관리자의 생활비로도 사용됩니다.
