@@ -21,6 +21,10 @@ features:
     title: このインスタンスの運用方針について
     details: Juice Serverの位置づけ、テスト目的と汎用インスタンスとしての運用方針
     link: /about-juice-server
+  - icon: 💖
+    title: 支援について
+    details: サーバー運用や開発を支援していただける方向けの情報
+    link: /support
   - icon: 📜
     title: サービス
     details: ルール・カスタム絵文字ガイドライン・利用規約・プライバシーポリシー

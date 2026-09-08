@@ -21,6 +21,10 @@ features:
     title: 關於本實例的營運方針
     details: Juice Server 的定位、測試目的以及作為通用實例的營運方針
     link: /zh-hant/about-juice-server
+  - icon: 💖
+    title: 關於支持
+    details: 給願意支持伺服器營運與開發的使用者的資訊
+    link: /zh-hant/support
   - icon: 📜
     title: 服務
     details: 規則・自訂表情符號指南・服務條款・隱私政策

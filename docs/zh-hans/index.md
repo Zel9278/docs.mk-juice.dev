@@ -21,6 +21,10 @@ features:
     title: 关于本实例的运营方针
     details: Juice Server 的定位、测试目的以及作为通用实例的运营方针
     link: /zh-hans/about-juice-server
+  - icon: 💖
+    title: 关于支持
+    details: 面向愿意支持服务器运营与开发的用户的信息
+    link: /zh-hans/support
   - icon: 📜
     title: 服务
     details: 规则・自定义表情符号指南・服务条款・隐私政策

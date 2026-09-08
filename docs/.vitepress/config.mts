@@ -56,6 +56,7 @@ function tokenizeForSearch(text: string): string[] {
 
 const jaSidebar = [
 	{ text: "このインスタンスの運用方針について", link: "/about-juice-server" },
+	{ text: "支援について", link: "/support" },
 	{
 		text: "サービス",
 		items: [
@@ -130,6 +131,7 @@ const enSidebar = [
 		text: "About this instance's operating policy",
 		link: "/en/about-juice-server",
 	},
+	{ text: "Support", link: "/en/support" },
 	{
 		text: "Service",
 		items: [
@@ -210,6 +212,7 @@ const enNewsSidebar = [
 
 const koSidebar = [
 	{ text: "이 인스턴스의 운영 방침에 대해서", link: "/ko/about-juice-server" },
+	{ text: "후원에 대해서", link: "/ko/support" },
 	{
 		text: "서비스",
 		items: [
@@ -284,6 +287,7 @@ const koNewsSidebar = [
 
 const zhHansSidebar = [
 	{ text: "关于本实例的运营方针", link: "/zh-hans/about-juice-server" },
+	{ text: "关于支持", link: "/zh-hans/support" },
 	{
 		text: "服务",
 		items: [
@@ -358,6 +362,7 @@ const zhHansNewsSidebar = [
 
 const zhHantSidebar = [
 	{ text: "關於本實例的營運方針", link: "/zh-hant/about-juice-server" },
+	{ text: "關於支持", link: "/zh-hant/support" },
 	{
 		text: "服務",
 		items: [

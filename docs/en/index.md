@@ -21,6 +21,10 @@ features:
     title: About this instance's operating policy
     details: What Juice Server is for, its testing purpose, and its plans as a general-purpose instance
     link: /en/about-juice-server
+  - icon: 💖
+    title: Support
+    details: Information for anyone who'd like to support server operation and development
+    link: /en/support
   - icon: 📜
     title: Service
     details: Rules, custom emoji guidelines, terms of service, and privacy policy

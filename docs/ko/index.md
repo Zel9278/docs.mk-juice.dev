@@ -21,6 +21,10 @@ features:
     title: 이 인스턴스의 운영 방침에 대해서
     details: Juice Server의 위치, 테스트 목적과 범용 인스턴스로서의 운영 방침
     link: /ko/about-juice-server
+  - icon: 💖
+    title: 후원에 대해서
+    details: 서버 운영과 개발을 후원해 주실 분들을 위한 정보
+    link: /ko/support
   - icon: 📜
     title: 서비스
     details: 규칙・커스텀 이모지 가이드라인・이용약관・개인정보처리방침
