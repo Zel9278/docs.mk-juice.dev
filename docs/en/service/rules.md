@@ -51,6 +51,9 @@ For this reason, **["telling others what to do"](./rules.md#regarding-self-gover
     - We take a fairly relaxed stance on dirty jokes here, but please set a CW for anything extreme.
     - **Since CW cannot be set on your profile name or description, please keep those free of anything extreme if you include dirty jokes there.**
 
+- Profile labeling for accounts that regularly post R18 (adults-only) illustrations, etc.
+  - We recommend adding a 🔞 mark or a note like "No minors (including high schoolers)" or "18+/20+ only" to your profile description.
+
 - Setting up self-defense measures
   - We recommend setting up self-defense measures in advance, such as [muting words/hashtags you dislike](https://misskey-hub.net/en/docs/for-users/features/word-mute/) or [muting/blocking users](https://misskey-hub.net/en/docs/for-users/features/mute-and-block/).
 
