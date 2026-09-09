@@ -49,6 +49,9 @@ For this reason, **["telling others what to do"](./rules.md#regarding-self-gover
   - Topics related to mental health (your own mental/emotional struggles, etc.).
     - **This is fine to post as long as you set "Hide content" (CW) and set the visibility to "Home" or narrower.** (If the visibility is "Public", it is not allowed even with CW set.)
     - Statements that incite or solicit others to suicide or self-harm fall under [Prohibited acts](./rules.md#prohibited-acts) regardless of CW or visibility.
+  - Dirty jokes and other risqué topics.
+    - We take a fairly relaxed stance on dirty jokes here, but please set a CW for anything extreme.
+    - **Since CW cannot be set on your profile name or description, please keep those free of anything extreme if you include dirty jokes there.**
 
 - Setting up self-defense measures
   - We recommend setting up self-defense measures in advance, such as [muting words/hashtags you dislike](https://misskey-hub.net/en/docs/for-users/features/word-mute/) or [muting/blocking users](https://misskey-hub.net/en/docs/for-users/features/mute-and-block/).
