@@ -5,6 +5,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.3
+
+- Fixed the pending-request warning banner (emoji requests, approval-required signups, etc.) not clearing while the control panel was open, even after the requests were resolved
+- Fixed reordering the navigation bar, emoji palette, and widgets on smartphones not working correctly with touch input (especially long-press)
+- Fixed buttons (e.g. change avatar, save) overlapping the "Back"/"Continue" footer buttons in the post-signup profile setup dialog on short, landscape-oriented screens
+
 ## v2026.9.0-juice+3.2
 
 - New emoji/avatar decoration request notifications, new approval-required signup applications, and new contact form submissions now also appear in the standard notification list (🔔), not just the realtime toast/banner. Role-policy holders who aren't moderators now receive realtime notifications app-wide as well
