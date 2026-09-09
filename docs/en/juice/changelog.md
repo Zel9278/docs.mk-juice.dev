@@ -5,6 +5,18 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.2
+
+- New emoji/avatar decoration request notifications, new approval-required signup applications, and new contact form submissions now also appear in the standard notification list (🔔), not just the realtime toast/banner. Role-policy holders who aren't moderators now receive realtime notifications app-wide as well
+- [Emoji requests](./emoji-request.md) and avatar decoration requests can now be cancelled by the requester themselves while still pending
+- The "Register with invitation code" button on the welcome page / "Add account" menu, and the "Explore other servers" button, can each be hidden via admin settings
+- Added a new standard theme, "Juice Orange" (light/dark), based on the JUICE brand color, and set it as the default theme
+- The [relay timeline](./relay-timeline.md) now shows which relay each note was delivered through
+- Fixed the [display language filter](./post-language.md#timeline-language-filter) not applying to some timelines and realtime streaming. Also revised how notes with no specified language are handled, and how always-showing your own notes is configured
+- Added a confirmation dialog before closing the "delete and edit" form to prevent accidental closes, and fixed content being lost when closing without editing
+- Fixed remote emoji reaction piggybacking falling back to a heart on upstream Misskey and other forks
+- Added English, Korean, and Simplified Chinese translations for JUICE-specific strings
+
 ## v2026.9.0-juice+3.1
 
 - The [emoji info menu](./reaction-enhancements.md#emoji-info-menu) now also works for emoji embedded in a note body, CW, or profile, not just reactions
