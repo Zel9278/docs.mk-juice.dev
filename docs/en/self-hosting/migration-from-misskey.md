@@ -9,9 +9,11 @@ A guide for anyone running their own Misskey server who wants to switch the soft
 
 ## Where misskey-juice fits in
 
-misskey-juice is a fork that branched off from upstream Misskey's [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0). Its migration history inherits everything up through upstream 2026.7.0, with JUICE's original feature additions layered on top.
+misskey-juice is a fork that branched off from upstream Misskey's [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0). Since branching, it has continued to periodically merge in upstream's develop branch while keeping its migration history intact, so the migration history includes not just the point where it branched, but every upstream update merged in since, with JUICE's original feature additions layered on top.
 
-Because of this, **if you're running upstream Misskey (develop) at roughly 2026.7.0 or later, you can likely migrate the same way you would perform a normal minor/major update.**
+You can check which upstream version misskey-juice currently tracks by looking at the beginning of the `version` field in [`package.json`](https://github.com/Zel9278/misskey-juice/blob/juice/dev/package.json) (the part before `-juice+`). For example, `2026.9.0-juice+3.1` means the migration history has been kept in sync with upstream through Release 2026.9.0.
+
+Because of this, **if you're running upstream Misskey (develop) at roughly the version above or later, you can likely migrate the same way you would perform a normal minor/major update.**
 
 On the other hand, if you're running a fork that has diverged significantly from upstream Misskey, such as [CherryPick](https://github.com/kokonect-link/cherrypick), the migration history itself differs, so following these steps as-is is unlikely to work. In that case, consider a fresh install plus exporting/importing your data instead of a direct migration.
 

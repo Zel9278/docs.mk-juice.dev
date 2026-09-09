@@ -9,9 +9,11 @@
 
 ## misskey-juice 的定位
 
-misskey-juice 是從官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0) 分支而來的專案。其遷移歷史也繼承了官方 2026.7.0 版本為止的全部內容,並在此基礎上疊加了 JUICE 獨有的功能新增部分。
+misskey-juice 是從官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0) 分支而來的專案。分支之後也在保留遷移歷史的同時定期合併官方 develop 分支的更新,因此遷移歷史不僅包含分支時的內容,也包含此後合併進來的官方更新部分,並在此基礎上疊加了 JUICE 獨有的功能新增部分。
 
-因此,**如果您正在營運官方 Misskey(develop),且版本相當於 2026.7.0 或更新,則很可能可以按照常規的次要/主要版本更新的方式進行遷移。**
+您可以透過 `package.json` 的 `version` 欄位([於儲存庫中查看](https://github.com/Zel9278/misskey-juice/blob/juice/dev/package.json))開頭部分(`-juice+` 之前)確認目前追蹤的官方版本。例如 `2026.9.0-juice+3.1` 表示遷移歷史已同步至官方 Release 2026.9.0。
+
+因此,**如果您正在營運官方 Misskey(develop),且版本相當於上述版本或更新,則很可能可以按照常規的次要/主要版本更新的方式進行遷移。**
 
 另一方面,若您營運的是像 [CherryPick](https://github.com/kokonect-link/cherrypick) 這樣與官方 Misskey 存在較大差異的分支,由於遷移歷史本身不同,預計難以按照本步驟進行遷移。此情況下,建議不進行遷移,而是重新建置後再考慮資料的匯出/匯入。
 
