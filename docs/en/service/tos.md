@@ -30,7 +30,6 @@ The following acts will result in account suspension and removal:
 - Advertising for fraudulent websites, adult sites, etc.
 - Directing users to unusual e-commerce sites immediately after account creation
 - Writing company information in a profile immediately after account creation
-- Posting explicit sexual media without the NSFW warning flag
 - Posting content that sexually depicts children (whether real-life photos or 2D, e.g. illustrations — either is prohibited)
 - Use of this service by anyone under 13 years old
 - Sending information that could identify a minor (such as a real name or photo of their face) to the instance
@@ -42,10 +41,10 @@ The following acts will result in silencing:
 While silenced, "public" cannot be selected as a visibility scope.
 
 - Aggressive or malicious extreme statements
-- Posts containing explicitly sexual content via MFM decoration, ASCII art, etc.
-- Renoting content that falls under any of the above without CW
 
 And any other act we deem inappropriate.
+
+NSFW posts (including images, text, content via MFM decoration or ASCII art, and renotes) without a Content Warning (CW) or the NSFW flag set will result in the post being removed or NSFW-flagged, and repeated violations will lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). See the [Rules](./rules.md#regarding-nsfw-not-safe-for-work) for details.
 
 ## About operating bots
 

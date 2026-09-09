@@ -26,10 +26,8 @@ If we find posts or other content that violate the rules or Terms of Service bel
   - Defamatory or hateful posts, or other violent behavior.
   - Infringing on the intellectual property rights of others.
   - Sending content (images, text, or audio) that violates the law.
-    - Posting NSFW images without "Content Warning (CW)" and the "sensitive" flag set.
-    - Posting NSFW text without "Content Warning (CW)" set.
-  - Renoting NSFW-related content without "Content Warning (CW)" set.
   - [Encouraging or assisting prohibited acts.](./rules.md#prohibited-acts)
+- **NSFW posts (including images, text, and renotes) without "Content Warning (CW)" or the "sensitive" flag set will result in the post being removed or NSFW-flagged, and repeated violations will lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension).**
 
 ::: warning Warning
 This summary only covers part of these Rules, and other rules not listed here also apply.\
@@ -135,7 +133,7 @@ These rules apply equally to content sent via "Messages".
 For everyone's mutual protection, please always set **"sensitive" and "content warning"** when posting such content.\
 Also, **please describe the summary of the file marked "sensitive" and the attributes it contains (e.g. NSFW, R-18) in the "caption" field.**
 
-If "sensitive" and "content warning" are not set, the note may be removed or the account suspended within 3 days. Please be careful.
+If "sensitive" and "content warning" are not set, the note may be removed or NSFW-flagged. Repeated violations will also lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). Please be careful.
 
 Responsibility for NSFW rule violations lies not with the **"minor who happened to see it"**, but with **"the poster who showed it."** \
 While we do encourage "self-defense from things you dislike," please also understand that **the poster may be held responsible under law/rules regardless.**
