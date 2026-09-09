@@ -9,7 +9,7 @@
 
 ## misskey-juice 的定位
 
-misskey-juice 是從官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0) 分支而來的專案。分支之後也在保留遷移歷史的同時定期合併官方 develop 分支的更新,因此遷移歷史不僅包含分支時的內容,也包含此後合併進來的官方更新部分,並在此基礎上疊加了 JUICE 獨有的功能新增部分。
+misskey-juice 是從官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0) 分支而來的專案。分支之後也在保留遷移歷史的同時定期合併官方的新版本發布,因此遷移歷史不僅包含分支時的內容,也包含此後合併進來的官方更新部分,並在此基礎上疊加了 JUICE 獨有的功能新增部分。
 
 您可以透過 `package.json` 的 `version` 欄位([於儲存庫中查看](https://github.com/Zel9278/misskey-juice/blob/juice/dev/package.json))開頭部分(`-juice+` 之前)確認目前追蹤的官方版本。例如 `2026.9.0-juice+3.1` 表示遷移歷史已同步至官方 Release 2026.9.0。
 

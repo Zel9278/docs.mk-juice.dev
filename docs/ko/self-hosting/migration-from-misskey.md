@@ -9,7 +9,7 @@
 
 ## misskey-juice의 위치
 
-misskey-juice는 본가 Misskey의 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0)에서 분기된 포크입니다. 분기 이후에도 마이그레이션 이력을 유지한 채로 본가 develop을 정기적으로 반영하고 있으며, 마이그레이션 이력은 분기 시점뿐만 아니라 그 이후에 반영한 본가의 업데이트분까지 포함해 계승한 상태에서, 그 위에 JUICE 고유 기능 추가분이 쌓여 있습니다.
+misskey-juice는 본가 Misskey의 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0)에서 분기된 포크입니다. 분기 이후에도 마이그레이션 이력을 유지한 채로 본가의 새 릴리스를 정기적으로 반영하고 있으며, 마이그레이션 이력은 분기 시점뿐만 아니라 그 이후에 반영한 본가의 업데이트분까지 포함해 계승한 상태에서, 그 위에 JUICE 고유 기능 추가분이 쌓여 있습니다.
 
 현재 추종 중인 본가 버전은 `package.json`의 `version` 항목([저장소에서 확인](https://github.com/Zel9278/misskey-juice/blob/juice/dev/package.json)) 앞부분(`-juice+` 이전)에서 확인할 수 있습니다. 예를 들어 `2026.9.0-juice+3.1`이라면 본가 Release 2026.9.0까지의 마이그레이션 이력을 계승하고 있는 것입니다.
 

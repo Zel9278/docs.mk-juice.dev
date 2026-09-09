@@ -9,7 +9,7 @@
 
 ## misskey-juiceの位置づけ
 
-misskey-juiceは、本家Misskeyの[`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0)から分岐したフォークです。分岐後もマイグレーション履歴を維持したまま定期的に本家developを取り込んでおり、マイグレーション履歴は分岐時点だけでなく、その後取り込んだ本家の更新分も含めて引き継いだ上で、そこにJUICE独自の機能追加分が積まれています。
+misskey-juiceは、本家Misskeyの[`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0)から分岐したフォークです。分岐後もマイグレーション履歴を維持したまま、本家の新しいリリースを定期的に取り込んでおり、マイグレーション履歴は分岐時点だけでなく、その後取り込んだ本家の更新分も含めて引き継いだ上で、そこにJUICE独自の機能追加分が積まれています。
 
 現在追従している本家のバージョンは、`package.json`の`version`欄([リポジトリで確認](https://github.com/Zel9278/misskey-juice/blob/juice/dev/package.json))の先頭部分(`-juice+`より前)で確認できます。例えば`2026.9.0-juice+3.1`であれば、本家Release 2026.9.0までのマイグレーション履歴を引き継いでいます。
 
