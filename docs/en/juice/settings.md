@@ -12,6 +12,7 @@ After logging in with an admin account, go to Control Panel → "JUICE" to chang
 - Enable/disable [emoji requests](./emoji-request.md) and avatar decoration requests, and the limit on simultaneous requests
 - Enable/disable [LaTeX (math) rendering](./latex.md)
 - Enable/disable the [contact form](./contact-form.md), manage its categories, and set the maximum body length
+- Show/hide the "Register with invitation code" button on the welcome page / "Add account" menu, and the "Explore other servers" button
 - The custom splash text shown on the loading screen at startup
 
 Per-user settings (such as [widget position](./widget-position.md)) are changed separately, from `/settings/juice`.

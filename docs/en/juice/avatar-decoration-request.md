@@ -11,7 +11,7 @@ From the avatar decoration request page, submit the following items:
 - Description
 - Category
 
-A request is kept pending until it is either rejected or approved. Once approved, it becomes usable as an avatar decoration right away. If rejected, you will be notified of the reason. If you want to try again, please submit it as a new request.
+A request is kept pending until it is either rejected or approved. Once approved, it becomes usable as an avatar decoration right away. If rejected, you will be notified of the reason. If you want to try again, please submit it as a new request. While a request is still pending, you can cancel it yourself.
 
 ## Items worth preparing in advance
 

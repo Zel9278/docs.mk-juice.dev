@@ -10,3 +10,5 @@ A dedicated timeline that only shows notes received via registered relay servers
 ## How to use it
 
 You can view it by selecting "Relay" from the timeline switcher. As with other timelines, new notes appear in real time.
+
+Each note shows which relay (host) it was delivered through.

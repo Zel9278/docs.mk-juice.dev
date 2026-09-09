@@ -14,9 +14,11 @@ From the JUICE feature settings, you can filter which posts appear on the Home, 
 
 - It applies to all timelines.
 - Renotes are judged by the language of the renoted note.
-- Notes with no language specified, and your own notes, are always shown regardless of the setting.
+- When the filter is active (one or more languages selected), notes with no language specified are also filtered out and hidden.
 
 You can also toggle this directly from the "..." menu on the timeline screen.
+
+You can choose whether your own notes are always shown even when the filter is active (on by default). When turned off, your own notes are filtered by language just like everyone else's. This setting has no effect on the Global timeline.
 
 ## Specifying a language in search
 

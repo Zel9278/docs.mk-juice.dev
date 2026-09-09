@@ -11,7 +11,7 @@ From the emoji request page, submit the following items:
 - Category
 - License
 
-A request is kept pending until it is either rejected or approved. Once approved, it becomes usable as a custom emoji right away. If rejected, you will be notified of the reason. If you want to try again, please submit it as a new request.
+A request is kept pending until it is either rejected or approved. Once approved, it becomes usable as a custom emoji right away. If rejected, you will be notified of the reason. If you want to try again, please submit it as a new request. While a request is still pending, you can cancel it yourself.
 
 ## Items worth preparing in advance
 
