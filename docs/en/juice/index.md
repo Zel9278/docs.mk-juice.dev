@@ -15,6 +15,7 @@ outline: false
 - [Avatar decoration requests](./avatar-decoration-request.md)
 - [User ranking](./user-ranking.md)
 - [Relay timeline](./relay-timeline.md)
+- [Media timeline](./media-timeline.md)
 - [The in-app "About JUICE" page](./about-page.md)
 - [Widget position setting](./widget-position.md)
 - [Announcement polls](./announcement-poll.md)

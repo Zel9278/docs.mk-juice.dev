@@ -15,6 +15,7 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 - [아바타 데코레이션 신청](./avatar-decoration-request.md)
 - [사용자 랭킹](./user-ranking.md)
 - [릴레이 타임라인](./relay-timeline.md)
+- [미디어 타임라인](./media-timeline.md)
 - [앱 내 "About JUICE" 페이지](./about-page.md)
 - [위젯 표시 위치 설정](./widget-position.md)
 - [공지사항 투표 기능](./announcement-poll.md)

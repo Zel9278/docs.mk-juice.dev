@@ -9,12 +9,13 @@ Juice Server 擁有多個標準 Misskey 中沒有的獨有功能。這些獨有�
 - [審核制註冊](./approval-signup.md)的啟用・停用,註冊理由的必填/選填・最大字數
 - [使用者排行榜](./user-ranking.md)的統計週期・顯示人數
 - [中繼時間軸](./relay-timeline.md)的啟用・停用
+- [媒體時間軸](./media-timeline.md)的啟用・停用
 - [表情符號申請](./emoji-request.md)・頭像裝飾申請的啟用・停用,同時申請數量上限
 - [LaTeX(數學公式)顯示](./latex.md)的啟用・停用
 - [聯絡表單](./contact-form.md)的啟用・停用、分類管理、內文最大字數
 - 歡迎頁面・「新增帳戶」選單中「使用邀請碼註冊」按鈕、「探索其他伺服器」按鈕的顯示・隱藏
 - 啟動載入畫面顯示的自訂啟動語
 
-個人設定([小工具位置](./widget-position.md)等)與此不同,需在 `/settings/juice` 中另行變更。
+個人設定([小工具位置](./widget-position.md)、時間軸分頁列中顯示哪些時間軸等)與此不同,需在 `/settings/juice` 中另行變更。
 
 各功能的詳細內容,請參閱相應頁面。

@@ -5,6 +5,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.4
+
+- Added the [media timeline](./media-timeline.md), a PixelFed-style dedicated timeline that collects only posts with attached files in a grid/carousel layout (only available if an admin has enabled it). Both video and audio can be played inline, and individual posts can be excluded from it
+- Changed the volume setting to be shared across all inline playback in the lightbox and the media timeline (saved locally on the device)
+- Which timelines appear in the timeline tab bar can now be individually hidden per viewer from `/settings/juice`
+
 ## v2026.9.0-juice+3.3
 
 - Fixed the pending-request warning banner (emoji requests, approval-required signups, etc.) not clearing while the control panel was open, even after the requests were resolved

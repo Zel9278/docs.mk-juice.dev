@@ -15,6 +15,7 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 - [アバターデコレーション申請](./avatar-decoration-request.md)
 - [ユーザーランキング](./user-ranking.md)
 - [リレータイムライン](./relay-timeline.md)
+- [メディアタイムライン](./media-timeline.md)
 - [アプリ内の「About JUICE」ページ](./about-page.md)
 - [ウィジェット表示位置設定](./widget-position.md)
 - [お知らせの投票機能](./announcement-poll.md)

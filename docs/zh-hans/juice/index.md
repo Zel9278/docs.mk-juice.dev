@@ -15,6 +15,7 @@ outline: false
 - [头像装饰申请](./avatar-decoration-request.md)
 - [用户排行榜](./user-ranking.md)
 - [中继时间线](./relay-timeline.md)
+- [媒体时间线](./media-timeline.md)
 - [应用内 "About JUICE" 页面](./about-page.md)
 - [小组件位置设置](./widget-position.md)
 - [公告投票功能](./announcement-poll.md)
