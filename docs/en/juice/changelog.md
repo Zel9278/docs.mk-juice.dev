@@ -5,6 +5,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.5
+
+- Fixed a bug where reloading the page while on the relay or media timeline would unexpectedly send you back to the home timeline
+- Added the ability to individually hide the list/antenna/channel shortcut icons shown in the timeline tab bar, via the "Tabs to show" item on the "JUICE" settings page
+- Fixed an issue where an error during LD-Signature verification of relay-forwarded posts would cause note delivery to keep failing
+
 ## v2026.9.0-juice+3.4
 
 - Added the [media timeline](./media-timeline.md), a PixelFed-style dedicated timeline that collects only posts with attached files in a grid/carousel layout (only available if an admin has enabled it). Both video and audio can be played inline, and individual posts can be excluded from it
