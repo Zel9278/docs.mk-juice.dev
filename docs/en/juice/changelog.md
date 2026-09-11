@@ -10,6 +10,7 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 - Fixed a bug where reloading the page while on the relay or media timeline would unexpectedly send you back to the home timeline
 - Added the ability to individually hide the list/antenna/channel shortcut icons shown in the timeline tab bar, via the "Tabs to show" item on the "JUICE" settings page
 - Fixed an issue where an error during LD-Signature verification of relay-forwarded posts would cause note delivery to keep failing
+- Added an item to [JUICE feature settings](./settings.md) that treats follows from accounts created less than a set amount of time ago as follow requests requiring approval, regardless of the target's own approval-required-following setting (disabled by default; a countermeasure against mass-following by troll/spam accounts right after signup)
 
 ## v2026.9.0-juice+3.4
 
