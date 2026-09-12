@@ -12,3 +12,7 @@ A dedicated timeline that only shows notes received via registered relay servers
 You can view it by selecting "Relay" from the timeline switcher. As with other timelines, new notes appear in real time.
 
 Each note shows which relay (host) it was delivered through.
+
+## Using it in Deck
+
+You can also choose the relay timeline from the type selector when adding or editing a "Timeline" column in the Deck UI. Each column can be filtered by a different relay.

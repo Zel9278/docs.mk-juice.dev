@@ -11,6 +11,14 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 - Added the ability to individually hide the list/antenna/channel shortcut icons shown in the timeline tab bar, via the "Tabs to show" item on the "JUICE" settings page
 - Fixed an issue where an error during LD-Signature verification of relay-forwarded posts would cause note delivery to keep failing
 - Added an item to [JUICE feature settings](./settings.md) that treats follows from accounts created less than a set amount of time ago as follow requests requiring approval, regardless of the target's own approval-required-following setting (disabled by default; a countermeasure against mass-following by troll/spam accounts right after signup)
+- Added an earthquake info widget, listing recent earthquake information (intensity, epicenter, magnitude, and time)
+- Added categories to [abuse reports](./abuse-report.md), and reported notes/chat messages can now be previewed on the report detail page for moderators (this is the first way staff can see the content of a reported chat direct message)
+- You can now choose the [relay timeline](./relay-timeline.md) or [media timeline](./media-timeline.md) from the Deck "Timeline" column
+- You can now drag to reorder the tabs in "Tabs to show" on the [JUICE feature settings](./settings.md) page
+- Relaxed the swipe detection on the media timeline's inline carousel, added prev/next buttons for mouse use, and made the switch animation faster
+- Added an admin/moderator-only feature to [block a user from your own account before suspending them](./abuse-report.md#block-then-suspend)
+- The [emoji request](./emoji-request.md) and [avatar decoration request](./avatar-decoration-request.md) forms now show your current pending count, how many more you can submit, and the per-submission limit
+- Added a setting to [JUICE feature settings](./settings.md) that blocks multiple account registrations relying on email address aliases (Gmail's dot-insensitivity and +tag addressing), disabled by default
 
 ## v2026.9.0-juice+3.4
 

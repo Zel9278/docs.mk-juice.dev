@@ -14,9 +14,11 @@ After logging in with an admin account, go to Control Panel → "JUICE" to chang
 - Enable/disable [emoji requests](./emoji-request.md) and avatar decoration requests, and the limit on simultaneous requests
 - Enable/disable [LaTeX (math) rendering](./latex.md)
 - Enable/disable the [contact form](./contact-form.md), manage its categories, and set the maximum body length
+- Manage [abuse report](./abuse-report.md) categories
+- Block multiple account registrations that rely on email address aliases (Gmail's dot-insensitivity and +tag addressing). Disabled by default; since the two have different false-positive risks, dot-insensitivity and +tag detection can be toggled independently
 - Show/hide the "Register with invitation code" button on the welcome page / "Add account" menu, and the "Explore other servers" button
 - The custom splash text shown on the loading screen at startup
 
-Per-user settings (such as [widget position](./widget-position.md), or which timelines appear in the timeline tab bar) are changed separately, from `/settings/juice`.
+Per-user settings (such as [widget position](./widget-position.md), or which timelines appear in the timeline tab bar and their order) are changed separately, from `/settings/juice`.
 
 For details on each feature, see its respective page.

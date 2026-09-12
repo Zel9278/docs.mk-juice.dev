@@ -5,7 +5,7 @@ A dedicated timeline that collects only notes with attached files, shown in a Pi
 ## What's included
 
 - Public-visibility notes with one or more attached files are included.
-- Posts with multiple attachments are shown as a swipeable carousel.
+- Posts with multiple attachments are shown as a swipeable carousel. Swipes are recognized by distance and speed, so a light flick is enough, and prev/next buttons appear next to the image when using a mouse. The switch animation is also quick.
 
 ## Inline playback
 
@@ -24,3 +24,7 @@ This setting only affects the media timeline. It doesn't affect regular timeline
 ## Showing or hiding the tab
 
 Whether the media timeline tab appears in the timeline tab bar can be toggled individually per viewer from `/settings/juice`. See [JUICE feature settings](./settings.md) for details.
+
+## Using it in Deck
+
+You can also choose the media timeline from the type selector when adding or editing a "Timeline" column in the Deck UI. The source timeline (home/local/hybrid/global) can be set individually per column.
