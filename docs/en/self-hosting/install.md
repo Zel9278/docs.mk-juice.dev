@@ -11,6 +11,8 @@ Steps for a fresh install of misskey-juice. The overall flow is nearly the same 
 > In particular, please carefully consider **your database backup setup**, the emotional burden of handling users and moderation, and copyright responsibility when importing custom emoji.
 >
 > **This note applies not just to misskey-juice, but to Misskey forks and Misskey itself in general.**
+>
+> Also, misskey-juice is an actively developed Misskey fork. There is a non-zero chance of data loss due to bugs. Please keep this in mind.
 
 ## Prerequisites
 

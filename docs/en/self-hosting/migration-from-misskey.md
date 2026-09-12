@@ -6,6 +6,8 @@ A guide for anyone running their own Misskey server who wants to switch the soft
 > These steps are general guidance and do not guarantee behavior across every environment, every version, or every fork. **Always back up your database first, and if possible, rehearse the migration in a staging environment before applying it to production.**
 >
 > Also, if you plan to keep running a public server, we recommend reading [chan-mai's Misskey server operation guide](https://mq1.dev/entry/krpvl5itbr9h#h0cb67a7186) (Japanese) and [the official installation guide](https://misskey-hub.net/en/docs/for-admin/install/guides/). This note applies not just to misskey-juice, but to Misskey forks and Misskey itself in general.
+>
+> Also, misskey-juice is an actively developed Misskey fork. There is a non-zero chance of data loss due to bugs. Please keep this in mind.
 
 ## Where misskey-juice fits in
 

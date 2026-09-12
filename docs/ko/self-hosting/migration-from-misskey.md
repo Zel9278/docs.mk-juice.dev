@@ -6,6 +6,8 @@
 > 여기서의 절차는 일반적인 사고방식을 안내하는 것으로, 모든 환경・모든 버전・모든 포크에서의 동작을 보장하지는 않습니다. **반드시 사전에 데이터베이스를 백업하고, 가능하다면 스테이징 환경에서 한 번 리허설한 후 프로덕션에 적용해 주세요.**
 >
 > 또한 공개 서버로 계속 운영할 경우, [chan-mai님의 Misskey 서버 운영 가이드](https://mq1.dev/entry/krpvl5itbr9h#h0cb67a7186)(일본어)나 [공식 설치 가이드](https://misskey-hub.net/en/docs/for-admin/install/guides/)도 함께 읽어보시길 권장합니다. 이 주의사항은 misskey-juice뿐만 아니라 Misskey 포크・Misskey 자체 전반에 해당됩니다.
+>
+> 또한 misskey-juice는 활발히 개발 중인 Misskey 포크입니다. 버그 등으로 인해 데이터가 손실될 가능성이 전혀 없다고는 할 수 없습니다. 미리 양해 부탁드립니다.
 
 ## misskey-juice의 위치
 

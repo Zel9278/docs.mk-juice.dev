@@ -6,6 +6,8 @@
 > 此处的步骤仅为一般性指导,不保证在所有环境・所有版本・所有分支下均能正常运行。**请务必事先备份数据库,如条件允许,建议先在预发布环境中进行一次演练后再应用于生产环境。**
 >
 > 此外,若您计划继续运营为公开服务器,建议同时阅读 [chan-mai 撰写的 Misskey 服务器运营指南](https://mq1.dev/entry/krpvl5itbr9h#h0cb67a7186)(日语)及[官方安装指南](https://misskey-hub.net/en/docs/for-admin/install/guides/)。此提示不仅适用于 misskey-juice,同样适用于 Misskey 分支及 Misskey 本身。
+>
+> 另外,misskey-juice 是持续开发中的 Misskey 分支。不能完全排除因 bug 等原因导致数据丢失的可能性,敬请谅解。
 
 ## misskey-juice 的定位
 
