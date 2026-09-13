@@ -16,6 +16,7 @@ When a note or chat message is reported, moderators can preview its content on t
 
 - The report list in the control panel can be filtered by category.
 - There's a quick-access entry in the "Tools" menu and a dedicated screen (`/abuses-manager`) for managing reports, so you can review and act on them without going through the full control panel.
+- New-report notifications now also appear in the standard notification list (🔔), not just as a realtime toast while the control panel is open, so you can check them later even if you were offline or reload the page.
 
 ## Block then suspend
 

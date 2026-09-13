@@ -16,6 +16,8 @@ On the note composer, you can set an "AI-generated" flag when attaching AI-gener
 
 This flag information is sent to federated instances as a Juice Server-specific ActivityPub property. Instances that don't support it will simply ignore it.
 
+For non-JUICE instances that can't interpret this property, there's also an option to synthesize a notice into the ActivityPub summary (equivalent to CW) for AI-generated notes that don't have a CW set (control panel JUICE settings, disabled by default). Even with this enabled, display between JUICE-aware instances is unaffected and still uses the badge.
+
 ## Mute settings
 
 You can also enable a setting to mute posts with the AI-generated flag. You can also narrow down Drive to only files registered as AI-generated, using the "AI-generated only" filter.

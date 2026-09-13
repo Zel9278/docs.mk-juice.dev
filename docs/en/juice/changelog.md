@@ -5,6 +5,14 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.6
+
+- The [emoji request](./emoji-request.md) and [avatar decoration request](./avatar-decoration-request.md) forms now show, separate from the pending-request limit, how many submissions you have left per day and when your next slot will free up (default 5 per rolling 24-hour window)
+- New [abuse report](./abuse-report.md) notifications now also appear in the standard notification list (🔔), not just as a realtime toast
+- Added an option, for non-JUICE instances that can't interpret the [AI-generated content flag](./ai-generated-flag.md), to synthesize a notice into the ActivityPub summary for AI-generated notes without a CW set (disabled by default)
+- Fixed the media timeline not showing plain renotes (not quotes) of posts with images
+- Various minor bug fixes
+
 ## v2026.9.0-juice+3.5
 
 - Fixed a bug where reloading the page while on the relay or media timeline would unexpectedly send you back to the home timeline
