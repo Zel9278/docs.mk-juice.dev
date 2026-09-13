@@ -16,7 +16,7 @@ On the note composer, you can set an "AI-generated" flag when attaching AI-gener
 
 This flag information is sent to federated instances as a Juice Server-specific ActivityPub property. Instances that don't support it will simply ignore it.
 
-For non-JUICE instances that can't interpret this property, there's also an option to synthesize a notice into the ActivityPub summary (equivalent to CW) for AI-generated notes that don't have a CW set (control panel JUICE settings, disabled by default). Even with this enabled, display between JUICE-aware instances is unaffected and still uses the badge.
+For non-JUICE instances that can't interpret this property, there's also an option to synthesize a notice into the ActivityPub summary (equivalent to CW) (control panel JUICE settings, disabled by default). This applies not just when the note itself has `isAIGenerated` set, but also when any attached file has the AI-generated flag. If the note already has a CW set, the notice is combined with it ("notice | original CW"). Even with this enabled, display between JUICE-aware instances is unaffected and still uses the badge — and since the original CW is sent separately, it can be restored there too.
 
 ## Mute settings
 

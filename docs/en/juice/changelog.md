@@ -5,6 +5,16 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.7
+
+- The [emoji request](./emoji-request.md) and [avatar decoration request](./avatar-decoration-request.md) forms let admins individually require fields like category, tags, license, and description (all optional by default); when submitting multiple items at once, cards with an empty required field now show a warning badge
+- Improved the [AI-generated content flag](./ai-generated-flag.md)'s CW fallback for non-JUICE instances: it's now combined with an existing CW instead of being skipped, and detection was extended to cover AI-generated flags on individual attached files
+- The [post language](./post-language.md) timeline language filter and local-users-only toggle can now also be switched from the Deck "Timeline" column
+- Improved compatibility of the display-language filter and post language federation with Mastodon/Pleroma-style region-less language codes
+- Added a button to bulk-delete selected images while in Drive's multi-select mode
+- Fixed uploaded images being left behind in Drive when an emoji/avatar decoration request was canceled or failed to submit
+- Various minor bug fixes
+
 ## v2026.9.0-juice+3.6
 
 - The [emoji request](./emoji-request.md) and [avatar decoration request](./avatar-decoration-request.md) forms now show, separate from the pending-request limit, how many submissions you have left per day and when your next slot will free up (default 5 per rolling 24-hour window)

@@ -11,6 +11,8 @@ From the avatar decoration request page, submit the following items:
 - Description
 - Category
 
+Fields such as category and description may be individually required by admin settings. Required fields are labeled "(Required)", and the submit button is disabled while they're empty. When submitting multiple items at once, a warning badge appears on the header of any card with an empty required field.
+
 A request is kept pending until it is either rejected or approved. Once approved, it becomes usable as an avatar decoration right away. If rejected, you will be notified of the reason. If you want to try again, please submit it as a new request. While a request is still pending, you can cancel it yourself.
 
 ## Items worth preparing in advance

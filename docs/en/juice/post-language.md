@@ -16,7 +16,7 @@ From the JUICE feature settings, you can filter which posts appear on the Home, 
 - Renotes are judged by the language of the renoted note.
 - When the filter is active (one or more languages selected), notes with no language specified are also filtered out and hidden.
 
-You can also toggle this directly from the "..." menu on the timeline screen.
+You can also toggle this directly from the "..." menu on the timeline screen, or from the Deck "Timeline" column.
 
 You can choose whether your own notes are always shown even when the filter is active (on by default). When turned off, your own notes are filtered by language just like everyone else's. This setting has no effect on the Global timeline.
 
@@ -26,4 +26,4 @@ The advanced search options for note search and reaction search include filterin
 
 ## Showing only local users
 
-The "..." menu on the Home timeline has a toggle to filter down to only local users' posts — useful if you want to temporarily hide posts from remote users you follow.
+The "..." menu on the Home timeline, and the Deck "Timeline" column, have a toggle to filter down to only local users' posts — useful if you want to temporarily hide posts from remote users you follow.

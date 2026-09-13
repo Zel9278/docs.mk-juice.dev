@@ -11,7 +11,7 @@ Juice Server 擁有多個標準 Misskey 中沒有的獨有功能。這些獨有�
 - [使用者排行榜](./user-ranking.md)的統計週期・顯示人數
 - [中繼時間軸](./relay-timeline.md)的啟用・停用
 - [媒體時間軸](./media-timeline.md)的啟用・停用
-- [表情符號申請](./emoji-request.md)・頭像裝飾申請的啟用・停用,同時申請數量上限
+- [表情符號申請](./emoji-request.md)・頭像裝飾申請的啟用・停用,同時申請數量上限,每日申請次數上限,必填項目(分類・標籤・授權・說明)設定
 - [LaTeX(數學公式)顯示](./latex.md)的啟用・停用
 - [聯絡表單](./contact-form.md)的啟用・停用、分類管理、內文最大字數
 - [檢舉](./abuse-report.md)分類管理
