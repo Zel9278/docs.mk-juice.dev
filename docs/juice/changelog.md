@@ -2,6 +2,11 @@
 
 misskey-juiceのJUICE独自機能に関する主な変更履歴です。本家Misskey由来の変更は含みません。全履歴は[GitHubのリリースページ](https://github.com/Zel9278/misskey-juice/releases)をご覧ください。
 
+## v2026.9.0-juice+3.8
+
+- [連携ログイン](./social-login.md)を追加。Discord・Google・GitHub・GitLab・Microsoftのアカウントと連携し、サインイン手段として使えるように(2段階認証の有効化と個別のオプトインが必須)
+- 設定の「JUICE」ページを「アカウント」「タイムライン・表示」「申請フォーム」の3カテゴリに整理
+
 ## v2026.9.0-juice+3.7
 
 - [絵文字申請](./emoji-request.md)・[アバターデコレーション申請](./avatar-decoration-request.md)フォームで、カテゴリ・タグ・ライセンス・説明といった項目を管理者設定で個別に必須化できるように(既定は任意)。複数件まとめて申請する際は、未入力の項目があるカードに警告バッジを表示

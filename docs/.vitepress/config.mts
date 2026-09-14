@@ -84,6 +84,7 @@ const jaSidebar = [
 		items: [
 			{ text: "機能一覧", link: "/juice/" },
 			{ text: "JUICE独自機能の設定", link: "/juice/settings" },
+			{ text: "連携ログイン", link: "/juice/social-login" },
 			{ text: "承認式新規登録", link: "/juice/approval-signup" },
 			{ text: "AI生成物フラグ", link: "/juice/ai-generated-flag" },
 			{ text: "絵文字申請", link: "/juice/emoji-request" },
@@ -161,6 +162,7 @@ const enSidebar = [
 		items: [
 			{ text: "Feature list", link: "/en/juice/" },
 			{ text: "JUICE feature settings", link: "/en/juice/settings" },
+			{ text: "Social login", link: "/en/juice/social-login" },
 			{ text: "Approval-based signup", link: "/en/juice/approval-signup" },
 			{
 				text: "AI-generated content flag",
@@ -244,6 +246,7 @@ const koSidebar = [
 		items: [
 			{ text: "기능 목록", link: "/ko/juice/" },
 			{ text: "JUICE 고유 기능 설정", link: "/ko/juice/settings" },
+			{ text: "연동 로그인", link: "/ko/juice/social-login" },
 			{ text: "승인제 신규 가입", link: "/ko/juice/approval-signup" },
 			{ text: "AI 생성 콘텐츠 플래그", link: "/ko/juice/ai-generated-flag" },
 			{ text: "이모지 신청", link: "/ko/juice/emoji-request" },
@@ -321,6 +324,7 @@ const zhHansSidebar = [
 		items: [
 			{ text: "功能列表", link: "/zh-hans/juice/" },
 			{ text: "JUICE 独有功能设置", link: "/zh-hans/juice/settings" },
+			{ text: "第三方登录", link: "/zh-hans/juice/social-login" },
 			{ text: "审核制注册", link: "/zh-hans/juice/approval-signup" },
 			{ text: "AI 生成内容标记", link: "/zh-hans/juice/ai-generated-flag" },
 			{ text: "表情符号申请", link: "/zh-hans/juice/emoji-request" },
@@ -398,6 +402,7 @@ const zhHantSidebar = [
 		items: [
 			{ text: "功能列表", link: "/zh-hant/juice/" },
 			{ text: "JUICE 獨有功能設定", link: "/zh-hant/juice/settings" },
+			{ text: "第三方登入", link: "/zh-hant/juice/social-login" },
 			{ text: "審核制註冊", link: "/zh-hant/juice/approval-signup" },
 			{ text: "AI 生成內容標記", link: "/zh-hant/juice/ai-generated-flag" },
 			{ text: "表情符號申請", link: "/zh-hant/juice/emoji-request" },

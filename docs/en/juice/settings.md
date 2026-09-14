@@ -1,11 +1,12 @@
 # JUICE feature settings
 
-Juice Server has several original features not found in standard Misskey. Settings for these original features are grouped together under the **"JUICE" item** in the control panel.
+Juice Server has several original features not found in standard Misskey. Settings for these original features are grouped together under the **"JUICE" item** in the control panel, organized into three categories: "Account", "Timeline & display", and "Request forms".
 
 ## Main items you can configure
 
 After logging in with an admin account, go to Control Panel → "JUICE" to change the following kinds of settings — enabling/disabling original features and various options:
 
+- Enable/disable each [social login](./social-login.md) provider (Discord, Google, GitHub, GitLab, Microsoft), and set its client ID, client secret, and the shared redirect URI
 - Enable/disable [approval-based signup](./approval-signup.md), whether a registration reason is required, and its maximum character count
 - Enable/disable treating follows from accounts created less than a set amount of time ago as follow requests requiring approval, regardless of the target's own approval-required-following setting, and the age threshold
 - The aggregation period and number of users shown for [user ranking](./user-ranking.md)

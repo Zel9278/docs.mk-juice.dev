@@ -5,6 +5,11 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.8
+
+- Added [social login](./social-login.md): link Discord, Google, GitHub, GitLab, or Microsoft accounts and use them as a sign-in method (requires enabling two-factor authentication and opting in individually)
+- Reorganized the "JUICE" settings page into three categories: "Account", "Timeline & display", and "Request forms"
+
 ## v2026.9.0-juice+3.7
 
 - The [emoji request](./emoji-request.md) and [avatar decoration request](./avatar-decoration-request.md) forms let admins individually require fields like category, tags, license, and description (all optional by default); when submitting multiple items at once, cards with an empty required field now show a warning badge
