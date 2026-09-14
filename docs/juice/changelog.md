@@ -2,6 +2,12 @@
 
 misskey-juiceのJUICE独自機能に関する主な変更履歴です。本家Misskey由来の変更は含みません。全履歴は[GitHubのリリースページ](https://github.com/Zel9278/misskey-juice/releases)をご覧ください。
 
+## v2026.9.0-juice+3.9
+
+- [MIDIプレイヤー](./midi-player.md)を追加。ノートに添付したMIDIファイルを、サウンドフォント不要のWeb Audio API合成で再生できるように(鍵盤ビジュアライザー・BPM表示・Media Session API連携などを搭載)
+- [リレータイムライン](./relay-timeline.md)で、ブーストによって転送されたノートの実際の投稿元を分かりやすく表示するように改善
+- リレーサーバーを削除して再登録した際、以前そのリレーに絞り込んでいたユーザーのリレータイムラインが空のままになる不具合を修正
+
 ## v2026.9.0-juice+3.8
 
 - [連携ログイン](./social-login.md)を追加。Discord・Google・GitHub・GitLab・Microsoftのアカウントと連携し、サインイン手段として使えるように(2段階認証の有効化と個別のオプトインが必須)

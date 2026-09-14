@@ -5,6 +5,12 @@
 > [!note]
 > 本頁面為手動更新,可能無法及時反映[日語更新日誌](../../juice/changelog.md)的最新內容。如需最新資訊,請同時參閱日語頁面(或上方 GitHub 發布頁面)。
 
+## v2026.9.0-juice+3.9
+
+- 新增[MIDI 播放器](./midi-player.md)。可播放貼文附件中的 MIDI 檔案,無需音色庫,透過 Web Audio API 合成播放(配備鍵盤視覺化・BPM 顯示・Media Session API 整合等)
+- 改進[中繼時間軸](./relay-timeline.md),使透過轉發送達的貼文能清楚顯示其真正的發文者
+- 修復刪除並重新註冊中繼伺服器後,曾篩選至該中繼的使用者的中繼時間軸會保持空白的問題
+
 ## v2026.9.0-juice+3.8
 
 - 新增[第三方登入](./social-login.md)功能。可關聯 Discord・Google・GitHub・GitLab・Microsoft 帳號,並將其用作登入方式(需啟用兩步驟驗證並單獨開啟該選項)

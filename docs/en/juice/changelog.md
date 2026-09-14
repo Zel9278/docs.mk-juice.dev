@@ -5,6 +5,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.9
+
+- Added a [MIDI player](./midi-player.md): play MIDI files attached to notes using soundfont-free Web Audio API synthesis (with a keyboard visualizer, BPM display, Media Session API integration, and more)
+- Improved the [relay timeline](./relay-timeline.md) to clearly show the actual original poster of notes forwarded via a boost
+- Fixed a bug where, after deleting and re-registering a relay server, the relay timeline of a user who had filtered to just that relay would stay empty
+
 ## v2026.9.0-juice+3.8
 
 - Added [social login](./social-login.md): link Discord, Google, GitHub, GitLab, or Microsoft accounts and use them as a sign-in method (requires enabling two-factor authentication and opting in individually)

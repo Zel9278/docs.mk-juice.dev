@@ -5,6 +5,12 @@
 > [!note]
 > 本页面为手动更新,可能无法及时反映[日语更新日志](../../juice/changelog.md)的最新内容。如需最新信息,请同时参阅日语页面(或上方 GitHub 发布页面)。
 
+## v2026.9.0-juice+3.9
+
+- 新增[MIDI 播放器](./midi-player.md)。可播放帖子附件中的 MIDI 文件,无需音色库,通过 Web Audio API 合成播放(配备键盘可视化・BPM 显示・Media Session API 联动等)
+- 改进[中继时间线](./relay-timeline.md),使通过转发送达的帖子能清晰显示其真正的发帖人
+- 修复删除并重新注册中继服务器后,曾筛选至该中继的用户的中继时间线会保持空白的问题
+
 ## v2026.9.0-juice+3.8
 
 - 新增[第三方登录](./social-login.md)功能。可关联 Discord・Google・GitHub・GitLab・Microsoft 账号,并将其用作登录方式(需启用两步验证并单独开启该选项)
