@@ -5,6 +5,14 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.10
+
+- Added a piano roll visualizer (vertical scroll, tick-based playback position) to the [MIDI player](./midi-player.md). You can toggle it and adjust roll speed and max polyphony from either the "JUICE" settings page or the in-player menu
+- Fixed audio dropping out or freezing while playing files with an extreme number of note events (e.g. "black MIDI")
+- Fixed the playback position drifting when seeking in MIDI files with tempo changes
+- Removed the [relay timeline](./relay-timeline.md)'s boost-source display feature (added in v3.9; the underlying recording/federation mechanism was removed too)
+- Fixed the update notification dialog not appearing for a JUICE-only version bump; it now shows both the Misskey and Juice version numbers
+
 ## v2026.9.0-juice+3.9
 
 - Added a [MIDI player](./midi-player.md): play MIDI files attached to notes using soundfont-free Web Audio API synthesis (with a keyboard visualizer, BPM display, Media Session API integration, and more)

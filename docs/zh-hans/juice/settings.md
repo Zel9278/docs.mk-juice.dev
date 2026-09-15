@@ -12,7 +12,7 @@ Juice Server 拥有多个标准 Misskey 中没有的独有功能。这些独有�
 - [用户排行榜](./user-ranking.md)的统计周期・显示人数
 - [中继时间线](./relay-timeline.md)的启用・禁用
 - [媒体时间线](./media-timeline.md)的启用・禁用
-- [MIDI 播放器](./midi-player.md)允许播放的最大文件大小(默认 500KB)
+- [MIDI 播放器](./midi-player.md)允许播放的最大文件大小(默认 500KB)、钢琴卷帘可视化的启用状态・卷帘速度・最大同时发声数
 - [表情符号申请](./emoji-request.md)・头像装饰申请的启用・禁用,同时申请数量上限,每日申请次数上限,必填项目(分类・标签・许可协议・说明)设置
 - [LaTeX(数学公式)显示](./latex.md)的启用・禁用
 - [联系表单](./contact-form.md)的启用・禁用、分类管理、正文最大字数

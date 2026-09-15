@@ -7,6 +7,7 @@ A lightweight built-in player for MIDI files (.mid/.midi) attached to notes. It 
 - Supports synthesis recipes for each GM (General MIDI) instrument family, so different instruments sound distinct.
 - Supports control changes and pitch bend.
 - A 128-key keyboard visualizer shows which notes are sounding, color-coded per track.
+- Also includes a piano roll visualizer (vertical scroll). It tracks playback position in ticks (a sub-beat unit), so it stays in sync even in pieces with tempo changes. You can toggle it and adjust roll speed and max polyphony either from the "JUICE" settings page or from the in-player menu.
 - Volume control and a seek bar.
 - Live display of BPM and the current polyphony (number of notes playing).
 - A peak limiter running on an AudioWorklet, to prevent clipping.

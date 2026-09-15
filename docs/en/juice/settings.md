@@ -12,7 +12,7 @@ After logging in with an admin account, go to Control Panel → "JUICE" to chang
 - The aggregation period and number of users shown for [user ranking](./user-ranking.md)
 - Enable/disable the [relay timeline](./relay-timeline.md)
 - Enable/disable the [media timeline](./media-timeline.md)
-- The maximum file size the [MIDI player](./midi-player.md) will play back (default 500KB)
+- The maximum file size the [MIDI player](./midi-player.md) will play back (default 500KB), and the piano roll visualizer's enabled state, roll speed, and max polyphony
 - Enable/disable [emoji requests](./emoji-request.md) and avatar decoration requests, the limit on simultaneous requests, the daily submission limit, and which fields (category, tags, license, description) are required
 - Enable/disable [LaTeX (math) rendering](./latex.md)
 - Enable/disable the [contact form](./contact-form.md), manage its categories, and set the maximum body length

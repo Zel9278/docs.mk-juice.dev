@@ -11,7 +11,7 @@ A dedicated timeline that only shows notes received via registered relay servers
 
 You can view it by selecting "Relay" from the timeline switcher. As with other timelines, new notes appear in real time.
 
-Each note shows which relay (host) it was delivered through. For notes forwarded via a boost, it also clearly shows the actual original poster (previously, such notes could look like they came from a server that wasn't registered as a relay).
+Each note shows which relay (host) it was delivered through.
 
 ## Using it in Deck
 
