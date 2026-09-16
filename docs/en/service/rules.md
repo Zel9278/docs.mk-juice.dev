@@ -21,13 +21,15 @@ If we find posts or other content that violate the rules or Terms of Service bel
 - **We recommend:**
   - Setting up self-defense measures.
   - Always setting the AI-generated content flag when posting AI-generated content.
+  - Appending an easily-mutable tag such as "#NSFW" to the text of NSFW content.
 - **Posts/actions that fall under the following will result in account suspension and removal of the content:**
   - **Use of this service by anyone under 13 years old.**
   - Defamatory or hateful posts, or other violent behavior.
   - Infringing on the intellectual property rights of others.
   - Sending content (images, text, or audio) that violates the law.
   - [Encouraging or assisting prohibited acts.](./rules.md#prohibited-acts)
-- **NSFW posts (including images, text, and renotes) without "Content Warning (CW)" or the "sensitive" flag set will result in the post being removed or NSFW-flagged, and repeated violations will lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension).**
+- **NSFW posts (including images, text, and renotes) without the "sensitive" flag set will result in the post being removed or NSFW-flagged, and repeated violations will lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). Setting "Content Warning (CW)" is optional.**
+- **You may register from age 13, but content tagged "#NSFW" or similar should only be viewed by those 18 or older (not including high schoolers).**
 
 ::: warning Warning
 This summary only covers part of these Rules, and other rules not listed here also apply.\
@@ -45,7 +47,8 @@ For this reason, **["telling others what to do"](./rules.md#regarding-self-gover
   - Political or religious topics, or notes that contain words related to them.
     - **If discussed as "part of a creative work", CW is not required — but you must clearly state that it is a "creative work".**
   - Topics related to mental health (your own mental/emotional struggles, etc.).
-    - **This is fine to post as long as you set "Hide content" (CW) and set the visibility to "Home" or narrower.** (If the visibility is "Public", it is not allowed even with CW set.)
+    - **This is fine to post as long as you set the visibility to "Followers" (a locked/followers-only note).** (If the visibility is "Home" or wider, it is not allowed.)
+    - For especially extreme content, we also recommend setting "Hide content" (CW) with a label such as "negative" or "dark topic" in the CW field.
     - Statements that incite or solicit others to suicide or self-harm fall under [Prohibited acts](./rules.md#prohibited-acts) regardless of CW or visibility.
   - Dirty jokes and other risqué topics.
     - We take a fairly relaxed stance on dirty jokes here, but please set a CW for anything extreme.
@@ -102,7 +105,7 @@ The following files may not be posted:
 - Sexual real-life photos
 - Violent real-life photos
 - Content that sexually depicts children (whether real-life photos or 2D, e.g. illustrations — either is prohibited)[^4]
-- Files containing [NSFW elements](./rules.md#regarding-nsfw-not-safe-for-work) **without "sensitive" and "content warning" set**
+- Files containing [NSFW elements](./rules.md#regarding-nsfw-not-safe-for-work) **without "sensitive" set**
 - Files that harm others (e.g. malware)
 - Others' work reproduced without permission (e.g. unauthorized reposting)\
   Only the copyright holder has the right to reproduce/copy a work (Copyright Act, Article 21)
@@ -111,7 +114,7 @@ The following files may not be posted:
 
 ::: info Note
 - Wholesome content with no sexual intent, such as photos of cosplayers or felt crafts, is not covered by the above.
-- 2D sexual creative works that don't involve children are fine as long as you set "content warning" and "sensitive".
+- 2D sexual creative works that don't involve children are fine as long as you set "sensitive". (For extreme content, setting "content warning" too is recommended.)
 :::
 
 ::: warning Notice
@@ -135,13 +138,16 @@ These rules apply equally to content sent via "Messages".
 - Content containing gore[^3]
 
 ::: warning Warning
-For everyone's mutual protection, please always set **"sensitive" and "content warning"** when posting such content.\
-Also, **please describe the summary of the file marked "sensitive" and the attributes it contains (e.g. NSFW, R-18) in the "caption" field.**
+For everyone's mutual protection, please always set **"sensitive"** when posting such content. Setting "content warning" (CW) is optional, but we recommend it for especially extreme content.\
+Also, **please describe the summary of the file marked "sensitive" and the attributes it contains (e.g. NSFW, R-18) in the "caption" field.**\
+We also recommend appending an easily-mutable tag such as "#NSFW" to the note text.
 
-If "sensitive" and "content warning" are not set, the note may be removed or NSFW-flagged. Repeated violations will also lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). Please be careful.
+If "sensitive" is not set, the note may be removed or NSFW-flagged. Repeated violations will also lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). Please be careful.
 
 Responsibility for NSFW rule violations lies not with the **"minor who happened to see it"**, but with **"the poster who showed it."** \
 While we do encourage "self-defense from things you dislike," please also understand that **the poster may be held responsible under law/rules regardless.**
+
+You may register for this service from age 13, but content tagged "#NSFW" or similar **should only be viewed by those 18 or older (not including high schoolers).** If you don't meet this, please avoid viewing such content.
 :::
 
 ### Notes for bot developers

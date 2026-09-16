@@ -16,7 +16,7 @@ This instance runs [misskey-juice](https://github.com/Zel9278/misskey-juice), a 
 - This service is provided for users in Japan, and the Terms of Service and other agreements are governed by Japanese law.
 - Our privacy policy is based on the Act on the Protection of Personal Information of Japan.
 - For the safety and privacy protection of children, use of this service by anyone under 13 years old, and sending information that could identify a minor (such as a real name or photo of their face) to the instance, are both prohibited.
-- Due to the nature of this service, we ask that people under 16 years old refrain from registering.
+- Registration for this service is available to those 13 years old and older.
 - We are not responsible in any way for troubles or disadvantages that arise between users of this service.
 
 ## Prohibited acts
@@ -44,7 +44,7 @@ While silenced, "public" cannot be selected as a visibility scope.
 
 And any other act we deem inappropriate.
 
-NSFW posts (including images, text, content via MFM decoration or ASCII art, and renotes) without a Content Warning (CW) or the NSFW flag set will result in the post being removed or NSFW-flagged, and repeated violations will lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). See the [Rules](./rules.md#regarding-nsfw-not-safe-for-work) for details.
+NSFW posts (including images, text, content via MFM decoration or ASCII art, and renotes) without the NSFW flag set will result in the post being removed or NSFW-flagged, and repeated violations will lead to escalating account penalties (1st time: warning only, 2nd time: silence, 3rd time: suspension). Setting a Content Warning (CW) is optional. See the [Rules](./rules.md#regarding-nsfw-not-safe-for-work) for details.
 
 ## About operating bots
 
