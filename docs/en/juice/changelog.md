@@ -5,6 +5,14 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.0-juice+3.11
+
+- Unified the [MIDI player](./midi-player.md)'s expanded view with the lightbox used for images and videos. Playback state carries over when expanding, and the "..." menu now also exposes the visualizer settings
+- Fixed MIDI keyboard highlights staying lit longer than the actual note-off when sustain pedal was used
+- Added a warning on iPhone/iPad for the known behavior where MIDI audio doesn't play if the device's silent switch is on
+- Added support for displaying JPEG XL and HEIC/HEIF files through `/proxy/`, fixing remote custom emoji/avatars in these formats that previously failed to display (local Drive originals are handled the same way)
+- Fixed unexpected exceptions from things like MIME mis-detection returning a raw 500 error; image processing failures now fall back to 404 properly
+
 ## v2026.9.0-juice+3.10
 
 - Added a piano roll visualizer (vertical scroll, tick-based playback position) to the [MIDI player](./midi-player.md). You can toggle it and adjust roll speed and max polyphony from either the "JUICE" settings page or the in-player menu

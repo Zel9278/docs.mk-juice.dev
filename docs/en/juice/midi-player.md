@@ -12,6 +12,11 @@ A lightweight built-in player for MIDI files (.mid/.midi) attached to notes. It 
 - Live display of BPM and the current polyphony (number of notes playing).
 - A peak limiter running on an AudioWorklet, to prevent clipping.
 - Media Session API support, so you can play/pause and control it from your phone's lock screen or notification area.
+- The expanded (lightbox) view is unified with the one used for images and videos. Expanding it carries over the same playback state (playing/paused, position, volume) as the inline view, and the lightbox's "..." menu also lets you change the visualizer settings.
+
+::: info Note
+- On iPhone/iPad, there's a known behavior where audio won't play if the device's silent switch is on. A warning is shown in that case.
+:::
 
 ## Maximum file size
 
