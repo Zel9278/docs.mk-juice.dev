@@ -91,6 +91,8 @@ For this reason, **["telling others what to do"](./rules.md#regarding-self-gover
 - Impersonating others
 - Encouraging or assisting prohibited acts
 - **Posting AI-generated content without setting the AI-generated content flag**
+- Using Drive as a substitute for cloud storage
+  - Please refrain from uploading large numbers of files for purposes other than attaching them to posts, or otherwise using Drive as storage beyond its intended use.
 - Any other statement/behavior the admin deems inappropriate
 
 ### Posting inappropriate files is prohibited
