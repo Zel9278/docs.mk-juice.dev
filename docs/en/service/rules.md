@@ -47,8 +47,8 @@ For this reason, **["telling others what to do"](./rules.md#regarding-self-gover
   - Political or religious topics, or notes that contain words related to them.
     - **If discussed as "part of a creative work", CW is not required — but you must clearly state that it is a "creative work".**
   - Topics related to mental health (your own mental/emotional struggles, etc.).
-    - **This is fine to post as long as you set the visibility to "Followers" (a locked/followers-only note).** (If the visibility is "Home" or wider, it is not allowed.)
-    - For especially extreme content, we also recommend setting "Hide content" (CW) with a label such as "negative" or "dark topic" in the CW field.
+    - **This is fine to post as long as you set the visibility to "Home" or narrower.** (If the visibility is "Public", it is not allowed.)
+    - For especially extreme content, we recommend setting "Hide content" (CW), setting the visibility to "Followers" (a locked/followers-only note), and adding a label such as "negative" or "dark topic" in the CW field.
     - Statements that incite or solicit others to suicide or self-harm fall under [Prohibited acts](./rules.md#prohibited-acts) regardless of CW or visibility.
   - Dirty jokes and other risqué topics.
     - We take a fairly relaxed stance on dirty jokes here, but please set a CW for anything extreme.
