@@ -21,6 +21,6 @@ After logging in with an admin account, go to Control Panel → "JUICE" to chang
 - Show/hide the "Register with invitation code" button on the welcome page / "Add account" menu, and the "Explore other servers" button
 - The custom splash text shown on the loading screen at startup
 
-Per-user settings (such as [widget position](./widget-position.md), or which timelines appear in the timeline tab bar and their order) are changed separately, from `/settings/juice`.
+Per-user settings (such as [widget position](./widget-position.md), which timelines appear in the timeline tab bar and their order, or auto-local-only for posts containing decorative MFM) are changed separately, from `/settings/juice`.
 
 For details on each feature, see its respective page.

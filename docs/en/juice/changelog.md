@@ -5,6 +5,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.1-juice+3.12
+
+- Added a [personal setting](./settings.md) that automatically sets posts containing decorative MFM (standard Markdown-style: bold, italic, strikethrough, code / MFM-specific decorations: center, small, quote, search, math, `$[]` functions) to "local only" visibility. The two categories can be toggled independently, and it triggers if either the body or the CW contains matching syntax (direct messages and replies to remote users are excluded)
+- Fixed the username-availability check during signup not accounting for the prohibited-word list, which could show "available" while typing but reject the name on submission
+- Removed the JPEG XL / HEIC/HEIF display support (dedicated WASM decoder) added in v3.11 (the fix that falls back to 404 on image processing failure is retained)
+
 ## v2026.9.0-juice+3.11
 
 - Unified the [MIDI player](./midi-player.md)'s expanded view with the lightbox used for images and videos. Playback state carries over when expanding, and the "..." menu now also exposes the visualizer settings
