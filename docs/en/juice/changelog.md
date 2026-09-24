@@ -5,6 +5,16 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.1-juice+3.14
+
+- The [novel viewer](./novel.md) no longer interprets MFM in the text. Links, mentions, custom emoji, etc. are shown as written; only ruby (MFM, Aozora Bunko notation, and pixiv's `[[rb:]]`) and bold, italic, and strikethrough are applied
+- Added support for pixiv novel notation in the novel viewer. `[newpage]` inserts a page break (in horizontal mode, one page is shown at a time with buttons to move between pages), and `[chapter:Title]` sets the chapter name used in the table of contents
+- Added support for Aozora Bunko emphasis dots (filled sesame, open sesame, filled circle, and open circle)
+- Added full-screen reading, plus a character count and estimated reading time, to the novel viewer
+- EUC-JP .txt files are now detected automatically. In addition to ｜, ＊, *, and | are now accepted as markers for the start of the ruby base text
+- Automatic paragraph indent no longer indents lines starting with opening brackets such as 「 or symbols such as middle dots, dashes, and ●○
+- Fixed several vertical-writing issues: …, ―, and half-width brackets being shown sideways; page breaks and reading position drifting when resizing the window; slivers of ruby from the adjacent page showing at the page edge; and left/right page contents misaligning after in-page browser search
+
 ## v2026.9.1-juice+3.13
 
 - Added the [novel flag & novel viewer](./novel.md). Posts and .txt files in Drive can be marked as "novel", and flagged posts can be opened in a dedicated viewer with horizontal or vertical writing (paperback-style page turning and two-page spreads). It supports a per-chapter table of contents, ruby text, Aozora Bunko notation, paragraph indentation, font size/typeface/background, and bookmarks. Because an attached .txt file can be read as the body, you can post long works that exceed the character limit
