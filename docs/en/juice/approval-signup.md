@@ -1,6 +1,6 @@
 # Approval-based signup
 
-Juice Server uses "approval-based signup", which requires a reason for registration and reviews it before an admin approves the account. **Submitting the signup form does not make your account usable right away.**
+"Approval-based signup" is a JUICE-specific feature that requires a reason for registration and has an admin review it before approving the account. **Juice Server does not currently use this feature, so anyone can register and start using their account right away.** The following describes how it works when the feature is enabled (e.g. on a self-hosted instance).
 
 ## From signup to being able to log in
 
@@ -63,6 +63,3 @@ Since you cannot log in while pending approval, you can instead use the confirma
 The confirmation code is only shown once, at the time you complete signup. **Be sure to copy and keep it somewhere safe right away.**
 :::
 
-## Why this instance uses approval-based signup
-
-See [About this instance's operating policy](../about-juice-server.md).

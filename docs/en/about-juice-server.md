@@ -8,7 +8,7 @@ Juice Server is the official instance that tracks the [`juice/main` branch](http
 
 Juice Server is built and operated to verify new features and fixes developed in misskey-juice in a real production environment.
 
-- **Approval-based signup is currently enabled for this testing purpose.** This is not an instance anyone can join freely; registration applications are reviewed and approved.
+- [Approval-based signup](./juice/approval-signup.md) is implemented as a JUICE-specific feature, but **Juice Server does not currently use it.** Anyone can register freely.
 - Features from misskey-juice that are still under verification may be enabled ahead of time, and unexpected issues may occur.
 - Bug reports are always welcome, and so are feature requests. Feel free to reach the admin either via a Misskey DM mentioning [@c30](https://mk-juice.dev/@c30) or with a public mention post.
 

@@ -8,7 +8,7 @@ Juice Server 是追踪 Misskey 非官方分支 [misskey-juice](https://github.co
 
 Juice Server 是为了在实际运营环境中验证 misskey-juice 开发的新功能和修复而构建和运营的。
 
-- **目前启用审核制注册正是出于这一验证目的。** 这不是任何人都可以自由注册的实例,而是需要审核注册申请内容后才能通过的方式。
+- [审核制注册](./juice/approval-signup.md)本身是作为 JUICE 独有功能实现的,但 **Juice Server 目前并未启用此功能。** 因此任何人都可以自由注册。
 - 有时会提前启用 misskey-juice 中仍在验证阶段的功能,可能会出现意外问题。
 - 我们不仅欢迎错误反馈,也欢迎功能建议。无论是通过带提及的私信,还是公开的提及帖,都欢迎随时联系管理员([@c30](https://mk-juice.dev/@c30))。
 
