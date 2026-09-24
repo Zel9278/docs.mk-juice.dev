@@ -11,6 +11,7 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 - [JUICE独自機能の設定](./settings.md)
 - [承認式新規登録](./approval-signup.md)
 - [AI生成物フラグ](./ai-generated-flag.md)
+- [小説フラグ・小説ビューワー](./novel.md)
 - [絵文字申請](./emoji-request.md)
 - [アバターデコレーション申請](./avatar-decoration-request.md)
 - [ユーザーランキング](./user-ranking.md)

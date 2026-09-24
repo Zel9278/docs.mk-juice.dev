@@ -5,6 +5,13 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.1-juice+3.13
+
+- Added the [novel flag & novel viewer](./novel.md). Posts and .txt files in Drive can be marked as "novel", and flagged posts can be opened in a dedicated viewer with horizontal or vertical writing (paperback-style page turning and two-page spreads). It supports a per-chapter table of contents, ruby text, Aozora Bunko notation, paragraph indentation, font size/typeface/background, and bookmarks. Because an attached .txt file can be read as the body, you can post long works that exceed the character limit
+- Added "Show novels only" to the menu of the regular timelines. Novel-flagged posts now appear in the [Media timeline](./media-timeline.md) even without attachments
+- Added a fallback setting that sends the novel status as a CW when federating to non-JUICE instances that can't interpret the novel flag (disabled by default)
+- Fixed long alphanumeric strings in the social login item overflowing the card on the in-app About JUICE page
+
 ## v2026.9.1-juice+3.12
 
 - Added a [personal setting](./settings.md) that automatically sets posts containing decorative MFM (standard Markdown-style: bold, italic, strikethrough, code / MFM-specific decorations: center, small, quote, search, math, `$[]` functions) to "local only" visibility. The two categories can be toggled independently, and it triggers if either the body or the CW contains matching syntax (direct messages and replies to remote users are excluded)

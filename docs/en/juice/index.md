@@ -11,6 +11,7 @@ outline: false
 - [JUICE feature settings](./settings.md)
 - [Approval-based signup](./approval-signup.md)
 - [AI-generated content flag](./ai-generated-flag.md)
+- [Novel flag & novel viewer](./novel.md)
 - [Emoji requests](./emoji-request.md)
 - [Avatar decoration requests](./avatar-decoration-request.md)
 - [User ranking](./user-ranking.md)

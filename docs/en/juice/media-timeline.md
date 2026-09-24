@@ -5,6 +5,7 @@ A dedicated timeline that collects only notes with attached files, shown in a Pi
 ## What's included
 
 - Public-visibility notes with one or more attached files are included.
+- Notes with the [novel flag](./novel.md) are included even without attachments.
 - Posts with multiple attachments are shown as a swipeable carousel. Swipes are recognized by distance and speed, so a light flick is enough, and prev/next buttons appear next to the image when using a mouse. The switch animation is also quick.
 
 ## Inline playback
