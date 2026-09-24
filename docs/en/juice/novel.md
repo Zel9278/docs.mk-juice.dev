@@ -1,6 +1,6 @@
 # Novel flag & novel viewer
 
-This feature lets you mark a post as a "novel" and read it in a dedicated novel viewer. The viewer supports a vertical, paperback-style layout as well as ruby text and Aozora Bunko notation.
+This feature lets you mark a post as a "novel" and read it in a dedicated novel viewer. The viewer supports a vertical, paperback-style layout as well as ruby text and [Aozora Bunko](https://www.aozora.gr.jp/) notation.
 
 ## Marking a post as a novel
 
