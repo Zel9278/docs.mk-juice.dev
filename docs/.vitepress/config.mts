@@ -521,6 +521,7 @@ export default withMermaid(defineConfig({
 			themeConfig: {
 				nav: [
 					{ text: "ホーム", link: "/" },
+					{ text: "更新履歴", link: "/juice/changelog" },
 					{ text: "お知らせ", link: "/news/" },
 				],
 				sidebar: {
@@ -594,6 +595,7 @@ export default withMermaid(defineConfig({
 			themeConfig: {
 				nav: [
 					{ text: "Home", link: "/en/" },
+					{ text: "Changelog", link: "/en/juice/changelog" },
 					{ text: "Announcements", link: "/en/news/" },
 				],
 				sidebar: {
@@ -631,6 +633,7 @@ export default withMermaid(defineConfig({
 			themeConfig: {
 				nav: [
 					{ text: "홈", link: "/ko/" },
+					{ text: "변경 이력", link: "/ko/juice/changelog" },
 					{ text: "공지사항", link: "/ko/news/" },
 				],
 				sidebar: {
@@ -704,6 +707,7 @@ export default withMermaid(defineConfig({
 			themeConfig: {
 				nav: [
 					{ text: "首页", link: "/zh-hans/" },
+					{ text: "更新日志", link: "/zh-hans/juice/changelog" },
 					{ text: "公告", link: "/zh-hans/news/" },
 				],
 				sidebar: {
@@ -777,6 +781,7 @@ export default withMermaid(defineConfig({
 			themeConfig: {
 				nav: [
 					{ text: "首頁", link: "/zh-hant/" },
+					{ text: "更新日誌", link: "/zh-hant/juice/changelog" },
 					{ text: "公告", link: "/zh-hant/news/" },
 				],
 				sidebar: {
