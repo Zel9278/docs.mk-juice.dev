@@ -26,6 +26,7 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 - [게시물 언어](./post-language.md)
 - [노트 검색 강화](./note-search-enhancements.md)
 - [문의 양식](./contact-form.md)
+- [그림 채팅](./draw-room.md)
 
 ## 기타
 

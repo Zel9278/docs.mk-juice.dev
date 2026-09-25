@@ -1,11 +1,12 @@
 # Abuse reports
 
-A feature for reporting users, notes, and chat messages.
+A feature for reporting users, notes, chat messages, and [drawing chat](./draw-room.md) rooms and their chat messages.
 
 ## How to report
 
 - Choosing "Report" from a user's "..." menu opens a report form for that user.
 - You can also report from a note's or chat message's menu, in which case the target note/message is automatically attached to the report.
+- You can also report a [drawing chat](./draw-room.md) room itself (its owner) and messages in its chat (their sender). The content at the time of the report is preserved and can be checked on the report details screen.
 - When reporting, you can choose a category (spam, harassment, impersonation, etc.). Categories can be added, edited, and reordered from the JUICE settings in the control panel.
 
 ## Preview of the reported content

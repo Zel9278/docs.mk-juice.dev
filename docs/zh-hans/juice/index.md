@@ -26,6 +26,7 @@ outline: false
 - [帖子语言](./post-language.md)
 - [帖子搜索增强](./note-search-enhancements.md)
 - [联系表单](./contact-form.md)
+- [绘画聊天](./draw-room.md)
 
 ## 其他
 

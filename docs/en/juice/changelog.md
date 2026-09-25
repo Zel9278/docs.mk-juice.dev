@@ -5,6 +5,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.1-juice+3.15
+
+- Added [drawing chat](./draw-room.md). Create a room where multiple people draw on the same canvas. The room owner decides the visibility, the maximum number of people who can draw, and the canvas size, and people can still join as spectators when the room is full. Supports per-user layers, pen pressure, an eyedropper, zoom and an overview map, other people's cursors and online status, and saving/posting/downloading the canvas as an image (PNG, WebP, JPEG)
+- Added a drawing chat enable/disable toggle to the JUICE settings in the control panel, and "Create drawing chat rooms" and "Maximum drawing chat canvas size" to role policies
+- Drawing chat rooms and their chat messages can now be [reported](./abuse-report.md). Moderators can delete problematic rooms even while they are open, and deletions are recorded in the moderation log
+
 ## v2026.9.1-juice+3.14
 
 - The [novel viewer](./novel.md) no longer interprets MFM in the text. Links, mentions, custom emoji, etc. are shown as written; only ruby (MFM, Aozora Bunko notation, and pixiv's `[[rb:]]`) and bold, italic, and strikethrough are applied

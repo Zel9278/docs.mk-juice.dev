@@ -26,6 +26,7 @@ outline: false
 - [貼文語言](./post-language.md)
 - [貼文搜尋增強](./note-search-enhancements.md)
 - [聯絡表單](./contact-form.md)
+- [繪畫聊天](./draw-room.md)
 
 ## 其他
 

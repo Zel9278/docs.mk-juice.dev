@@ -26,6 +26,7 @@ outline: false
 - [Post language](./post-language.md)
 - [Note search enhancements](./note-search-enhancements.md)
 - [Contact form](./contact-form.md)
+- [Drawing chat](./draw-room.md)
 
 ## Other
 

@@ -26,6 +26,7 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 - [投稿言語](./post-language.md)
 - [ノート検索の強化](./note-search-enhancements.md)
 - [お問い合わせフォーム](./contact-form.md)
+- [絵チャ](./draw-room.md)
 
 ## その他
 
