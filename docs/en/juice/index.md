@@ -12,6 +12,7 @@ outline: false
 - [Approval-based signup](./approval-signup.md)
 - [AI-generated content flag](./ai-generated-flag.md)
 - [Novel flag & novel viewer](./novel.md)
+- [Novel editor](./novel-editor.md)
 - [Emoji requests](./emoji-request.md)
 - [Avatar decoration requests](./avatar-decoration-request.md)
 - [User ranking](./user-ranking.md)

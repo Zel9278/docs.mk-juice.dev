@@ -12,6 +12,7 @@ outline: false
 - [審核制註冊](./approval-signup.md)
 - [AI 生成內容標記](./ai-generated-flag.md)
 - [小說標記・小說閱讀器](./novel.md)
+- [小說編輯器](./novel-editor.md)
 - [表情符號申請](./emoji-request.md)
 - [頭像裝飾申請](./avatar-decoration-request.md)
 - [使用者排行榜](./user-ranking.md)

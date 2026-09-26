@@ -5,6 +5,15 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 > [!note]
 > This page is updated manually and may lag behind the [Japanese changelog](../../juice/changelog.md). If you need the latest information, please check the Japanese page (or the GitHub releases page above) as well.
 
+## v2026.9.1-juice+3.16
+
+- Added the [novel editor](./novel-editor.md) (`/novel-editor`). It highlights notations and has buttons for ruby, emphasis dots, formatting, indentation, chapter titles, section breaks, page breaks, dashes, and ellipses. Supports per-work drafts saved in the browser, a table of contents with per-chapter lengths, character count and manuscript page count, a target length, find and replace, focus mode, a preview with the same look as the novel viewer, and a pre-post check. Text can be opened from or saved as .txt files, and posted as a .txt file with the novel flag
+- Added many features to [drawing chat](./draw-room.md): rectangle/lasso selection, a move tool, and rotating/deleting selected strokes; lasso fill, bucket fill, soft and pixel brushes, and painting inside lines; separate pen and eraser sizes, a hand tool, canvas rotation, more zoom and pan controls on PC; Pixelated Zoom with a pixel grid (up to 3200% zoom); the room owner can clear other people's layers and switch to spectator mode; emoji and timestamps in chat; a loading indicator when opening a room
+- The search engine used by MFM search boxes ("… 検索") can now be chosen per user in the JUICE settings: Google, Yahoo!, Yahoo! JAPAN, Bing, DuckDuckGo, Kagi, Brave Search, Startpage, Ecosia, Perplexity, or a custom URL
+- On narrow screens such as smartphones, buttons in drawing chat and the novel editor now show their names, and the page header buttons are grouped into a named menu. The window resize handle is larger on smartphones and tablets
+- Fixed saving to Drive, posting, and downloading not working correctly after a drawing chat room ended, and spectators and online status remaining in the layer list after it ended
+- Fixed several novel viewer issues: pages exceeding the screen height in vertical mode, the text not showing when switching to horizontal mode after turning pages in vertical mode, and the chapter navigation buttons being cut off on narrow screens in horizontal mode
+
 ## v2026.9.1-juice+3.15
 
 - Added [drawing chat](./draw-room.md). Create a room where multiple people draw on the same canvas. The room owner decides the visibility, the maximum number of people who can draw, and the canvas size, and people can still join as spectators when the room is full. Supports per-user layers, pen pressure, an eyedropper, zoom and an overview map, other people's cursors and online status, and saving/posting/downloading the canvas as an image (PNG, WebP, JPEG)

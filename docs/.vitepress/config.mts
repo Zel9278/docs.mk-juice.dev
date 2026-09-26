@@ -88,6 +88,7 @@ const jaSidebar = [
 			{ text: "承認式新規登録", link: "/juice/approval-signup" },
 			{ text: "AI生成物フラグ", link: "/juice/ai-generated-flag" },
 			{ text: "小説フラグ・小説ビューワー", link: "/juice/novel" },
+			{ text: "小説エディター", link: "/juice/novel-editor" },
 			{ text: "絵チャ", link: "/juice/draw-room" },
 			{ text: "絵文字申請", link: "/juice/emoji-request" },
 			{
@@ -172,6 +173,7 @@ const enSidebar = [
 				link: "/en/juice/ai-generated-flag",
 			},
 			{ text: "Novel flag & novel viewer", link: "/en/juice/novel" },
+			{ text: "Novel editor", link: "/en/juice/novel-editor" },
 			{ text: "Drawing chat", link: "/en/juice/draw-room" },
 			{ text: "Emoji requests", link: "/en/juice/emoji-request" },
 			{
@@ -256,6 +258,7 @@ const koSidebar = [
 			{ text: "승인제 신규 가입", link: "/ko/juice/approval-signup" },
 			{ text: "AI 생성 콘텐츠 플래그", link: "/ko/juice/ai-generated-flag" },
 			{ text: "소설 플래그・소설 뷰어", link: "/ko/juice/novel" },
+			{ text: "소설 에디터", link: "/ko/juice/novel-editor" },
 			{ text: "그림 채팅", link: "/ko/juice/draw-room" },
 			{ text: "이모지 신청", link: "/ko/juice/emoji-request" },
 			{
@@ -337,6 +340,7 @@ const zhHansSidebar = [
 			{ text: "审核制注册", link: "/zh-hans/juice/approval-signup" },
 			{ text: "AI 生成内容标记", link: "/zh-hans/juice/ai-generated-flag" },
 			{ text: "小说标记・小说阅读器", link: "/zh-hans/juice/novel" },
+			{ text: "小说编辑器", link: "/zh-hans/juice/novel-editor" },
 			{ text: "绘画聊天", link: "/zh-hans/juice/draw-room" },
 			{ text: "表情符号申请", link: "/zh-hans/juice/emoji-request" },
 			{
@@ -418,6 +422,7 @@ const zhHantSidebar = [
 			{ text: "審核制註冊", link: "/zh-hant/juice/approval-signup" },
 			{ text: "AI 生成內容標記", link: "/zh-hant/juice/ai-generated-flag" },
 			{ text: "小說標記・小說閱讀器", link: "/zh-hant/juice/novel" },
+			{ text: "小說編輯器", link: "/zh-hant/juice/novel-editor" },
 			{ text: "繪畫聊天", link: "/zh-hant/juice/draw-room" },
 			{ text: "表情符號申請", link: "/zh-hant/juice/emoji-request" },
 			{

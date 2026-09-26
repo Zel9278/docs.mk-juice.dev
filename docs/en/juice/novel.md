@@ -24,6 +24,7 @@ Posts with the novel flag:
   - UTF-8, Shift_JIS, and EUC-JP are all supported (detected automatically).
   - If a .txt file is attached, its contents are shown as the novel instead of the note body.
   - If several .txt files are attached, the one marked as a novel in Drive takes priority.
+- **Write with the [novel editor](./novel-editor.md)**: write with notation helpers, a preview, and a pre-post check. When you're done, you can post the text as a .txt file with the novel flag.
 
 ## Writing syntax
 
