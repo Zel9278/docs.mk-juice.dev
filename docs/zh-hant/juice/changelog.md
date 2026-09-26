@@ -7,6 +7,12 @@
 
 ## v2026.9.1-juice+3.16
 
+> [!important] GitHub 儲存庫已遷移
+> v3.16 發布後,misskey-juice 儲存庫已遷移到 [misskey-juice 組織](https://github.com/misskey-juice)。新位置為 <https://github.com/misskey-juice/misskey-juice>。
+>
+> - 舊 URL(`github.com/Zel9278/misskey-juice`)會自動轉址到新位置,但如果已經自架部署,請更新遠端儲存庫位址: `git remote set-url origin https://github.com/misskey-juice/misskey-juice.git`
+> - Docker 映像檔的發布位置也已改為 `ghcr.io/misskey-juice/misskey-juice`。v3.16 及之前的映像檔仍保留在 `ghcr.io/zel9278/misskey-juice`。
+
 - 新增[小說編輯器](./novel-editor.md)(`/novel-editor`)。為寫法著色,並可透過按鈕輸入注音・著重號・裝飾・縮排・章節標題・分隔・分頁・破折號・刪節號。支援自動儲存在瀏覽器中的依作品草稿、顯示各章節字數的目錄、字數・稿紙換算・目標字數、尋找與取代、專注模式、與小說閱讀器外觀相同的預覽,以及發布前檢查。還可以讀取・儲存 .txt,並將內文產生 .txt 檔案加上小說標記發布
 - 大幅增強[繪畫聊天](./draw-room.md):矩形・套索選取與移動工具、選取線條的旋轉・刪除,套索填色・油漆桶・暈染畫筆・像素畫筆・只在線內塗色,筆與橡皮擦粗細分開設定、抓手工具、畫布旋轉、PC 上的縮放與移動操作,像素畫放大模式與像素格線(最大放大 3200%),房主可以清除他人的圖層或切換到觀戰模式,聊天支援表情符號並顯示時間,開啟房間時顯示載入中
 - 可以在 JUICE 設定中依使用者選擇 MFM 搜尋框(「… 検索」)使用的搜尋引擎: Google・Yahoo!・Yahoo! JAPAN・Bing・DuckDuckGo・Kagi・Brave Search・Startpage・Ecosia・Perplexity・自訂 URL

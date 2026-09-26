@@ -7,6 +7,12 @@ Major changes to misskey-juice's JUICE-specific features. This does not include 
 
 ## v2026.9.1-juice+3.16
 
+> [!important] The GitHub repository has moved
+> After the v3.16 release, the misskey-juice repository moved to the [misskey-juice organization](https://github.com/misskey-juice). Its new location is <https://github.com/misskey-juice/misskey-juice>.
+>
+> - The old URL (`github.com/Zel9278/misskey-juice`) redirects to the new location automatically, but if you already self-host, please update your remote: `git remote set-url origin https://github.com/misskey-juice/misskey-juice.git`
+> - Docker images are now published to `ghcr.io/misskey-juice/misskey-juice`. Images up to v3.16 remain at `ghcr.io/zel9278/misskey-juice`.
+
 - Added the [novel editor](./novel-editor.md) (`/novel-editor`). It highlights notations and has buttons for ruby, emphasis dots, formatting, indentation, chapter titles, section breaks, page breaks, dashes, and ellipses. Supports per-work drafts saved in the browser, a table of contents with per-chapter lengths, character count and manuscript page count, a target length, find and replace, focus mode, a preview with the same look as the novel viewer, and a pre-post check. Text can be opened from or saved as .txt files, and posted as a .txt file with the novel flag
 - Added many features to [drawing chat](./draw-room.md): rectangle/lasso selection, a move tool, and rotating/deleting selected strokes; lasso fill, bucket fill, soft and pixel brushes, and painting inside lines; separate pen and eraser sizes, a hand tool, canvas rotation, more zoom and pan controls on PC; Pixelated Zoom with a pixel grid (up to 3200% zoom); the room owner can clear other people's layers and switch to spectator mode; emoji and timestamps in chat; a loading indicator when opening a room
 - The search engine used by MFM search boxes ("… 検索") can now be chosen per user in the JUICE settings: Google, Yahoo!, Yahoo! JAPAN, Bing, DuckDuckGo, Kagi, Brave Search, Startpage, Ecosia, Perplexity, or a custom URL

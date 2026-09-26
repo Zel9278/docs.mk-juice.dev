@@ -7,6 +7,12 @@ misskey-juice의 JUICE 고유 기능에 관한 주요 변경 이력입니다. �
 
 ## v2026.9.1-juice+3.16
 
+> [!important] GitHub 저장소 이전
+> v3.16 릴리스 이후, misskey-juice 저장소는 [misskey-juice 조직](https://github.com/misskey-juice)으로 이전되었습니다. 새 위치는 <https://github.com/misskey-juice/misskey-juice> 입니다.
+>
+> - 이전 URL(`github.com/Zel9278/misskey-juice`)은 자동으로 새 위치로 전송되지만, 이미 자체 호스팅하고 있다면 리모트를 변경해 주세요: `git remote set-url origin https://github.com/misskey-juice/misskey-juice.git`
+> - Docker 이미지의 공개 위치도 `ghcr.io/misskey-juice/misskey-juice`로 바뀌었습니다. v3.16까지의 이미지는 `ghcr.io/zel9278/misskey-juice`에 남아 있습니다.
+
 - [소설 에디터](./novel-editor.md)(`/novel-editor`)를 추가. 표기에 색을 입히고, 루비・방점・장식・들여쓰기・장 제목・구분・페이지 나누기・대시・말줄임표를 버튼으로 입력할 수 있음. 브라우저에 자동 저장되는 작품별 초안, 장별 글자 수가 나오는 목차, 글자 수・원고지 환산・목표 글자 수, 찾기・바꾸기, 집중 모드, 소설 뷰어와 같은 모습의 미리보기, 게시 전 확인에 대응. .txt 불러오기・저장과, 본문을 .txt로 만들어 소설 플래그를 붙여 게시하는 기능도 있음
 - [그림 채팅](./draw-room.md)에 기능을 대폭 추가. 범위・올가미 선택과 이동 도구, 선택한 선의 회전・삭제, 둘러서 칠하기・채우기(페인트통)・번짐 붓・도트 붓・선 안에만 칠하기, 펜과 지우개의 굵기 분리, 손바닥 도구, 캔버스 회전, PC에서의 확대・축소 및 화면 이동 조작 추가, 픽셀 아트 확대 모드와 픽셀 격자(최대 3200% 확대), 방장이 다른 사람의 레이어를 지우거나 관전 모드로 전환하는 기능, 채팅의 이모지・시각 표시, 방을 열 때의 로딩 표시
 - MFM 검색창("… 검색")에서 사용할 검색 엔진을 JUICE 설정에서 사용자별로 고를 수 있도록 함. Google・Yahoo!・Yahoo! JAPAN・Bing・DuckDuckGo・Kagi・Brave Search・Startpage・Ecosia・Perplexity・사용자 지정 URL

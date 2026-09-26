@@ -2,6 +2,12 @@
 
 以下是全新安裝 misskey-juice 的步驟。基本流程與[官方 Misskey 手動安裝指南](https://misskey-hub.net/en/docs/for-admin/install/guides/manual/)基本相同。
 
+> [!important] GitHub 儲存庫已遷移
+> v3.16 發布後,misskey-juice 儲存庫已遷移到 [misskey-juice 組織](https://github.com/misskey-juice)。新位置為 <https://github.com/misskey-juice/misskey-juice>。
+>
+> - 舊 URL(`github.com/Zel9278/misskey-juice`)會自動轉址到新位置,但如果已經自架部署,請更新遠端儲存庫位址: `git remote set-url origin https://github.com/misskey-juice/misskey-juice.git`
+> - Docker 映像檔的發布位置也已改為 `ghcr.io/misskey-juice/misskey-juice`。v3.16 及之前的映像檔仍保留在 `ghcr.io/zel9278/misskey-juice`。
+
 > [!warning] 在建置公開伺服器之前
 > 無論是 misskey-juice 還是其他,營運一個公開的 Misskey 伺服器所承擔的責任都比想像中要大得多。**請在公開之前仔細閱讀以下指南並謹慎考慮。**
 >

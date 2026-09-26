@@ -2,6 +2,12 @@
 
 misskey-juiceを新規にインストールする場合の手順です。基本的な流れは[本家Misskeyの手動インストールガイド](https://misskey-hub.net/ja/docs/for-admin/install/guides/manual/)とほぼ同じです。
 
+> [!important] GitHubリポジトリの移転
+> v3.16のリリース後、misskey-juiceのリポジトリは[misskey-juice組織](https://github.com/misskey-juice)に移転しました。新しい場所は <https://github.com/misskey-juice/misskey-juice> です。
+>
+> - 旧URL(`github.com/Zel9278/misskey-juice`)は自動で新しい場所へ転送されますが、既にセルフホストしている場合は、リモートを向け直してください: `git remote set-url origin https://github.com/misskey-juice/misskey-juice.git`
+> - Dockerイメージの公開先も`ghcr.io/misskey-juice/misskey-juice`に変わりました。v3.16までのイメージは`ghcr.io/zel9278/misskey-juice`に残ります。
+
 > [!warning] 公開サーバーを立てる前に
 > misskey-juiceに限らず、公開Misskeyサーバーを運営することは、想像以上の責任を伴います。**公開する前に、以下のガイドをよく読んで検討してください。**
 >

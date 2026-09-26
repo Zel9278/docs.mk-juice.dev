@@ -4,6 +4,12 @@ misskey-juiceのJUICE独自機能に関する主な変更履歴です。本家Mi
 
 ## v2026.9.1-juice+3.16
 
+> [!important] GitHubリポジトリの移転
+> v3.16のリリース後、misskey-juiceのリポジトリは[misskey-juice組織](https://github.com/misskey-juice)に移転しました。新しい場所は <https://github.com/misskey-juice/misskey-juice> です。
+>
+> - 旧URL(`github.com/Zel9278/misskey-juice`)は自動で新しい場所へ転送されますが、既にセルフホストしている場合は、リモートを向け直してください: `git remote set-url origin https://github.com/misskey-juice/misskey-juice.git`
+> - Dockerイメージの公開先も`ghcr.io/misskey-juice/misskey-juice`に変わりました。v3.16までのイメージは`ghcr.io/zel9278/misskey-juice`に残ります。
+
 - [小説エディター](./novel-editor.md)(`/novel-editor`)を追加。記法に色を付け、ルビ・傍点・装飾・字下げ・章タイトル・区切り・改ページ・ダッシュ・三点リーダーをボタンで入力できる。ブラウザに自動保存される作品ごとの下書き、章ごとの文字数が出る目次、文字数・原稿用紙換算・目標文字数、検索・置換、集中モード、小説ビューワーと同じ見た目のプレビュー、投稿前のチェックに対応。.txtの読み込み・保存と、本文を.txtにして小説フラグ付きで投稿する機能もある
 - [絵チャ](./draw-room.md)に機能を大幅に追加。範囲・投げ縄選択と移動ツール、選んだ線の回転・削除、囲って塗る・バケツ・にじみ筆・ドット筆・線の中だけ塗る、ペンと消しゴムの太さを別々に、手のひらツール、キャンバスの回転、PCでの拡大縮小・表示の移動の操作、ピクセルアート拡大モードと画素の格子(拡大は最大3200%)、部屋主がほかの人のレイヤーを消去したり観戦モードにしたりする機能、チャットの絵文字・時刻表示、部屋を開くときの読み込み中の表示
 - MFMの検索窓(「○○ 検索」)で使う検索エンジンを、JUICE設定でユーザーごとに選べるように。Google・Yahoo!・Yahoo! JAPAN・Bing・DuckDuckGo・Kagi・Brave Search・Startpage・Ecosia・Perplexity・カスタムのURL
