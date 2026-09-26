@@ -8,7 +8,7 @@ c30（ced）が運営する分散型マイクロブログSNS Misskeyの非公式
 
 [Mastodon](https://joinmastodon.org/)、[Misskey](https://misskey-hub.net/)、[Pleroma](https://pleroma.social/)というソフトウェアをはじめとした、分散型マイクロブログSNSの一部です。
 
-このインスタンスに使用しているものは[Misskey](https://misskey-hub.net/)のフォークである[misskey-juice](https://github.com/Zel9278/misskey-juice)です。
+このインスタンスに使用しているものは[Misskey](https://misskey-hub.net/)のフォークである[misskey-juice](https://github.com/misskey-juice/misskey-juice)です。
 
 ## 免責事項
 

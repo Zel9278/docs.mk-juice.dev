@@ -1,6 +1,6 @@
 # 변경 이력
 
-misskey-juice의 JUICE 고유 기능에 관한 주요 변경 이력입니다. 본가 Misskey 유래의 변경 사항은 포함되지 않습니다. 전체 이력은 [GitHub 릴리스 페이지](https://github.com/Zel9278/misskey-juice/releases)를 참고해 주세요.
+misskey-juice의 JUICE 고유 기능에 관한 주요 변경 이력입니다. 본가 Misskey 유래의 변경 사항은 포함되지 않습니다. 전체 이력은 [GitHub 릴리스 페이지](https://github.com/misskey-juice/misskey-juice/releases)를 참고해 주세요.
 
 > [!note]
 > 이 페이지는 수동으로 갱신되며, [일본어 변경 이력](../../juice/changelog.md)보다 반영이 늦을 수 있습니다. 최신 정보가 필요하시면 일본어 페이지(또는 위 GitHub 릴리스 페이지)도 함께 확인해 주세요.

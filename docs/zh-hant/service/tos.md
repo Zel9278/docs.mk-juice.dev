@@ -8,7 +8,7 @@
 
 本實例是包括 [Mastodon](https://joinmastodon.org/)、[Misskey](https://misskey-hub.net/)、[Pleroma](https://pleroma.social/) 等軟體在內的分散式微網誌 SNS 網路的一部分。
 
-本實例使用的是 [Misskey](https://misskey-hub.net/) 的分支 [misskey-juice](https://github.com/Zel9278/misskey-juice)。
+本實例使用的是 [Misskey](https://misskey-hub.net/) 的分支 [misskey-juice](https://github.com/misskey-juice/misskey-juice)。
 
 ## 免責聲明
 

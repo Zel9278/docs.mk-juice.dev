@@ -50,7 +50,7 @@ export default {
 						h(
 							"a",
 							{
-								href: "https://github.com/Zel9278/docs.mk-juice.dev",
+								href: "https://github.com/misskey-juice/docs.mk-juice.dev",
 								target: "_blank",
 							},
 							link,

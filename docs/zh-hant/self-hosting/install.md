@@ -37,7 +37,7 @@
 2. 複製程式碼庫並 checkout 發布標籤。
 
    ```bash
-   sudo -iu misskey git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   sudo -iu misskey git clone --recursive https://github.com/misskey-juice/misskey-juice.git
    cd misskey-juice
    git checkout <標籤名稱>
    git submodule update --init

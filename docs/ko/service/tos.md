@@ -8,7 +8,7 @@ c30(ced)이 운영하는 분산형 마이크로블로그 SNS Misskey의 비공�
 
 [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/), [Pleroma](https://pleroma.social/)와 같은 소프트웨어를 비롯한 분산형 마이크로블로그 SNS의 일부입니다.
 
-본 인스턴스가 사용하는 소프트웨어는 [Misskey](https://misskey-hub.net/)의 포크인 [misskey-juice](https://github.com/Zel9278/misskey-juice)입니다.
+본 인스턴스가 사용하는 소프트웨어는 [Misskey](https://misskey-hub.net/)의 포크인 [misskey-juice](https://github.com/misskey-juice/misskey-juice)입니다.
 
 ## 면책 사항
 

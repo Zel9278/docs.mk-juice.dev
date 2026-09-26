@@ -14,7 +14,7 @@ hero:
       link: /about-juice-server
     - theme: alt
       text: misskey-juiceをGitHubで見る
-      link: https://github.com/Zel9278/misskey-juice
+      link: https://github.com/misskey-juice/misskey-juice
 
 features:
   - icon: 🍊

@@ -4,7 +4,7 @@ outline: false
 
 # JUICE 고유 기능
 
-Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/misskey-juice)는 표준 Misskey에 여러 고유 기능을 추가한 포크입니다. 여기서는 그 고유 기능들을 소개합니다.
+Juice Server의 기반이 되는 [misskey-juice](https://github.com/misskey-juice/misskey-juice)는 표준 Misskey에 여러 고유 기능을 추가한 포크입니다. 여기서는 그 고유 기능들을 소개합니다.
 
 ## 기능 목록
 
@@ -37,4 +37,4 @@ Juice Server의 기반이 되는 [misskey-juice](https://github.com/Zel9278/miss
 
 ## 버그 신고에 대해서
 
-misskey-juice(JUICE) 자체의 버그・결함을 발견하신 경우, 멘션을 포함한 DM으로 [@support@mk-juice.dev](https://mk-juice.dev/@support), 또는 [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues)로 신고해 주시면 큰 도움이 됩니다.
+misskey-juice(JUICE) 자체의 버그・결함을 발견하신 경우, 멘션을 포함한 DM으로 [@support@mk-juice.dev](https://mk-juice.dev/@support), 또는 [GitHub Issues](https://github.com/misskey-juice/misskey-juice/issues)로 신고해 주시면 큰 도움이 됩니다.

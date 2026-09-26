@@ -4,7 +4,7 @@ outline: false
 
 # JUICE 獨有功能
 
-作為 Juice Server 基礎的 [misskey-juice](https://github.com/Zel9278/misskey-juice),是在標準 Misskey 基礎上新增了若干獨有功能的分支。本頁面將介紹這些獨有功能。
+作為 Juice Server 基礎的 [misskey-juice](https://github.com/misskey-juice/misskey-juice),是在標準 Misskey 基礎上新增了若干獨有功能的分支。本頁面將介紹這些獨有功能。
 
 ## 功能列表
 
@@ -37,4 +37,4 @@ outline: false
 
 ## 關於問題回報
 
-如果您發現 misskey-juice(JUICE)本身存在缺陷或錯誤,歡迎透過帶提及的私訊回報至 [@support@mk-juice.dev](https://mk-juice.dev/@support),或提交至 [GitHub Issues](https://github.com/Zel9278/misskey-juice/issues),將對我們非常有幫助。
+如果您發現 misskey-juice(JUICE)本身存在缺陷或錯誤,歡迎透過帶提及的私訊回報至 [@support@mk-juice.dev](https://mk-juice.dev/@support),或提交至 [GitHub Issues](https://github.com/misskey-juice/misskey-juice/issues),將對我們非常有幫助。

@@ -1,6 +1,6 @@
 # 更新日志
 
-关于 misskey-juice 中 JUICE 独有功能的主要更新日志。不包含源自官方 Misskey 的变更内容。完整历史记录请参阅 [GitHub 发布页面](https://github.com/Zel9278/misskey-juice/releases)。
+关于 misskey-juice 中 JUICE 独有功能的主要更新日志。不包含源自官方 Misskey 的变更内容。完整历史记录请参阅 [GitHub 发布页面](https://github.com/misskey-juice/misskey-juice/releases)。
 
 > [!note]
 > 本页面为手动更新,可能无法及时反映[日语更新日志](../../juice/changelog.md)的最新内容。如需最新信息,请同时参阅日语页面(或上方 GitHub 发布页面)。

@@ -37,7 +37,7 @@ misskey-juice를 새로 설치하는 경우의 절차입니다. 기본적인 흐
 2. 저장소를 클론하고 릴리스 태그를 checkout합니다.
 
    ```bash
-   sudo -iu misskey git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   sudo -iu misskey git clone --recursive https://github.com/misskey-juice/misskey-juice.git
    cd misskey-juice
    git checkout <태그명>
    git submodule update --init

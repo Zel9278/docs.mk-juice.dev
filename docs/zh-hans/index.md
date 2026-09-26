@@ -14,7 +14,7 @@ hero:
       link: /zh-hans/about-juice-server
     - theme: alt
       text: 在 GitHub 上查看 misskey-juice
-      link: https://github.com/Zel9278/misskey-juice
+      link: https://github.com/misskey-juice/misskey-juice
 
 features:
   - icon: 🍊

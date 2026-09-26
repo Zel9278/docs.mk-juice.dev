@@ -37,7 +37,7 @@
 2. 克隆代码仓库并 checkout 发布标签。
 
    ```bash
-   sudo -iu misskey git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   sudo -iu misskey git clone --recursive https://github.com/misskey-juice/misskey-juice.git
    cd misskey-juice
    git checkout <标签名>
    git submodule update --init

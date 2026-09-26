@@ -8,7 +8,7 @@ The content of these Terms may be changed without notice to users.
 
 This is part of a distributed microblogging SNS ecosystem that includes software such as [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/), and [Pleroma](https://pleroma.social/).
 
-This instance runs [misskey-juice](https://github.com/Zel9278/misskey-juice), a fork of [Misskey](https://misskey-hub.net/).
+This instance runs [misskey-juice](https://github.com/misskey-juice/misskey-juice), a fork of [Misskey](https://misskey-hub.net/).
 
 ## Disclaimer
 

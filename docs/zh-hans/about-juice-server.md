@@ -2,7 +2,7 @@
 
 ## 什么是 Juice Server?
 
-Juice Server 是追踪 Misskey 非官方分支 [misskey-juice](https://github.com/Zel9278/misskey-juice) 的 [`juice/main` 分支](https://github.com/Zel9278/misskey-juice/tree/juice/main) 的官方实例。
+Juice Server 是追踪 Misskey 非官方分支 [misskey-juice](https://github.com/misskey-juice/misskey-juice) 的 [`juice/main` 分支](https://github.com/misskey-juice/misskey-juice/tree/juice/main) 的官方实例。
 
 ## 作为测试实例的定位
 

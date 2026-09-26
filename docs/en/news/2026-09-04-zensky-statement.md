@@ -2,7 +2,7 @@
 
 September 4, 2026
 
-I am **ced ([@c30](https://mk-juice.dev/@c30))**, the developer of [Misskey Juice (JUICE)](https://github.com/Zel9278/misskey-juice).
+I am **ced ([@c30](https://mk-juice.dev/@c30))**, the developer of [Misskey Juice (JUICE)](https://github.com/misskey-juice/misskey-juice).
 
 Following ZenSky Project's publication of "[Our organization's position and statement regarding the dispute between Misskey.Tokyo and Misskey-juice](https://s-zensky.com/press-1.html)" concerning the "Misskey.Tokyo" instance that ZenSky Project provides and operates, I have organized my **personal views** on the matter into a few points below.
 

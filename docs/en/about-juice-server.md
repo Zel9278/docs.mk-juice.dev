@@ -2,7 +2,7 @@
 
 ## What is Juice Server?
 
-Juice Server is the official instance that tracks the [`juice/main` branch](https://github.com/Zel9278/misskey-juice/tree/juice/main) of [misskey-juice](https://github.com/Zel9278/misskey-juice), an unofficial fork of Misskey.
+Juice Server is the official instance that tracks the [`juice/main` branch](https://github.com/misskey-juice/misskey-juice/tree/juice/main) of [misskey-juice](https://github.com/misskey-juice/misskey-juice), an unofficial fork of Misskey.
 
 ## As a testing instance
 

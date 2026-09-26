@@ -2,7 +2,7 @@
 
 2026年9月4日
 
-私は『[Misskey Juice(JUICE)](https://github.com/Zel9278/misskey-juice)』を開発している**ced**([@c30](https://mk-juice.dev/@c30))と申します。
+私は『[Misskey Juice(JUICE)](https://github.com/misskey-juice/misskey-juice)』を開発している**ced**([@c30](https://mk-juice.dev/@c30))と申します。
 
 この度は、ZenSky Project様が提供ならびに運営されている『Misskey.Tokyo』インスタンスについての「[Misskey.Tokyo と Misskey-juice の紛争に関する弊団体の立場と声明](https://s-zensky.com/press-1.html)」の発表に伴い、私としていくつかの項目に分けて**個人的見解**を自分なりにまとめましたので、以下の内容を明記させていただきます。
 

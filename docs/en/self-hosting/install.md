@@ -37,7 +37,7 @@ Run all commands from the **root directory of the repository**.
 2. Clone the repository and check out a release tag.
 
    ```bash
-   sudo -iu misskey git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   sudo -iu misskey git clone --recursive https://github.com/misskey-juice/misskey-juice.git
    cd misskey-juice
    git checkout <tag name>
    git submodule update --init

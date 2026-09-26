@@ -37,7 +37,7 @@ misskey-juiceを新規にインストールする場合の手順です。基本�
 2. リポジトリをクローンし、リリースタグをcheckoutします。
 
    ```bash
-   sudo -iu misskey git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   sudo -iu misskey git clone --recursive https://github.com/misskey-juice/misskey-juice.git
    cd misskey-juice
    git checkout <タグ名>
    git submodule update --init

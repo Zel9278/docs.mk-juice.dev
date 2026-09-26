@@ -1,6 +1,6 @@
 # 更新履歴
 
-misskey-juiceのJUICE独自機能に関する主な変更履歴です。本家Misskey由来の変更は含みません。全履歴は[GitHubのリリースページ](https://github.com/Zel9278/misskey-juice/releases)をご覧ください。
+misskey-juiceのJUICE独自機能に関する主な変更履歴です。本家Misskey由来の変更は含みません。全履歴は[GitHubのリリースページ](https://github.com/misskey-juice/misskey-juice/releases)をご覧ください。
 
 ## v2026.9.1-juice+3.16
 

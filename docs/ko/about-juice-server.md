@@ -2,7 +2,7 @@
 
 ## Juice Server란?
 
-Juice Server는 Misskey의 비공식 포크인 [misskey-juice](https://github.com/Zel9278/misskey-juice)의 [`juice/main` 브랜치](https://github.com/Zel9278/misskey-juice/tree/juice/main)를 따라가는 공식 인스턴스입니다.
+Juice Server는 Misskey의 비공식 포크인 [misskey-juice](https://github.com/misskey-juice/misskey-juice)의 [`juice/main` 브랜치](https://github.com/misskey-juice/misskey-juice/tree/juice/main)를 따라가는 공식 인스턴스입니다.
 
 ## 테스트 인스턴스로서의 위치
 

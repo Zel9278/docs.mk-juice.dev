@@ -13,7 +13,7 @@
 
 misskey-juice 是从官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/misskey-dev/misskey/releases/tag/2026.7.0) 分支而来的项目。分支之后也在保留迁移历史的同时定期合并官方的新版本发布,因此迁移历史不仅包含分支时的内容,也包含此后合并进来的官方更新部分,并在此基础上叠加了 JUICE 独有的功能添加部分。
 
-您可以通过 `package.json` 的 `version` 字段([在仓库中查看](https://github.com/Zel9278/misskey-juice/blob/juice/dev/package.json))开头部分(`-juice+` 之前)确认当前追踪的官方版本。例如 `2026.9.0-juice+3.1` 表示迁移历史已同步至官方 Release 2026.9.0。
+您可以通过 `package.json` 的 `version` 字段([在仓库中查看](https://github.com/misskey-juice/misskey-juice/blob/juice/dev/package.json))开头部分(`-juice+` 之前)确认当前追踪的官方版本。例如 `2026.9.0-juice+3.1` 表示迁移历史已同步至官方 Release 2026.9.0。
 
 因此,**如果您正在运营官方 Misskey(develop),且版本相当于上述版本或更新,则很可能可以按照常规的次要/主要版本更新的方式进行迁移。**
 
@@ -27,11 +27,11 @@ misskey-juice 是从官方 Misskey 的 [`Release: 2026.7.0`](https://github.com/
 2. 获取 misskey-juice 源代码。
 
    ```bash
-   git clone --recursive https://github.com/Zel9278/misskey-juice.git
+   git clone --recursive https://github.com/misskey-juice/misskey-juice.git
    cd misskey-juice
    ```
 
-   Checkout 最新的[发布标签](https://github.com/Zel9278/misskey-juice/releases)并初始化子模块。
+   Checkout 最新的[发布标签](https://github.com/misskey-juice/misskey-juice/releases)并初始化子模块。
 
    ```bash
    git checkout <标签名>

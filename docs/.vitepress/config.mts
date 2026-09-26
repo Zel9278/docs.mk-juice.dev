@@ -497,7 +497,7 @@ export default withMermaid(defineConfig({
 			level: "deep",
 		},
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/Zel9278/misskey-juice" },
+			{ icon: "github", link: "https://github.com/misskey-juice/misskey-juice" },
 		],
 		// VitePressのlocalSearchPluginはlocales内ではなくルートのthemeConfig.searchしか
 		// 見ないため、ここで指定しないと検索インデックスが生成されない(空になる)。
@@ -584,7 +584,7 @@ export default withMermaid(defineConfig({
 				},
 				editLink: {
 					pattern:
-						"https://github.com/Zel9278/docs.mk-juice.dev/edit/main/docs/:path",
+						"https://github.com/misskey-juice/docs.mk-juice.dev/edit/main/docs/:path",
 					text: "GitHubでこのページを編集する提案をする",
 				},
 				lastUpdated: {
@@ -634,7 +634,7 @@ export default withMermaid(defineConfig({
 				},
 				editLink: {
 					pattern:
-						"https://github.com/Zel9278/docs.mk-juice.dev/edit/main/docs/:path",
+						"https://github.com/misskey-juice/docs.mk-juice.dev/edit/main/docs/:path",
 					text: "Suggest changes to this page on GitHub",
 				},
 			},
@@ -696,7 +696,7 @@ export default withMermaid(defineConfig({
 				},
 				editLink: {
 					pattern:
-						"https://github.com/Zel9278/docs.mk-juice.dev/edit/main/docs/:path",
+						"https://github.com/misskey-juice/docs.mk-juice.dev/edit/main/docs/:path",
 					text: "GitHub에서 이 페이지 수정 제안하기",
 				},
 				lastUpdated: {
@@ -770,7 +770,7 @@ export default withMermaid(defineConfig({
 				},
 				editLink: {
 					pattern:
-						"https://github.com/Zel9278/docs.mk-juice.dev/edit/main/docs/:path",
+						"https://github.com/misskey-juice/docs.mk-juice.dev/edit/main/docs/:path",
 					text: "在 GitHub 上编辑此页面",
 				},
 				lastUpdated: {
@@ -844,7 +844,7 @@ export default withMermaid(defineConfig({
 				},
 				editLink: {
 					pattern:
-						"https://github.com/Zel9278/docs.mk-juice.dev/edit/main/docs/:path",
+						"https://github.com/misskey-juice/docs.mk-juice.dev/edit/main/docs/:path",
 					text: "在 GitHub 上編輯此頁面",
 				},
 				lastUpdated: {

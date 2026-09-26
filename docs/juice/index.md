@@ -4,7 +4,7 @@ outline: false
 
 # JUICE独自機能
 
-Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/misskey-juice)は、標準のMisskeyに対していくつかの独自機能を追加したフォークです。ここではその独自機能について紹介します。
+Juice Serverの元になっている[misskey-juice](https://github.com/misskey-juice/misskey-juice)は、標準のMisskeyに対していくつかの独自機能を追加したフォークです。ここではその独自機能について紹介します。
 
 ## 機能一覧
 
@@ -37,4 +37,4 @@ Juice Serverの元になっている[misskey-juice](https://github.com/Zel9278/m
 
 ## 不具合の報告について
 
-misskey-juice(JUICE)自体の不具合・バグを見つけた場合は、メンション付きDMで[@support@mk-juice.dev](https://mk-juice.dev/@support)、または[GitHubのIssues](https://github.com/Zel9278/misskey-juice/issues)へご報告いただけると助かります。
+misskey-juice(JUICE)自体の不具合・バグを見つけた場合は、メンション付きDMで[@support@mk-juice.dev](https://mk-juice.dev/@support)、または[GitHubのIssues](https://github.com/misskey-juice/misskey-juice/issues)へご報告いただけると助かります。
