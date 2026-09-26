@@ -83,7 +83,12 @@ jobs:
 
       - name: Post to Misskey
         if: steps.msg.outputs.text != ''
+        # 投稿文(コミットメッセージ・PR/Issueのタイトルなど外部から入る値を含む)とトークンは、
+        # スクリプトへ直接埋め込むとコマンドを注入されるため、必ず環境変数で渡す
+        env:
+          TEXT: ${{ steps.msg.outputs.text }}
+          MISSKEY_BOT_TOKEN: ${{ secrets.MISSKEY_BOT_TOKEN }}
         run: |
           curl -sf -X POST https://mk-juice.dev/api/notes/create \
             -H "Content-Type: application/json" \
-            -d "$(jq -n --arg text "${{ steps.msg.outputs.text }}" --arg i "${{ secrets.MISSKEY_BOT_TOKEN }}" '{i:$i, text:$text, visibility:"home"}')"
+            -d "$(jq -n --arg text "$TEXT" --arg i "$MISSKEY_BOT_TOKEN" '{i:$i, text:$text, visibility:"home"}')"
